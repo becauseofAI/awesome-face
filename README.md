@@ -1,7 +1,7 @@
 # HelloFace
-Face Technology Repository
+Face Technology Repository(**Updating**)
 ## Face Benchmark and Dataset
-### Face Recognition
+#### Face Recognition
 - **MF2**: Level Playing Field for Million Scale Face Recognition(**672K people in 4.7M images**) [[paper]](https://homes.cs.washington.edu/~kemelmi/ms.pdf "CVPR2017") [[dataset]](http://megaface.cs.washington.edu/dataset/download_training.html) [[result]](http://megaface.cs.washington.edu/results/facescrub_challenge2.html) [[benckmark]](http://megaface.cs.washington.edu/)
 - **MegaFace**: The MegaFace Benchmark: 1 Million Faces for Recognition at Scale(**690k people in 1M images**) [[paper]](http://megaface.cs.washington.edu/KemelmacherMegaFaceCVPR16.pdf "CVPR2016") [[dataset]](http://megaface.cs.washington.edu/participate/challenge.html) [[result]](http://megaface.cs.washington.edu/results/facescrub.html) [[benckmark]](http://megaface.cs.washington.edu/)
 - **UMDFaces**: An Annotated Face Dataset for Training Deep Networks(**8k people in 367k images with pose, 21 key-points and gender**) [[paper]](https://arxiv.org/pdf/1611.01484.pdf "arXiv2016") [[dataset]](http://www.umdfaces.io/)
@@ -11,11 +11,12 @@ Face Technology Repository
 - **CASIA-WebFace**: Learning Face Representation from Scratch(**10k people in 500k images**) [[paper]](https://arxiv.org/pdf/1411.7923.pdf "arXiv2014") [[dataset]](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html)
 - **LFW**: Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments(**5.7k people in 13k images**) [[report]](http://vis-www.cs.umass.edu/lfw/lfw.pdf "UMASS2007") [[dataset]](http://vis-www.cs.umass.edu/lfw/#download) [[result]](http://vis-www.cs.umass.edu/lfw/results.html) [[benchmark]](http://vis-www.cs.umass.edu/lfw/)
 
-### Face Detection
+#### Face Detection
+- **WiderFace**: WIDER FACE: A Face Detection Benchmark(**400k people in 32k images with a high degree of variability in scale, pose and occlusion**) [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf "CVPR2016") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) [[result]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html) [[benchmark]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)
 - **FDDB**: A Benchmark for Face Detection in Unconstrained Settings(**5k faces in 2.8k images**) [[report]](https://people.cs.umass.edu/~elm/papers/fddb.pdf "UMASS2010") [[dataset]](http://vis-www.cs.umass.edu/fddb/index.html#download) [[result]](http://vis-www.cs.umass.edu/fddb/results.html) [[benchmark]](http://vis-www.cs.umass.edu/fddb/)
-### Face Landmark
+#### Face Landmark
 - **AFLW**: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization(**25k faces with 21 landmarks**) [[paper]](https://files.icg.tugraz.at/seafhttp/files/460c7623-c919-4d35-b24e-6abaeacb6f31/koestinger_befit_11.pdf "BeFIT2011") [[benchmark]](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)
-### Face Attribute
+#### Face Attribute
 - **CelebA**: Deep Learning Face Attributes in the Wild(**10k people in 202k images with 5 landmarks and 40 binary attributes per image**) [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf "ICCV2015") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 ## Face Recognition
 - **SphereFace**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
