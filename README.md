@@ -1,5 +1,12 @@
 # HelloFace
 Face Technology Repository(**Updating**)
+
+## Recent Update
+###### 2018/03/28
+- **InsightFace**: 2D and 3D Face Analysis Project
+- **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
+
+
 ## Face Benchmark and Dataset
 #### Face Recognition
 - **MF2**: Level Playing Field for Million Scale Face Recognition(**672K people in 4.7M images**) [[paper]](https://homes.cs.washington.edu/~kemelmi/ms.pdf "CVPR2017") [[dataset]](http://megaface.cs.washington.edu/dataset/download_training.html) [[result]](http://megaface.cs.washington.edu/results/facescrub_challenge2.html) [[benckmark]](http://megaface.cs.washington.edu/)
@@ -13,19 +20,29 @@ Face Technology Repository(**Updating**)
 
 #### Face Detection
 - **WiderFace**: WIDER FACE: A Face Detection Benchmark(**400k people in 32k images with a high degree of variability in scale, pose and occlusion**) [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf "CVPR2016") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) [[result]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html) [[benchmark]](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)
-- **FDDB**: A Benchmark for Face Detection in Unconstrained Settings(**5k faces in 2.8k images**) [[report]](https://people.cs.umass.edu/~elm/papers/fddb.pdf "UMASS2010") [[dataset]](http://vis-www.cs.umass.edu/fddb/index.html#download) [[result]](http://vis-www.cs.umass.edu/fddb/results.html) [[benchmark]](http://vis-www.cs.umass.edu/fddb/)
+- **FDDB**: A Benchmark for Face Detection in Unconstrained Settings(**5k faces in 2.8k images**) [[report]](https://people.cs.umass.edu/~elm/papers/fddb.pdf "UMASS2010") [[dataset]](http://vis-www.cs.umass.edu/fddb/index.html#download) [[result]](http://vis-www.cs.umass.edu/fddb/results.html) [[benchmark]](http://vis-www.cs.umass.edu/fddb/) 
+
 #### Face Landmark
 - **AFLW**: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization(**25k faces with 21 landmarks**) [[paper]](https://files.icg.tugraz.at/seafhttp/files/460c7623-c919-4d35-b24e-6abaeacb6f31/koestinger_befit_11.pdf "BeFIT2011") [[benchmark]](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)
+
 #### Face Attribute
 - **CelebA**: Deep Learning Face Attributes in the Wild(**10k people in 202k images with 5 landmarks and 40 binary attributes per image**) [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf "ICCV2015") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+
+
 ## Face Recognition
+- **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018")
+- **InsightFace**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
 - **SphereFace**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
 - **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[code]](https://github.com/cmusatyalab/openface "Torch") [[project]](http://cmusatyalab.github.io/openface/)
 - **FaceNet**: A Unified Embedding for Face Recognition and Clustering [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf "CVPR2015") [[code]](https://github.com/davidsandberg/facenet "TensorFlow")
+
+
 ## Face Detection
 - **FaceBoxes**: A CPU Real-time Face Detector with High Accuracy [[paper]](https://arxiv.org/pdf/1708.05234.pdf "IJCB2017")[[code1]](https://github.com/zeusees/FaceBoxes "Caffe") [[code2]](https://github.com/lxg2015/faceboxes "PyTorch")
 - **TinyFace**: Finding Tiny Faces [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf "CVPR2017") [[project]](https://www.cs.cmu.edu/~peiyunh/tiny/) [[code1]](https://github.com/peiyunh/tiny "MatConvNet") [[code2]](https://github.com/chinakook/hr101_mxnet "MXNet") [[code3]](https://github.com/cydonia999/Tiny_Faces_in_Tensorflow "TensorFlow")
 - **MTCNN**: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks [[paper]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf "SPL2016") [[project]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) [[code1]](https://github.com/kpzhang93/MTCNN_face_detection_alignment "Caffe") [[code2]](https://github.com/CongWeilin/mtcnn-caffe "Caffe") [[code3]](https://github.com/foreverYoungGitHub/MTCNN "Caffe") [[code4]](https://github.com/Seanlinx/mtcnn "MXNet") [[code5]](https://github.com/pangyupo/mxnet_mtcnn_face_detection "MXNet") [[code6]](https://github.com/TropComplique/mtcnn-pytorch "PyTorch") [[code7]](https://github.com/AITTSMD/MTCNN-Tensorflow "TensorFlow")
+
+
 ## Face Landmark
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
