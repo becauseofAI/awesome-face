@@ -67,5 +67,5 @@ Face Technology Repository(**Updating**)
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
 
 ## Face Lib
-- **Dlib**: [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
+- **Dlib** [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
 - **OpenCV** [[docs]](https://docs.opencv.org "All Versions") [[github]](https://github.com/opencv/opencv/ "master")
