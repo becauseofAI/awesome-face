@@ -2,6 +2,16 @@
 Face Technology Repository(**Updating**)
 
 ## Recent Update
+###### 2018/04/20
+- **PyramidBox**: A Context-assisted Single Shot Face Detector[[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018")
+- **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 2018.4
+- **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
+- **SSH**: Single Stage Headless Face Detector [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf "ICCV2017") [[code]](https://github.com/mahyarnajibi/SSH "Caffe")
+- **tiny**: A Fast and Accurate Unconstrained Face Detector [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/peiyunh/tiny "Matlab") [[project]](https://www.cs.cmu.edu/~peiyunh/tiny/) 2017.9
+- **NPD**: A Fast and Accurate Unconstrained Face Detector [[paper]](http://www.cbsr.ia.ac.cn/users/scliao/papers/Liao-PAMI15-NPD.pdf "TPAMI2015") [[code]](https://github.com/wincle/NPD "C++") [[project]](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html) 2017.9
+- **PICO**: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees [[paper]](https://arxiv.org/pdf/1305.4537.pdf "arXiv2014") [[code]](https://github.com/nenadmarkus/pico "C")  2017.9 
+- **ShiqiYu**: libfacedetection [[code]](https://github.com/ShiqiYu/libfacedetection "C++") 2017.4 
+- **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")2016.4 
 ###### 2018/03/28
 - **InsightFace**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
@@ -46,3 +56,7 @@ Face Technology Repository(**Updating**)
 
 ## Face Landmark
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
+
+## LIB
+- **Dlib**: [[url]](http://dlib.net/imaging.html) [[github]](https://github.com/davisking/dlib)
+
