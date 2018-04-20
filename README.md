@@ -3,15 +3,15 @@ Face Technology Repository(**Updating**)
 
 ## Recent Update
 ###### 2018/04/20
-- **PyramidBox**: A Context-assisted Single Shot Face Detector[[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018")
-- **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 2018.4
-- **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
-- **SSH**: Single Stage Headless Face Detector [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf "ICCV2017") [[code]](https://github.com/mahyarnajibi/SSH "Caffe")
-- **tiny**: A Fast and Accurate Unconstrained Face Detector [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/peiyunh/tiny "Matlab") [[project]](https://www.cs.cmu.edu/~peiyunh/tiny/) 2017.9
-- **NPD**: A Fast and Accurate Unconstrained Face Detector [[paper]](http://www.cbsr.ia.ac.cn/users/scliao/papers/Liao-PAMI15-NPD.pdf "TPAMI2015") [[code]](https://github.com/wincle/NPD "C++") [[project]](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html) 2017.9
-- **PICO**: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees [[paper]](https://arxiv.org/pdf/1305.4537.pdf "arXiv2014") [[code]](https://github.com/nenadmarkus/pico "C")  2017.9 
-- **ShiqiYu**: libfacedetection [[code]](https://github.com/ShiqiYu/libfacedetection "C++") 2017.4 
-- **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")2016.4 
+- **PyramidBox**: A Context-assisted Single Shot Face Detector
+- **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks
+- **S³FD**: Single Shot Scale-invariant Face Detector
+- **SSH**: Single Stage Headless Face Detector
+- **NPD**: A Fast and Accurate Unconstrained Face Detector
+- **PICO**: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees
+- **libfacedetection**: A fast binary library for face detection and face landmark detection in images.
+- **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification.
+- **FaceID** An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images.
 ###### 2018/03/28
 - **InsightFace**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
@@ -41,6 +41,7 @@ Face Technology Repository(**Updating**)
 
 ## Face Recognition
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018")
+- **FaceID** An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
 - **InsightFace**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
 - **SphereFace**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
@@ -49,14 +50,22 @@ Face Technology Repository(**Updating**)
 
 
 ## Face Detection
+- **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018")
+- **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
+- **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
+- **SSH**: Single Stage Headless Face Detector [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf "ICCV2017") [[code]](https://github.com/mahyarnajibi/SSH "Caffe")
 - **FaceBoxes**: A CPU Real-time Face Detector with High Accuracy [[paper]](https://arxiv.org/pdf/1708.05234.pdf "IJCB2017")[[code1]](https://github.com/zeusees/FaceBoxes "Caffe") [[code2]](https://github.com/lxg2015/faceboxes "PyTorch")
 - **TinyFace**: Finding Tiny Faces [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf "CVPR2017") [[project]](https://www.cs.cmu.edu/~peiyunh/tiny/) [[code1]](https://github.com/peiyunh/tiny "MatConvNet") [[code2]](https://github.com/chinakook/hr101_mxnet "MXNet") [[code3]](https://github.com/cydonia999/Tiny_Faces_in_Tensorflow "TensorFlow")
 - **MTCNN**: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks [[paper]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf "SPL2016") [[project]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/) [[code1]](https://github.com/kpzhang93/MTCNN_face_detection_alignment "Caffe") [[code2]](https://github.com/CongWeilin/mtcnn-caffe "Caffe") [[code3]](https://github.com/foreverYoungGitHub/MTCNN "Caffe") [[code4]](https://github.com/Seanlinx/mtcnn "MXNet") [[code5]](https://github.com/pangyupo/mxnet_mtcnn_face_detection "MXNet") [[code6]](https://github.com/TropComplique/mtcnn-pytorch "PyTorch") [[code7]](https://github.com/AITTSMD/MTCNN-Tensorflow "TensorFlow")
+- **NPD**: A Fast and Accurate Unconstrained Face Detector [[paper]](http://www.cbsr.ia.ac.cn/users/scliao/papers/Liao-PAMI15-NPD.pdf "TPAMI2015") [[code]](https://github.com/wincle/NPD "C++") [[project]](http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html)
+- **PICO**: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees [[paper]](https://arxiv.org/pdf/1305.4537.pdf "arXiv2014") [[code]](https://github.com/nenadmarkus/pico "C")
+- **libfacedetection**: A fast binary library for face detection and face landmark detection in images. [[code]](https://github.com/ShiqiYu/libfacedetection "C++")
+- **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")
 
 
 ## Face Landmark
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
 
-## LIB
-- **Dlib**: [[url]](http://dlib.net/imaging.html) [[github]](https://github.com/davisking/dlib)
-
+## Face Lib
+- **Dlib**: [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
+- **OpenCV** [[docs]](https://docs.opencv.org "All Versions") [[github]](https://github.com/opencv/opencv/ "master")
