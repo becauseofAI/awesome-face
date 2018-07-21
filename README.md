@@ -2,6 +2,10 @@
 Face Technology Repository(**Updating**)
 
 ## Recent Update
+###### 2018/07/21
+- **MobileFace**: A face recognition solution on mobile device
+- **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs
+- **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices
 ###### 2018/04/20
 - **PyramidBox**: A Context-assisted Single Shot Face Detector
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks
@@ -19,6 +23,7 @@ Face Technology Repository(**Updating**)
 
 ## Face Benchmark and Dataset
 #### Face Recognition
+- **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs(**MS-Celeb-1M-v1c with 86,876 ids/3,923,399 aligned images  + Asian-Celeb 93,979 ids/2,830,146 aligned images**) [[benckmark]](http://trillionpairs.deepglint.com/overview "DeepGlint") [[dataset]](http://trillionpairs.deepglint.com/data) [[result]](http://trillionpairs.deepglint.com/results)
 - **MF2**: Level Playing Field for Million Scale Face Recognition(**672K people in 4.7M images**) [[paper]](https://homes.cs.washington.edu/~kemelmi/ms.pdf "CVPR2017") [[dataset]](http://megaface.cs.washington.edu/dataset/download_training.html) [[result]](http://megaface.cs.washington.edu/results/facescrub_challenge2.html) [[benckmark]](http://megaface.cs.washington.edu/)
 - **MegaFace**: The MegaFace Benchmark: 1 Million Faces for Recognition at Scale(**690k people in 1M images**) [[paper]](http://megaface.cs.washington.edu/KemelmacherMegaFaceCVPR16.pdf "CVPR2016") [[dataset]](http://megaface.cs.washington.edu/participate/challenge.html) [[result]](http://megaface.cs.washington.edu/results/facescrub.html) [[benckmark]](http://megaface.cs.washington.edu/)
 - **UMDFaces**: An Annotated Face Dataset for Training Deep Networks(**8k people in 367k images with pose, 21 key-points and gender**) [[paper]](https://arxiv.org/pdf/1611.01484.pdf "arXiv2016") [[dataset]](http://www.umdfaces.io/)
@@ -40,6 +45,8 @@ Face Technology Repository(**Updating**)
 
 
 ## Face Recognition
+- **MobileFace**: A face recognition solution on mobile device [[code]](https://github.com/becauseofAI/MobileFace)
+- **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices [[paper]](https://arxiv.org/abs/1804.07573 "arXiv2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/KaleidoZhouYN/mobilefacenet-caffe "Caffe") [[code3]](https://github.com/xsr-ai/MobileFaceNet_TF "TensorFlow") [[code4]](https://github.com/GRAYKEY/mobilefacenet_ncnn "NCNN")
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018")
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
 - **InsightFace**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
@@ -50,7 +57,7 @@ Face Technology Repository(**Updating**)
 
 
 ## Face Detection
-- **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018")
+- **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
 - **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
 - **SSH**: Single Stage Headless Face Detector [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf "ICCV2017") [[code]](https://github.com/mahyarnajibi/SSH "Caffe")
