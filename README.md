@@ -3,6 +3,14 @@ Face Technology Repository(**Updating**)
 
 ## Recent Update
 ###### 2018/12/01
+- **FRVT**: Face Recognition Vendor Test
+- **GANimation**: Anatomically-aware Facial Animation from a Single Image
+- **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
+- **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization
+- **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
+- **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm
+- **Face3D**: Python tools for processing 3D face
+- **IMDb-Face**: The Devil of Face Recognition is in the Noise
 - **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning
 - **AM-Softmax**: Additive Margin Softmax for Face Verification
 - **FeatureIncay**: Feature Incay for Representation Regularization
@@ -30,6 +38,8 @@ Face Technology Repository(**Updating**)
 
 ## Face Benchmark and Dataset
 #### Face Recognition
+- **FRVT**: Face Recognition Vendor Test [[project]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt) [[leaderboard]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing)
+- **IMDb-Face**: The Devil of Face Recognition is in the Noise(**59k people in 1.7M images**) [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liren_Chen_The_Devil_of_ECCV_2018_paper.pdf "ECCV2018") [[dataset]](https://github.com/fwang91/IMDb-Face)
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs(**MS-Celeb-1M-v1c with 86,876 ids/3,923,399 aligned images  + Asian-Celeb 93,979 ids/2,830,146 aligned images**) [[benckmark]](http://trillionpairs.deepglint.com/overview "DeepGlint") [[dataset]](http://trillionpairs.deepglint.com/data) [[result]](http://trillionpairs.deepglint.com/results)
 - **MF2**: Level Playing Field for Million Scale Face Recognition(**672K people in 4.7M images**) [[paper]](https://homes.cs.washington.edu/~kemelmi/ms.pdf "CVPR2017") [[dataset]](http://megaface.cs.washington.edu/dataset/download_training.html) [[result]](http://megaface.cs.washington.edu/results/facescrub_challenge2.html) [[benckmark]](http://megaface.cs.washington.edu/)
 - **MegaFace**: The MegaFace Benchmark: 1 Million Faces for Recognition at Scale(**690k people in 1M images**) [[paper]](http://megaface.cs.washington.edu/KemelmacherMegaFaceCVPR16.pdf "CVPR2016") [[dataset]](http://megaface.cs.washington.edu/participate/challenge.html) [[result]](http://megaface.cs.washington.edu/results/facescrub.html) [[benckmark]](http://megaface.cs.washington.edu/)
@@ -72,6 +82,7 @@ Face Technology Repository(**Updating**)
 - **DeepID2**: Deep Learning Face Representation by Joint Identification-Verification [[paper]](https://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf "NIPS2014")
 - **DeepID**: Deep Learning Face Representation from Predicting 10,000 Classes [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf "CVPR2014")
 - **DeepFace**: Closing the gap to human-level performance in face verification [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf "CVPR2014")
+- **LBP+Joint Bayes**: Bayesian Face Revisited: A Joint Formulation [[paper]](https://s3.amazonaws.com/academia.edu.documents/31414608/JointBayesian.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1543656042&Signature=k6LefuQnIC2x8gep7yQTxqKgzus%3D&response-content-disposition=inline%3B%20filename%3DBayesian_Face_Revisited_A_Joint_Formulat.pdf "ECCV2012") [[code1]](https://github.com/cyh24/Joint-Bayesian "Python") [[code2]](https://github.com/MaoXu/Joint_Bayesian "Matlab") [[code3]](https://github.com/Glasssix/joint_bayesian "C++/C#")
 - **LBPFace**: Face recognition with local binary patterns [[paper]](https://pdfs.semanticscholar.org/3242/0c65f8ef0c5bd83b14c8ae662cbce73e6781.pdf "ECCV2004") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 - **FisherFace(LDA)**: Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection [[paper]](https://apps.dtic.mil/dtic/tr/fulltext/u2/1015508.pdf "TPAMI1997") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
@@ -91,8 +102,19 @@ Face Technology Repository(**Updating**)
 
 
 ## Face Landmark
+- **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/YadiraF/PRNet "TensorFlow")
+- **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf "CVPR2018") [[project]](https://wywu.github.io/projects/LAB/LAB.html) [[code]](https://github.com/wywu/LAB "Caffe")
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
 
-## Face Lib
+## Face GAN
+- **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
+- **GANimation**: Anatomically-aware Facial Animation from a Single Image [[paper]](https://www.albertpumarola.com/publications/files/pumarola2018ganimation.pdf "ECCV2018 Oral,Best Paper Award Honorable Mention") [[project]](https://www.albertpumarola.com/research/GANimation/index.html) [[code]](https://github.com/albertpumarola/GANimation "PyTorch")
+- **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf "CVPR2018")
+[[code]](https://github.com/yunjey/StarGAN "PyTorch")
+- **PGAN**: Progressive Growing of GANs for Improved Quality, Stability, and Variation [[paper]](https://arxiv.org/abs/1710.10196 "ICLR2018")
+[[code1]](https://github.com/tkarras/progressive_growing_of_gans "TensorFlow") [[code2]](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans "PyTorch")
+
+## Face Lib&Tool
 - **Dlib** [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
 - **OpenCV** [[docs]](https://docs.opencv.org "All Versions") [[github]](https://github.com/opencv/opencv/ "master")
+- **Face3D** [[github]](https://github.com/YadiraF/face3d "master")
