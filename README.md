@@ -36,7 +36,7 @@ Face Technology Repository(**Updating**)
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
 
 
-## Face Benchmark and Dataset
+## 🔖Face Benchmark and Dataset
 #### Face Recognition
 - **FRVT**: Face Recognition Vendor Test [[project]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt) [[leaderboard]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing)
 - **IMDb-Face**: The Devil of Face Recognition is in the Noise(**59k people in 1.7M images**) [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liren_Chen_The_Devil_of_ECCV_2018_paper.pdf "ECCV2018") [[dataset]](https://github.com/fwang91/IMDb-Face)
@@ -61,7 +61,7 @@ Face Technology Repository(**Updating**)
 - **CelebA**: Deep Learning Face Attributes in the Wild(**10k people in 202k images with 5 landmarks and 40 binary attributes per image**) [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf "ICCV2015") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
 
-## Face Recognition
+## 🔖Face Recognition
 - **MobileFace**: A face recognition solution on mobile device [[code]](https://github.com/becauseofAI/MobileFace)
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices [[paper]](https://arxiv.org/abs/1804.07573 "arXiv2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/KaleidoZhouYN/mobilefacenet-caffe "Caffe") [[code3]](https://github.com/xsr-ai/MobileFaceNet_TF "TensorFlow") [[code4]](https://github.com/GRAYKEY/mobilefacenet_ncnn "NCNN")
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
@@ -87,7 +87,7 @@ Face Technology Repository(**Updating**)
 - **FisherFace(LDA)**: Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection [[paper]](https://apps.dtic.mil/dtic/tr/fulltext/u2/1015508.pdf "TPAMI1997") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
-## Face Detection
+## 🔖Face Detection
 - **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
 - **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
@@ -101,12 +101,12 @@ Face Technology Repository(**Updating**)
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")
 
 
-## Face Landmark
+## 🔖Face Landmark
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/YadiraF/PRNet "TensorFlow")
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf "CVPR2018") [[project]](https://wywu.github.io/projects/LAB/LAB.html) [[code]](https://github.com/wywu/LAB "Caffe")
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
 
-## Face GAN
+## 🔖Face GAN
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image [[paper]](https://www.albertpumarola.com/publications/files/pumarola2018ganimation.pdf "ECCV2018 Oral,Best Paper Award Honorable Mention") [[project]](https://www.albertpumarola.com/research/GANimation/index.html) [[code]](https://github.com/albertpumarola/GANimation "PyTorch")
 - **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf "CVPR2018")
