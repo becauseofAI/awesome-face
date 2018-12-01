@@ -5,6 +5,10 @@ Face Technology Repository(**Updating**)
 ###### 2018/12/01
 - **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning
 - **AM-Softmax**: Additive Margin Softmax for Face Verification
+- **FeatureIncay**: Feature Incay for Representation Regularization
+- **NormFace**: L2 hypersphere embedding for face Verification
+- **CocoLoss**: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition
+- **L-Softmax**: Large-Margin Softmax Loss for Convolutional Neural Networks
 ###### 2018/07/21
 - **MobileFace**: A face recognition solution on mobile device
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs
@@ -50,12 +54,16 @@ Face Technology Repository(**Updating**)
 ## Face Recognition
 - **MobileFace**: A face recognition solution on mobile device [[code]](https://github.com/becauseofAI/MobileFace)
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices [[paper]](https://arxiv.org/abs/1804.07573 "arXiv2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/KaleidoZhouYN/mobilefacenet-caffe "Caffe") [[code3]](https://github.com/xsr-ai/MobileFaceNet_TF "TensorFlow") [[code4]](https://github.com/GRAYKEY/mobilefacenet_ncnn "NCNN")
+- **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
+- **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
 - **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning [[paper]](https://arxiv.org/abs/1801.05678 "arXiv2018")
 - **AM-Softmax**: Additive Margin Softmax for Face Verification [[paper]](https://arxiv.org/abs/1801.05599 "arXiv2018") [[code1]](https://github.com/happynear/AMSoftmax "Caffe") [[code2]](https://github.com/Joker316701882/Additive-Margin-Softmax "TensorFlow")
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/yule-li/CosFace "TensorFlow")
-- **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
-- **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
-- **SphereFace**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
+- **FeatureIncay**: Feature Incay for Representation Regularization [[paper]](https://arxiv.org/abs/1705.10284 "ICLR2018")
+- **CocoLoss**: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition [[paper]](http://cn.arxiv.org/abs/1710.00870 "NIPS2017") [[code]](https://github.com/sciencefans/coco_loss "Caffe")
+- **NormFace**: L2 hypersphere embedding for face Verification [[paper]](http://www.cs.jhu.edu/~alanlab/Pubs17/wang2017normface.pdf "ACM2017 Multimedia Conference") [[code]](https://github.com/happynear/NormFace "Caffe")
+- **SphereFace(A-Softmax)**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
+- **L-Softmax**: Large-Margin Softmax Loss for Convolutional Neural Networks [[paper]](http://proceedings.mlr.press/v48/liud16.pdf "ICML2016") [[code1]](https://github.com/wy1iu/LargeMargin_Softmax_Loss "Caffe") [[code2]](https://github.com/luoyetx/mx-lsoftmax "MXNet") [[code3]](https://github.com/HiKapok/tf.extra_losses "TensorFlow") [[code4]](https://github.com/auroua/L_Softmax_TensorFlow "TensorFlow") [[code5]](https://github.com/tpys/face-recognition-caffe2 "Caffe2") [[code6]](https://github.com/amirhfarzaneh/lsoftmax-pytorch "PyTorch") [[code7]](https://github.com/jihunchoi/lsoftmax-pytorch "PyTorch")
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
 - **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[code]](https://github.com/cmusatyalab/openface "Torch") [[project]](http://cmusatyalab.github.io/openface/)
 - **FaceNet**: A Unified Embedding for Face Recognition and Clustering [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf "CVPR2015") [[code]](https://github.com/davidsandberg/facenet "TensorFlow")
