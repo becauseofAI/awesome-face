@@ -1,4 +1,4 @@
-# HelloFace [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/becauseofAI/awesome-face)
+# HelloFace [![Mentioned in Awesome HelloFace](https://awesome.re/mentioned-badge.svg)](https://github.com/becauseofAI/HelloFace)  
 Face Technology Repository(**Updating**)
 
 ## Recent Update
