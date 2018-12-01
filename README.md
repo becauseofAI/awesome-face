@@ -67,7 +67,14 @@ Face Technology Repository(**Updating**)
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
 - **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[code]](https://github.com/cmusatyalab/openface "Torch") [[project]](http://cmusatyalab.github.io/openface/)
 - **FaceNet**: A Unified Embedding for Face Recognition and Clustering [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf "CVPR2015") [[code]](https://github.com/davidsandberg/facenet "TensorFlow")
-
+- **DeepID3**: DeepID3: Face Recognition with Very Deep Neural Networks [[paper]](https://arxiv.org/abs/1502.00873 "arXiv2015") 
+- **DeepID2+**: Deeply learned face representations are sparse, selective, and robust [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Deeply_Learned_Face_2015_CVPR_paper.pdf "CVPR2015")
+- **DeepID2**: Deep Learning Face Representation by Joint Identification-Verification [[paper]](https://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf "NIPS2014")
+- **DeepID**: Deep Learning Face Representation from Predicting 10,000 Classes [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf "CVPR2014")
+- **DeepFace**: Closing the gap to human-level performance in face verification [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf "CVPR2014")
+- **LBPFace**: Face recognition with local binary patterns [[paper]](https://pdfs.semanticscholar.org/3242/0c65f8ef0c5bd83b14c8ae662cbce73e6781.pdf "ECCV2004") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
+- **FisherFace(LDA)**: Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection [[paper]](https://apps.dtic.mil/dtic/tr/fulltext/u2/1015508.pdf "TPAMI1997") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
+- **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## Face Detection
 - **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
