@@ -2,6 +2,9 @@
 Face Technology Repository(**Updating**)
 
 ## Recent Update
+###### 2018/12/01
+- **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning
+- **AM-Softmax**: Additive Margin Softmax for Face Verification
 ###### 2018/07/21
 - **MobileFace**: A face recognition solution on mobile device
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs
@@ -17,7 +20,7 @@ Face Technology Repository(**Updating**)
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification.
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images.
 ###### 2018/03/28
-- **InsightFace**: 2D and 3D Face Analysis Project
+- **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
 
 
@@ -47,9 +50,11 @@ Face Technology Repository(**Updating**)
 ## Face Recognition
 - **MobileFace**: A face recognition solution on mobile device [[code]](https://github.com/becauseofAI/MobileFace)
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices [[paper]](https://arxiv.org/abs/1804.07573 "arXiv2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/KaleidoZhouYN/mobilefacenet-caffe "Caffe") [[code3]](https://github.com/xsr-ai/MobileFaceNet_TF "TensorFlow") [[code4]](https://github.com/GRAYKEY/mobilefacenet_ncnn "NCNN")
-- **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018")
+- **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning [[paper]](https://arxiv.org/abs/1801.05678 "arXiv2018")
+- **AM-Softmax**: Additive Margin Softmax for Face Verification [[paper]](https://arxiv.org/abs/1801.05599 "arXiv2018") [[code1]](https://github.com/happynear/AMSoftmax "Caffe") [[code2]](https://github.com/Joker316701882/Additive-Margin-Softmax "TensorFlow")
+- **CosFace**: Large Margin Cosine Loss for Deep Face Recognition [[paper]](https://arxiv.org/abs/1801.09414 "CVPR2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/yule-li/CosFace "TensorFlow")
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
-- **InsightFace**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
+- **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project [[paper]](https://arxiv.org/abs/1801.07698 "ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/auroua/InsightFace_TF "TensorFlow")
 - **SphereFace**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
 - **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[code]](https://github.com/cmusatyalab/openface "Torch") [[project]](http://cmusatyalab.github.io/openface/)
