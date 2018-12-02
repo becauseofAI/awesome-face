@@ -9,6 +9,8 @@ Face Technology Repository(**Updating**)
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm
+- **Super-FAN**: Integrated facial landmark localization and super-resolution of real-world low resolution faces in arbitrary poses with GANs
+- **Face-Alignment**: How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)
 - **Face3D**: Python tools for processing 3D face
 - **IMDb-Face**: The Devil of Face Recognition is in the Noise
 - **AAM-Softmax(CCL)**: Face Recognition via Centralized Coordinate Learning
@@ -55,6 +57,7 @@ Face Technology Repository(**Updating**)
 - **FDDB**: A Benchmark for Face Detection in Unconstrained Settings(**5k faces in 2.8k images**) [[report]](https://people.cs.umass.edu/~elm/papers/fddb.pdf "UMASS2010") [[dataset]](http://vis-www.cs.umass.edu/fddb/index.html#download) [[result]](http://vis-www.cs.umass.edu/fddb/results.html) [[benchmark]](http://vis-www.cs.umass.edu/fddb/) 
 
 #### Face Landmark
+- **LS3D-W**: A large-scale 3D face alignment dataset constructed by annotating the images from AFLW, 300VW, 300W and FDDB in a consistent manner with 68 points using the automatic method [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf "ICCV2017") [[dataset]](https://adrianbulat.com/face-alignment)
 - **AFLW**: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization(**25k faces with 21 landmarks**) [[paper]](https://files.icg.tugraz.at/seafhttp/files/460c7623-c919-4d35-b24e-6abaeacb6f31/koestinger_befit_11.pdf "BeFIT2011") [[benchmark]](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)
 
 #### Face Attribute
@@ -75,7 +78,7 @@ Face Technology Repository(**Updating**)
 - **SphereFace(A-Softmax)**: Deep Hypersphere Embedding for Face Recognition [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf "CVPR2017") [[code]](https://github.com/wy1iu/sphereface "Caffe")
 - **L-Softmax**: Large-Margin Softmax Loss for Convolutional Neural Networks [[paper]](http://proceedings.mlr.press/v48/liud16.pdf "ICML2016") [[code1]](https://github.com/wy1iu/LargeMargin_Softmax_Loss "Caffe") [[code2]](https://github.com/luoyetx/mx-lsoftmax "MXNet") [[code3]](https://github.com/HiKapok/tf.extra_losses "TensorFlow") [[code4]](https://github.com/auroua/L_Softmax_TensorFlow "TensorFlow") [[code5]](https://github.com/tpys/face-recognition-caffe2 "Caffe2") [[code6]](https://github.com/amirhfarzaneh/lsoftmax-pytorch "PyTorch") [[code7]](https://github.com/jihunchoi/lsoftmax-pytorch "PyTorch")
 - **CenterLoss**: A Discriminative Feature Learning Approach for Deep Face Recognition [[paper]](https://ydwen.github.io/papers/WenECCV16.pdf "ECCV2016") [[code1]](https://github.com/ydwen/caffe-face "Caffe") [[code2]](https://github.com/pangyupo/mxnet_center_loss "MXNet") [[code3]](https://github.com/ShownX/mxnet-center-loss "MXNet-Gluon") [[code4]](https://github.com/EncodeTS/TensorFlow_Center_Loss "TensorFlow")
-- **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[code]](https://github.com/cmusatyalab/openface "Torch") [[project]](http://cmusatyalab.github.io/openface/)
+- **OpenFace**: A general-purpose face recognition library with mobile applications [[report]](http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf "CMU2016") [[project]](http://cmusatyalab.github.io/openface/) [[code1]](https://github.com/cmusatyalab/openface "Torch") [[code2]](https://github.com/thnkim/OpenFacePytorch "PyTorch")
 - **FaceNet**: A Unified Embedding for Face Recognition and Clustering [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf "CVPR2015") [[code]](https://github.com/davidsandberg/facenet "TensorFlow")
 - **DeepID3**: DeepID3: Face Recognition with Very Deep Neural Networks [[paper]](https://arxiv.org/abs/1502.00873 "arXiv2015") 
 - **DeepID2+**: Deeply learned face representations are sparse, selective, and robust [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Deeply_Learned_Face_2015_CVPR_paper.pdf "CVPR2015")
@@ -104,10 +107,12 @@ Face Technology Repository(**Updating**)
 ## 🔖Face Landmark
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/YadiraF/PRNet "TensorFlow")
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf "CVPR2018") [[project]](https://wywu.github.io/projects/LAB/LAB.html) [[code]](https://github.com/wywu/LAB "Caffe")
+- **Face-Alignment**: How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)  [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf "ICCV2017") [[project]](https://adrianbulat.com/face-alignment) [[code1]](https://github.com/1adrianb/face-alignment "PyTorch") [[code2]](https://github.com/1adrianb/2D-and-3D-face-alignment "Torch7")
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
 
 ## 🔖Face GAN
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
+- **Super-FAN**: Integrated facial landmark localization and super-resolution of real-world low resolution faces in arbitrary poses with GANs [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Bulat_Super-FAN_Integrated_Facial_CVPR_2018_paper.pdf "CVPR2018 Spotlight")
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image [[paper]](https://www.albertpumarola.com/publications/files/pumarola2018ganimation.pdf "ECCV2018 Oral,Best Paper Award Honorable Mention") [[project]](https://www.albertpumarola.com/research/GANimation/index.html) [[code]](https://github.com/albertpumarola/GANimation "PyTorch")
 - **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf "CVPR2018")
 [[code]](https://github.com/yunjey/StarGAN "PyTorch")
