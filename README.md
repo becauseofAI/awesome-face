@@ -5,7 +5,8 @@ Face Technology Repository(**Updating**)
 ###### 2018/12/01
 - **FRVT**: Face Recognition Vendor Test
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image
-- **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation 
+- **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+- **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm
@@ -118,6 +119,7 @@ Face Technology Repository(**Updating**)
 [[code]](https://github.com/yunjey/StarGAN "PyTorch")
 - **PGAN**: Progressive Growing of GANs for Improved Quality, Stability, and Variation [[paper]](https://arxiv.org/abs/1710.10196 "ICLR2018")
 [[code1]](https://github.com/tkarras/progressive_growing_of_gans "TensorFlow") [[code2]](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans "PyTorch")
+- **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos [[code1]](https://github.com/deepfakes/faceswap "TensorFlow") [[code2]](https://github.com/iperov/DeepFaceLab "TensorFlow/Keras")
 
 ## Face Lib&Tool
 - **Dlib** [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
