@@ -1,7 +1,7 @@
 # HelloFace [![Mentioned in Awesome HelloFace](https://awesome.re/mentioned-badge.svg)](https://github.com/becauseofAI/HelloFace)  
 Face Technology Repository(**Updating**)
 
-## Recent Update
+## 👋Recent Update
 ###### 2018/12/01
 - **FRVT**: Face Recognition Vendor Test
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image
