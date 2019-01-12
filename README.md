@@ -2,6 +2,11 @@
 Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
+###### 2019/01/12
+- **2018Survey**: Deep Facial Expression Recognition: A Survey
+- **2018Survey**: Deep Face Recognition: A Survey
+- **SphereFace+(MHE)**: Learning towards Minimum Hyperspherical Energy
+- **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
 ###### 2018/12/01
 - **FRVT**: Face Recognition Vendor Test
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image
@@ -38,7 +43,6 @@ Face Technology Repository(**Updating**)
 - **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
 
-
 ## 🔖Face Benchmark and Dataset
 #### Face Recognition
 - **FRVT**: Face Recognition Vendor Test [[project]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt) [[leaderboard]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing)
@@ -66,6 +70,9 @@ Face Technology Repository(**Updating**)
 
 
 ## 🔖Face Recognition
+- **2018Survey**: Deep Facial Expression Recognition: A Survey [[paper]](https://arxiv.org/abs/1804.08348 "arXiv2018")
+- **2018Survey**: Deep Face Recognition: A Survey [[paper]](https://arxiv.org/abs/1804.06655 "arXiv2018")
+- **SphereFace+(MHE)**: Learning towards Minimum Hyperspherical Energy [[paper]](https://arxiv.org/abs/1805.09298 "arXiv2018") [[code]](https://github.com/wy1iu/sphereface-plus "Caffe/Matlab")
 - **MobileFace**: A face recognition solution on mobile device [[code]](https://github.com/becauseofAI/MobileFace)
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices [[paper]](https://arxiv.org/abs/1804.07573 "arXiv2018") [[code1]](https://github.com/deepinsight/insightface "MXNet") [[code2]](https://github.com/KaleidoZhouYN/mobilefacenet-caffe "Caffe") [[code3]](https://github.com/xsr-ai/MobileFaceNet_TF "TensorFlow") [[code4]](https://github.com/GRAYKEY/mobilefacenet_ncnn "NCNN")
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. [[code]](https://github.com/normandipalo/faceID_beta "Keras") [[blog]](https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d "Medium") 
@@ -92,6 +99,7 @@ Face Technology Repository(**Updating**)
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## 🔖Face Detection
+- **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition [[paper]](https://arxiv.org/abs/1603.01249 "TPAMI2019") [[code]](https://github.com/maharshi95/HyperFace "TensorFlow")
 - **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
 - **S³FD**: Single Shot Scale-invariant Face Detector [[paper]](https://arxiv.org/pdf/1708.05237.pdf "arXiv2017") [[code]](https://github.com/sfzhang15/SFD "Caffe")
