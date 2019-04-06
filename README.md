@@ -2,6 +2,17 @@
 Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
+###### 2019/04/06
+- **SRN**: Improved Selective Refinement Network for Face Detection
+- **DSFD**: Dual Shot Face Detector
+- **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces
+- **PFLD**: A Practical Facial Landmark Detector
+- **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network
+- **MLT**: Face Recognition: A Novel Multi-Level Taxonomy based Survey
+- **GhostVLAD**: GhostVLAD for set-based face recognition
+- **DocFace+**: ID Document to Selfie Matching
+- **DiF**: Diversity in Faces
+- **2018Survey**: Face Recognition: From Traditional to Deep Learning Methods
 ###### 2019/01/12
 - **2018Survey**: Deep Facial Expression Recognition: A Survey
 - **2018Survey**: Deep Face Recognition: A Survey
@@ -45,6 +56,7 @@ Face Technology Repository(**Updating**)
 
 ## 🔖Face Benchmark and Dataset
 #### Face Recognition
+- **DiF**: Diversity in Faces [[project]](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/) [[blog]](https://www.ibm.com/blogs/research/2019/01/diversity-in-faces/)
 - **FRVT**: Face Recognition Vendor Test [[project]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt) [[leaderboard]](https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing)
 - **IMDb-Face**: The Devil of Face Recognition is in the Noise(**59k people in 1.7M images**) [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Liren_Chen_The_Devil_of_ECCV_2018_paper.pdf "ECCV2018") [[dataset]](https://github.com/fwang91/IMDb-Face)
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs(**MS-Celeb-1M-v1c with 86,876 ids/3,923,399 aligned images  + Asian-Celeb 93,979 ids/2,830,146 aligned images**) [[benckmark]](http://trillionpairs.deepglint.com/overview "DeepGlint") [[dataset]](http://trillionpairs.deepglint.com/data) [[result]](http://trillionpairs.deepglint.com/results)
@@ -70,6 +82,11 @@ Face Technology Repository(**Updating**)
 
 
 ## 🔖Face Recognition
+- **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network [[paper]](https://arxiv.org/abs/1903.11306 "CVPR2019")
+- **MLT**: Face Recognition: A Novel Multi-Level Taxonomy based Survey [[paper]](https://arxiv.org/abs/1901.00713 "arXiv2019")
+- **GhostVLAD**: GhostVLAD for set-based face recognition [[paper]](https://arxiv.org/abs/1810.09951 "ACCV2018")
+- **DocFace+**: ID Document to Selfie Matching [[paper]](https://arxiv.org/abs/1809.05620 "arXiv2018") [[code]](https://github.com/seasonSH/DocFace "TensorFlow")
+- **2018Survey**: Face Recognition: From Traditional to Deep Learning Methods [[paper]](https://arxiv.org/abs/1811.00116 "arXiv2018")
 - **2018Survey**: Deep Facial Expression Recognition: A Survey [[paper]](https://arxiv.org/abs/1804.08348 "arXiv2018")
 - **2018Survey**: Deep Face Recognition: A Survey [[paper]](https://arxiv.org/abs/1804.06655 "arXiv2018")
 - **SphereFace+(MHE)**: Learning towards Minimum Hyperspherical Energy [[paper]](https://arxiv.org/abs/1805.09298 "arXiv2018") [[code]](https://github.com/wy1iu/sphereface-plus "Caffe/Matlab")
@@ -99,6 +116,8 @@ Face Technology Repository(**Updating**)
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## 🔖Face Detection
+- **SRN**: Improved Selective Refinement Network for Face Detection [[paper]](https://arxiv.org/abs/1901.06651 "arXiv2019")
+- **DSFD**: Dual Shot Face Detector [[paper]](https://arxiv.org/abs/1810.10220 "CVPR2019") [[code]](https://github.com/TencentYoutuResearch/FaceDetection-DSFD "PyTorch") 
 - **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition [[paper]](https://arxiv.org/abs/1603.01249 "TPAMI2019") [[code]](https://github.com/maharshi95/HyperFace "TensorFlow")
 - **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
@@ -112,12 +131,15 @@ Face Technology Repository(**Updating**)
 - **libfacedetection**: A fast binary library for face detection and face landmark detection in images. [[code]](https://github.com/ShiqiYu/libfacedetection "C++")
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")
 
-
 ## 🔖Face Landmark
+- **PFLD**: A Practical Facial Landmark Detector [[paper]](https://arxiv.org/abs/1902.10859 "arXiv2019") [[project]](https://sites.google.com/view/xjguo/fld) [[code]](https://drive.google.com/file/d/1n1uZPbM9Wz052aVnlc_3L4gjQHiwfj4B/view "APK")
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/YadiraF/PRNet "TensorFlow")
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf "CVPR2018") [[project]](https://wywu.github.io/projects/LAB/LAB.html) [[code]](https://github.com/wywu/LAB "Caffe")
 - **Face-Alignment**: How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)  [[paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf "ICCV2017") [[project]](https://adrianbulat.com/face-alignment) [[code1]](https://github.com/1adrianb/face-alignment "PyTorch") [[code2]](https://github.com/1adrianb/2D-and-3D-face-alignment "Torch7")
 - **ERT**: One Millisecond Face Alignment with an Ensemble of Regression Trees [[paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf "CVPR2014") [[code]](http://dlib.net/imaging.html "Dlib")
+
+## 🔖Face 3D
+- **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces [[paper]](https://arxiv.org/abs/1902.10744 "CVPR2019")
 
 ## 🔖Face GAN
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
