@@ -3,8 +3,14 @@ Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
 ###### 2019/04/06
-- **SRN**: Improved Selective Refinement Network for Face Detection
+- **ISRN**: Improved Selective Refinement Network for Face Detection
 - **DSFD**: Dual Shot Face Detector
+- **PyramidBox++**: High Performance Detector for Finding Tiny Face
+- **VIM-FD**: Robust and High Performance Face Detector
+- **SHF**: Robust Face Detection via Learning Small Faces on Hard Images
+- **SRN**: Selective Refinement Network for High Performance Face Detection
+- **SFDet**: Single-Shot Scale-Aware Network for Real-Time Face Detection
+Robust Face Detection via Learning Small Faces on Hard Images
 - **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces
 - **PFLD**: A Practical Facial Landmark Detector
 - **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network
@@ -116,8 +122,13 @@ Face Technology Repository(**Updating**)
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## 🔖Face Detection
-- **SRN**: Improved Selective Refinement Network for Face Detection [[paper]](https://arxiv.org/abs/1901.06651 "arXiv2019")
-- **DSFD**: Dual Shot Face Detector [[paper]](https://arxiv.org/abs/1810.10220 "CVPR2019") [[code]](https://github.com/TencentYoutuResearch/FaceDetection-DSFD "PyTorch") 
+- **ISRN**: Improved Selective Refinement Network for Face Detection [[paper]](https://arxiv.org/abs/1901.06651 "arXiv2019")
+- **DSFD**: Dual Shot Face Detector [[paper]](https://arxiv.org/abs/1810.10220 "CVPR2019") [[code]](https://github.com/TencentYoutuResearch/FaceDetection-DSFD "PyTorch")
+- **PyramidBox++**: High Performance Detector for Finding Tiny Face [[paper]](https://arxiv.org/abs/1904.00386 "arXiv2019")
+- **VIM-FD**: Robust and High Performance Face Detector [[paper]](https://arxiv.org/abs/1901.02350 "arXiv2019")
+- **SHF**: Robust Face Detection via Learning Small Faces on Hard Images [[paper]](https://arxiv.org/abs/1811.11662 "arXiv2018") [[code]](https://github.com/bairdzhang/smallhardface "Caffe")
+- **SRN**: Selective Refinement Network for High Performance Face Detection [[paper]](https://arxiv.org/abs/1809.02693 "AAAI2019")
+- **SFDet**: Single-Shot Scale-Aware Network for Real-Time Face Detection [[paper]](https://link.springer.com/epdf/10.1007/s11263-019-01159-3?author_access_token=Jjgl-u1CAXPmSKWDljfSBfe4RwlQNchNByi7wbcMAY7Vwo_nrkuFMElF6YSQ0We34tUs42D0dyurcBAD0sJP66n6GBanVgA9qsuvh4Y_Bjf3E_n9_croQ4esS882srfHyUz-L96pU3gu_M30Kk6_XQ%3D%3D "IJCV2019")
 - **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition [[paper]](https://arxiv.org/abs/1603.01249 "TPAMI2019") [[code]](https://github.com/maharshi95/HyperFace "TensorFlow")
 - **PyramidBox**: A Context-assisted Single Shot Face Detector [[paper]](https://arxiv.org/pdf/1803.07737.pdf "arXiv2018") [[code]](https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction "PaddlePaddle")
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks [[paper]](https://arxiv.org/pdf/1804.06039.pdf "CVPR2018") [[code]](https://github.com/Jack-CV/PCN "C++") 
