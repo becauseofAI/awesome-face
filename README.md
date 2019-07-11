@@ -3,6 +3,7 @@ Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
 ###### 2019/07/11
+- Deep face recognition using imperfect facial data
 - Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data
 - **RegularFace**: Deep Face Recognition via Exclusive Regularization
 - **UniformFace**: Learning Deep Equidistributed Representation for Face Recognition
@@ -15,6 +16,7 @@ Face Technology Repository(**Updating**)
 - **Led3D**: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces
 - R3 Adversarial Network for Cross Model Face Recognition
 
+- **RetinaFace**: Single-stage Dense Face Localisation in the Wild
 - Group Sampling for Scale Invariant Face Detection
 - **FA-RPN**: Floating Region Proposals for Face Detection
 
@@ -24,12 +26,14 @@ Face Technology Repository(**Updating**)
 - **LTC**: Learning to Cluster Faces on an Affinity Graph
 
 - **FECNet**: A Compact Embedding for Facial Expression Similarity
+- **LBVCNN**: Local Binary Volume Convolutional Neural Network for Facial Expression Recognition from Image Sequences
 
 - Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation
 - Local Relationship Learning With Person-Specific Shape Regularization for Facial Action Unit Detection
 - **TCAE**: Self-Supervised Representation Learning From Videos for Facial Action Unit Detection
 - **JAANet**: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment
 
+- **2DASL**: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning
 - **MVF-Net**: Multi-View 3D Face Morphable Model Regression
 - Dense 3D Face Decoding Over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders
 - Towards High-Fidelity Nonlinear 3D Face Morphable Model
@@ -40,6 +44,7 @@ Face Technology Repository(**Updating**)
 - Learning to Regress 3D Face Shape and Expression From an Image Without 3D Supervision
 - Boosting Local Shape Matching for Dense 3D Face Correspondence
 - **FML**: Face Model Learning From Videos
+- **2DASL**: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning
 
 - **ATVGnet**: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss
 - **Speech2Face**: Learning the Face Behind a Voice
@@ -47,10 +52,13 @@ Face Technology Repository(**Updating**)
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction
 
+- **BeautyGAN**: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network
+- **FUNIT**: Few-Shot Unsupervised Image-to-Image Translation
 - Automatic Face Aging in Videos via Deep Reinforcement Learning
 - Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
 - **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing
 - **APDrawingGAN**: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs
+- **StyleGAN**: A Style-Based Generator Architecture for Generative Adversarial Networks
 
 - 3D Guided Fine-Grained Face Manipulation
 - **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation
@@ -61,6 +69,10 @@ Face Technology Repository(**Updating**)
 - Decorrelated Adversarial Learning for Age-Invariant Face Recognition
 - Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection
 - Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition 
+
+- **Speech2Face**: Learning the Face Behind a Voice
+- **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces
+- **ATVGnet**: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss
 
 - High-Quality Face Capture Using Anatomical Muscles
 - Monocular Total Capture: Posing Face, Body, and Hands in the Wild
@@ -149,8 +161,8 @@ Face Technology Repository(**Updating**)
 #### Face Attribute
 - **CelebA**: Deep Learning Face Attributes in the Wild(**10k people in 202k images with 5 landmarks and 40 binary attributes per image**) [[paper]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf "ICCV2015") [[dataset]](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-
 ## 🔖Face Recognition
+- Deep face recognition using imperfect facial data [[paper]](https://www.sciencedirect.com/science/article/pii/S0167739X18331133 "FGCS2019")
 - Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Unequal-Training_for_Deep_Face_Recognition_With_Long-Tailed_Noisy_Data_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/zhongyy/Unequal-Training-for-Deep-Face-Recognition-with-Long-Tailed-Noisy-Data "MXNet")
 - **RegularFace**: Deep Face Recognition via Exclusive Regularization [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_RegularFace_Deep_Face_Recognition_via_Exclusive_Regularization_CVPR_2019_paper.pdf "CVPR2019")
 - **UniformFace**: Learning Deep Equidistributed Representation for Face Recognition [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Duan_UniformFace_Learning_Deep_Equidistributed_Representation_for_Face_Recognition_CVPR_2019_paper.pdf "CVPR2019")
@@ -195,6 +207,7 @@ Face Technology Repository(**Updating**)
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## 🔖Face Detection
+- **RetinaFace**: Single-stage Dense Face Localisation in the Wild [[paper]](https://arxiv.org/abs/1905.00641 "arXiv2019") [[code]](https://github.com/deepinsight/insightface/tree/master/RetinaFace "MXNet")
 - Group Sampling for Scale Invariant Face Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ming_Group_Sampling_for_Scale_Invariant_Face_Detection_CVPR_2019_paper.pdf "CVPR2019")
 - **FA-RPN**: Floating Region Proposals for Face Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Najibi_FA-RPN_Floating_Region_Proposals_for_Face_Detection_CVPR_2019_paper.pdf "CVPR2019")
 - **SFA**: Small Faces Attention Face Detector [[paper]](https://arxiv.org/abs/1812.08402 "SPIC2019") [[code]](https://github.com/shiluo1990/SFA "Caffe")
@@ -233,6 +246,7 @@ Face Technology Repository(**Updating**)
 
 ## 🔖Face Expression 
 - **FECNet**: A Compact Embedding for Facial Expression Similarity [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vemulapalli_A_Compact_Embedding_for_Facial_Expression_Similarity_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/GerardLiu96/FECNet "Keras")
+- **LBVCNN**: Local Binary Volume Convolutional Neural Network for Facial Expression Recognition from Image Sequences [[paper]](https://arxiv.org/abs/1904.07647 "arXiv2019")
 
 ## 🔖Face Action
 - Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Joint_Representation_and_Estimator_Learning_for_Facial_Action_Unit_Intensity_CVPR_2019_paper.pdf "CVPR2019")
@@ -241,9 +255,10 @@ Face Technology Repository(**Updating**)
 - **JAANet**: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhiwen_Shao_Deep_Adaptive_Attention_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/ZhiwenShao/JAANet "Caffe")
 
 ## 🔖Face 3D
+- **2DASL**: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning [[paper]](https://arxiv.org/abs/1903.09359 "arXiv2019") [[code]](https://github.com/XgTu/2DASL "PyTorch & Matlab")
 - **MVF-Net**: Multi-View 3D Face Morphable Model Regression [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_MVF-Net_Multi-View_3D_Face_Morphable_Model_Regression_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/Fanziapril/mvfnet "PyTorch")
 - Dense 3D Face Decoding Over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Dense_3D_Face_Decoding_Over_2500FPS_Joint_Texture__Shape_CVPR_2019_paper.pdf "CVPR2019")
-- Towards High-Fidelity Nonlinear 3D Face Morphable Model [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tran_Towards_High-Fidelity_Nonlinear_3D_Face_Morphable_Model_CVPR_2019_paper.pdf "CVPR2019") 
+- Towards High-Fidelity Nonlinear 3D Face Morphable Model [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tran_Towards_High-Fidelity_Nonlinear_3D_Face_Morphable_Model_CVPR_2019_paper.pdf "CVPR2019") [[project]](http://cvlab.cse.msu.edu/project-nonlinear-3dmm.html)
 - Combining 3D Morphable Models: A Large Scale Face-And-Head Model [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ploumpis_Combining_3D_Morphable_Models_A_Large_Scale_Face-And-Head_Model_CVPR_2019_paper.pdf "CVPR2019") 
 - Disentangled Representation Learning for 3D Face Shape [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Disentangled_Representation_Learning_for_3D_Face_Shape_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/zihangJiang/DR-Learning-for-3D-Face "Keras")
 - Self-Supervised Adaptation of High-Fidelity Face Models for Monocular Performance Tracking [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yoon_Self-Supervised_Adaptation_of_High-Fidelity_Face_Models_for_Monocular_Performance_Tracking_CVPR_2019_paper.pdf "CVPR2019")
@@ -251,7 +266,6 @@ Face Technology Repository(**Updating**)
 - **RingNet**: Learning to Regress 3D Face Shape and Expression From an Image Without 3D Supervision [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Sanyal_Learning_to_Regress_3D_Face_Shape_and_Expression_From_an_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/soubhiksanyal/RingNet "TensorFlow") [[project]](https://ringnet.is.tue.mpg.de/)
 - Boosting Local Shape Matching for Dense 3D Face Correspondence [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Boosting_Local_Shape_Matching_for_Dense_3D_Face_Correspondence_CVPR_2019_paper.pdf "CVPR2019")
 - **FML**: Face Model Learning From Videos [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tewari_FML_Face_Model_Learning_From_Videos_CVPR_2019_paper.pdf "CVPR2019")
-- **ATVGnet**: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hierarchical_Cross-Modal_Talking_Face_Generation_With_Dynamic_Pixel-Wise_Loss_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/lelechen63/ATVGnet "PyTorch")
 
 ## 🔖Face GAN
 #### Face Aging  
@@ -262,6 +276,16 @@ Face Technology Repository(**Updating**)
 #### Face Drawing 
 - **APDrawingGAN**: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yiranran/APDrawingGAN "PyTorch")
 ---
+#### Face Generation
+- **StyleGAN**: A Style-Based Generator Architecture for Generative Adversarial Networks [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/NVlabs/stylegan "TensorFlow") [[dataset]](https://github.com/NVlabs/ffhq-dataset "FFHQ")
+---
+#### Face Makeup
+- **BeautyGAN**: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network [[paper]](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf "Multimedia Conference, ACM2018") [[code]](https://github.com/Honlan/BeautyGAN "TensorFlow") [[project]](http://liusi-group.com/projects/BeautyGAN) [[poster]](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2_poster.pdf)
+
+#### Face Swap
+- **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos [[code1]](https://github.com/deepfakes/faceswap "TensorFlow") [[code2]](https://github.com/iperov/DeepFaceLab "TensorFlow/Keras")
+- **FUNIT**: Few-Shot Unsupervised Image-to-Image Translation  [[paper]](https://arxiv.org/abs/1905.01723 "arXiv2019") [[code]](https://github.com/NVlabs/FUNIT "PyTorch") [[project]](https://nvlabs.github.io/FUNIT/)
+---
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qian_Unsupervised_Face_Normalization_With_Extreme_Pose_and_Expression_in_the_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/mx54039q/fnm "TensorFlow")
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://github.com/barisgecer/GANFit)
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
@@ -271,7 +295,6 @@ Face Technology Repository(**Updating**)
 [[code]](https://github.com/yunjey/StarGAN "PyTorch")
 - **PGAN**: Progressive Growing of GANs for Improved Quality, Stability, and Variation [[paper]](https://arxiv.org/abs/1710.10196 "ICLR2018")
 [[code1]](https://github.com/tkarras/progressive_growing_of_gans "TensorFlow") [[code2]](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans "PyTorch")
-- **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos [[code1]](https://github.com/deepfakes/faceswap "TensorFlow") [[code2]](https://github.com/iperov/DeepFaceLab "TensorFlow/Keras")
 
 ## 🔖Face Manipulation
 - 3D Guided Fine-Grained Face Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Geng_3D_Guided_Fine-Grained_Face_Manipulation_CVPR_2019_paper.pdf "CVPR2019")
@@ -289,6 +312,7 @@ Face Technology Repository(**Updating**)
 ## 🔖Face Cross-Modal
 - **Speech2Face**: Learning the Face Behind a Voice [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Oh_Speech2Face_Learning_the_Face_Behind_a_Voice_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://speech2face.github.io/)
 - **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chaudhuri_Joint_Face_Detection_and_Facial_Motion_Retargeting_for_Multiple_Faces_CVPR_2019_paper.pdf "CVPR2019")
+- **ATVGnet**: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hierarchical_Cross-Modal_Talking_Face_Generation_With_Dynamic_Pixel-Wise_Loss_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/lelechen63/ATVGnet "PyTorch")
 
 ## 🔖Face Capture
 - High-Quality Face Capture Using Anatomical Muscles [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Bao_High-Quality_Face_Capture_Using_Anatomical_Muscles_CVPR_2019_paper.pdf "CVPR2019")
