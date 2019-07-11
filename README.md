@@ -15,7 +15,20 @@ Face Technology Repository(**Updating**)
 - **Led3D**: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces
 - R3 Adversarial Network for Cross Model Face Recognition
 
+- Group Sampling for Scale Invariant Face Detection
+- **FA-RPN**: Floating Region Proposals for Face Detection
+
+- **Semantic Alignment**: Finding Semantically Consistent Ground-Truth for Facial Landmark Detection
+- Robust Facial Landmark Detection via Occlusion-Adaptive Deep Networks
+
 - **LTC**: Learning to Cluster Faces on an Affinity Graph
+
+- **FECNet**: A Compact Embedding for Facial Expression Similarity
+
+- Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation
+- Local Relationship Learning With Person-Specific Shape Regularization for Facial Action Unit Detection
+- **TCAE**: Self-Supervised Representation Learning From Videos for Facial Action Unit Detection
+- **JAANet**: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment
 
 - **MVF-Net**: Multi-View 3D Face Morphable Model Regression
 - Dense 3D Face Decoding Over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders
@@ -33,6 +46,9 @@ Face Technology Repository(**Updating**)
 
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction
+
+- 3D Guided Fine-Grained Face Manipulation
+- **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation
 
 - **Dataset and Benchmark**: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing
 - Deep Tree Learning for Zero-Shot Face Anti-Spoofing
@@ -137,10 +153,7 @@ Robust Face Detection via Learning Small Faces on Hard Images
 - **NoiseFace**: Noise-Tolerant Paradigm for Training Face Recognition CNNs [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Noise-Tolerant_Paradigm_for_Training_Face_Recognition_CNNs_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/huangyangyu/NoiseFace "Caffe")
 - Feature Transfer Learning for Face Recognition With Under-Represented Data [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yin_Feature_Transfer_Learning_for_Face_Recognition_With_Under-Represented_Data_CVPR_2019_paper.pdf "CVPR2019")
 - **Led3D**: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Mu_Led3D_A_Lightweight_and_Efficient_Deep_Approach_to_Recognizing_Low-Quality_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/muyouhang/Led3D "NULL") [[dataset]](http://irip.buaa.edu.cn/lock3dface/index.html)
-- R3 Adversarial Network for Cross Model Face Recognition [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_R3_Adversarial_Network_for_Cross_Model_Face_Recognition_CVPR_2019_paper.pdf "CVPR2019")
-
-[[code]]( "MXNet")
-
+- R3 Adversarial Network for Cross Model Face Recognition [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_R3_Adversarial_Network_for_Cross_Model_Face_Recognition_CVPR_2019_paper.pdf "CVPR2019")  
 - **MLT**: Face Recognition: A Novel Multi-Level Taxonomy based Survey [[paper]](https://arxiv.org/abs/1901.00713 "arXiv2019")
 - **GhostVLAD**: GhostVLAD for set-based face recognition [[paper]](https://arxiv.org/abs/1810.09951 "ACCV2018")
 - **DocFace+**: ID Document to Selfie Matching [[paper]](https://arxiv.org/abs/1809.05620 "arXiv2018") [[code]](https://github.com/seasonSH/DocFace "TensorFlow")
@@ -174,6 +187,9 @@ Robust Face Detection via Learning Small Faces on Hard Images
 - **EigenFace(PCA)**: Face recognition using eigenfaces [[paper]](http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf "CVPR1991") [[code]](https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html "OpenCV")
 
 ## 🔖Face Detection
+- Group Sampling for Scale Invariant Face Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ming_Group_Sampling_for_Scale_Invariant_Face_Detection_CVPR_2019_paper.pdf "CVPR2019")
+- **FA-RPN**: Floating Region Proposals for Face Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Najibi_FA-RPN_Floating_Region_Proposals_for_Face_Detection_CVPR_2019_paper.pdf "CVPR2019")
+- **SFA**: Small Faces Attention Face Detector [[paper]](https://arxiv.org/abs/1812.08402 "SPIC2019") [[code]](https://github.com/shiluo1990/SFA "Caffe")
 - **ISRN**: Improved Selective Refinement Network for Face Detection [[paper]](https://arxiv.org/abs/1901.06651 "arXiv2019")
 - **DSFD**: Dual Shot Face Detector [[paper]](https://arxiv.org/abs/1810.10220 "CVPR2019") [[code]](https://github.com/TencentYoutuResearch/FaceDetection-DSFD "PyTorch")
 - **PyramidBox++**: High Performance Detector for Finding Tiny Face [[paper]](https://arxiv.org/abs/1904.00386 "arXiv2019")
@@ -195,6 +211,8 @@ Robust Face Detection via Learning Small Faces on Hard Images
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification [[code]](https://github.com/seetaface/SeetaFaceEngine "C++")
 
 ## 🔖Face Landmark
+- **Semantic Alignment**: Finding Semantically Consistent Ground-Truth for Facial Landmark Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Semantic_Alignment_Finding_Semantically_Consistent_Ground-Truth_for_Facial_Landmark_Detection_CVPR_2019_paper.pdf "CVPR2019")
+- Robust Facial Landmark Detection via Occlusion-Adaptive Deep Networks [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Robust_Facial_Landmark_Detection_via_Occlusion-Adaptive_Deep_Networks_CVPR_2019_paper.pdf "CVPR2019")
 - **PFLD**: A Practical Facial Landmark Detector [[paper]](https://arxiv.org/abs/1902.10859 "arXiv2019") [[project]](https://sites.google.com/view/xjguo/fld) [[code]](https://drive.google.com/file/d/1n1uZPbM9Wz052aVnlc_3L4gjQHiwfj4B/view "APK")
 - **PRNet**: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/YadiraF/PRNet "TensorFlow")
 - **LAB**: Look at Boundary: A Boundary-Aware Face Alignment Algorithm [[paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf "CVPR2018") [[project]](https://wywu.github.io/projects/LAB/LAB.html) [[code]](https://github.com/wywu/LAB "Caffe")
@@ -204,6 +222,15 @@ Robust Face Detection via Learning Small Faces on Hard Images
 ## 🔖Face Clustering
 - **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network [[paper]](https://arxiv.org/abs/1903.11306 "CVPR2019")
 - **LTC**: Learning to Cluster Faces on an Affinity Graph [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Learning_to_Cluster_Faces_on_an_Affinity_Graph_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yl-1993/learn-to-cluster "PyTorch") 
+
+## 🔖Face Expression 
+- **FECNet**: A Compact Embedding for Facial Expression Similarity [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vemulapalli_A_Compact_Embedding_for_Facial_Expression_Similarity_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/GerardLiu96/FECNet "Keras")
+
+## 🔖Face Action
+- Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Joint_Representation_and_Estimator_Learning_for_Facial_Action_Unit_Intensity_CVPR_2019_paper.pdf "CVPR2019")
+- Local Relationship Learning With Person-Specific Shape Regularization for Facial Action Unit Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Niu_Local_Relationship_Learning_With_Person-Specific_Shape_Regularization_for_Facial_Action_CVPR_2019_paper.pdf "CVPR2019")
+- **TCAE**: Self-Supervised Representation Learning From Videos for Facial Action Unit Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Self-Supervised_Representation_Learning_From_Videos_for_Facial_Action_Unit_Detection_CVPR_2019_paper.pdf "CVPR2019 Oral") [[code]](https://github.com/mysee1989/TCAE "PyTorch")
+- **JAANet**: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhiwen_Shao_Deep_Adaptive_Attention_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/ZhiwenShao/JAANet "Caffe")
 
 ## 🔖Face 3D
 - **MVF-Net**: Multi-View 3D Face Morphable Model Regression [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_MVF-Net_Multi-View_3D_Face_Morphable_Model_Regression_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/Fanziapril/mvfnet "PyTorch")
@@ -219,6 +246,11 @@ Robust Face Detection via Learning Small Faces on Hard Images
 - **ATVGnet**: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hierarchical_Cross-Modal_Talking_Face_Generation_With_Dynamic_Pixel-Wise_Loss_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/lelechen63/ATVGnet "PyTorch")
 
 ## 🔖Face GAN
+#### Face Aging  
+- Automatic Face Aging in Videos via Deep Reinforcement Learning [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Duong_Automatic_Face_Aging_in_Videos_via_Deep_Reinforcement_Learning_CVPR_2019_paper.pdf "CVPR2019") [[blog]](https://www.fastcompany.com/90314606/this-new-ai-tool-makes-creepily-realistic-videos-of-faces-in-the-future)
+- Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Attribute-Aware_Face_Aging_With_Wavelet-Based_Generative_Adversarial_Networks_CVPR_2019_paper.pdf "CVPR2019")
+- **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/elvisyjlin/SpatialAttentionGAN "PyTorch")
+---
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qian_Unsupervised_Face_Normalization_With_Extreme_Pose_and_Expression_in_the_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/mx54039q/fnm "TensorFlow")
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://github.com/barisgecer/GANFit)
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
@@ -229,6 +261,13 @@ Robust Face Detection via Learning Small Faces on Hard Images
 - **PGAN**: Progressive Growing of GANs for Improved Quality, Stability, and Variation [[paper]](https://arxiv.org/abs/1710.10196 "ICLR2018")
 [[code1]](https://github.com/tkarras/progressive_growing_of_gans "TensorFlow") [[code2]](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans "PyTorch")
 - **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos [[code1]](https://github.com/deepfakes/faceswap "TensorFlow") [[code2]](https://github.com/iperov/DeepFaceLab "TensorFlow/Keras")
+
+## 🔖Face Manipulation
+- 3D Guided Fine-Grained Face Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Geng_3D_Guided_Fine-Grained_Face_Manipulation_CVPR_2019_paper.pdf "CVPR2019")
+- **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Semantic_Component_Decomposition_for_Face_Attribute_Manipulation_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yingcong/SemanticComponent) [[demo]](http://appsrv.cse.cuhk.edu.hk/~ycchen/demos/semantic_component.mp4)
+
+Automatic Face Aging in Videos via Deep Reinforcement Learning
+Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
 
 ## 🔖Face Anti-Spoofing
 - **Dataset and Benchmark**: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Dataset_and_Benchmark_for_Large-Scale_Multi-Modal_Face_Anti-Spoofing_CVPR_2019_paper.pdf "CVPR2019") [[poster]](http://www.cbsr.ia.ac.cn/users/sfzhang/Shifeng%20Zhang's%20Homepage_files/CVPR2019_CASIA-SURF_Poster.pdf) [[dataset]](https://sites.google.com/qq.com/chalearnfacespoofingattackdete/)
