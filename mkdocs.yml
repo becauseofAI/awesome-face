@@ -1,9 +1,9 @@
 site_name: Hello Face
-site_url: https://becauseofAI.github.io/HelloFace/
+site_url: https://becauseofAI.github.io/HelloFace
 site_description: Face Technology Repository.
 site_author: becauseofAI
 
-repo_url: https://becauseofAI.github.io/HelloFace/
+repo_url: https://github.com/becauseofAI/HelloFace
 edit_uri: ""
 repo_name: 'HelloFace'
 
