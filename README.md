@@ -47,6 +47,10 @@ Face Technology Repository(**Updating**)
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction
 
+- Automatic Face Aging in Videos via Deep Reinforcement Learning
+- Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
+- **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing
+
 - 3D Guided Fine-Grained Face Manipulation
 - **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation
 
@@ -65,7 +69,6 @@ Face Technology Repository(**Updating**)
 - **SHF**: Robust Face Detection via Learning Small Faces on Hard Images
 - **SRN**: Selective Refinement Network for High Performance Face Detection
 - **SFDet**: Single-Shot Scale-Aware Network for Real-Time Face Detection
-Robust Face Detection via Learning Small Faces on Hard Images
 - **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces
 - **PFLD**: A Practical Facial Landmark Detector
 - **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network
@@ -265,9 +268,6 @@ Robust Face Detection via Learning Small Faces on Hard Images
 ## 🔖Face Manipulation
 - 3D Guided Fine-Grained Face Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Geng_3D_Guided_Fine-Grained_Face_Manipulation_CVPR_2019_paper.pdf "CVPR2019")
 - **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Semantic_Component_Decomposition_for_Face_Attribute_Manipulation_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yingcong/SemanticComponent) [[demo]](http://appsrv.cse.cuhk.edu.hk/~ycchen/demos/semantic_component.mp4)
-
-Automatic Face Aging in Videos via Deep Reinforcement Learning
-Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
 
 ## 🔖Face Anti-Spoofing
 - **Dataset and Benchmark**: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Dataset_and_Benchmark_for_Large-Scale_Multi-Modal_Face_Anti-Spoofing_CVPR_2019_paper.pdf "CVPR2019") [[poster]](http://www.cbsr.ia.ac.cn/users/sfzhang/Shifeng%20Zhang's%20Homepage_files/CVPR2019_CASIA-SURF_Poster.pdf) [[dataset]](https://sites.google.com/qq.com/chalearnfacespoofingattackdete/)
