@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_recognition/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_recognition/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_detection/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_detection/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_landmark/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_landmark/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_clustering/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_clustering/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_expression/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_expression/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_action/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_action/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_3d/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_3d/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_gan/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_gan/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_manipulation/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_manipulation/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_anti-spoofing/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_anti-spoofing/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_adversarial-attack/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_adversarial-attack/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_cross-modal/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_cross-modal/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_capture/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_capture/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_benchmark-and-dataset/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_benchmark-and-dataset/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/face_lib-and-tool/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/face_lib-and-tool/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://becauseofAI.github.io/hello-face/about/</loc>
+     <loc>https://becauseofAI.github.io/HelloFace/about/</loc>
      <lastmod>2019-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
