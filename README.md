@@ -1,6 +1,6 @@
 # HelloFace [![Mentioned in Awesome HelloFace](https://awesome.re/mentioned-badge.svg)](https://github.com/becauseofAI/HelloFace)   
 Face Technology Repository(**Updating**)  
-🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace👍👍👍
+🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 ## 👋Recent Update 
 ###### 2019/07/11
