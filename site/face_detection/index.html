@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="becauseofAI">
+        <link rel="canonical" href="https://hello-face.readthedocs.io/face_detection/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Face Detection - Hello Face</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-27795084-5', 'mkdocs.org');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hello Face</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">HelloFace</a>
+                            </li>
+                            <li >
+                                <a href="../face_recognition/">Face Recognition</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Face Detection</a>
+                            </li>
+                            <li >
+                                <a href="../face_landmark/">Face Landmark</a>
+                            </li>
+                            <li >
+                                <a href="../face_clustering/">Face Clustering</a>
+                            </li>
+                            <li >
+                                <a href="../face_expression/">Face Expression</a>
+                            </li>
+                            <li >
+                                <a href="../face_action/">Face Action</a>
+                            </li>
+                            <li >
+                                <a href="../face_3d/">Face 3D</a>
+                            </li>
+                            <li >
+                                <a href="../face_gan/">Face GAN</a>
+                            </li>
+                            <li >
+                                <a href="../face_manipulation/">Face Manipulation</a>
+                            </li>
+                            <li >
+                                <a href="../face_anti-spoofing/">Face Anti-Spoofing</a>
+                            </li>
+                            <li >
+                                <a href="../face_adversarial-attack/">Face Adversarial Attack</a>
+                            </li>
+                            <li >
+                                <a href="../face_cross-modal/">Face Cross-Modal</a>
+                            </li>
+                            <li >
+                                <a href="../face_capture/">Face Capture</a>
+                            </li>
+                            <li >
+                                <a href="../face_benchmark-and-dataset/">Face Benchmark&Dataset</a>
+                            </li>
+                            <li >
+                                <a href="../face_lib-and-tool/">Face Lib&Tool</a>
+                            </li>
+                            <li >
+                                <a href="../about/">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../face_recognition/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../face_landmark/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/becauseofAI/hello-face/">HelloFace</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#face-detection">🔖Face Detection</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="face-detection">🔖Face Detection<a class="headerlink" href="#face-detection" title="Permanent link"></a></h2>
+<ul>
+<li><strong>RetinaFace</strong>: Single-stage Dense Face Localisation in the Wild <a href="https://arxiv.org/abs/1905.00641" title="arXiv2019">[paper]</a> <a href="https://github.com/deepinsight/insightface/tree/master/RetinaFace" title="MXNet">[code]</a></li>
+<li>Group Sampling for Scale Invariant Face Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Ming_Group_Sampling_for_Scale_Invariant_Face_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>FA-RPN</strong>: Floating Region Proposals for Face Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Najibi_FA-RPN_Floating_Region_Proposals_for_Face_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>SFA</strong>: Small Faces Attention Face Detector <a href="https://arxiv.org/abs/1812.08402" title="SPIC2019">[paper]</a> <a href="https://github.com/shiluo1990/SFA" title="Caffe">[code]</a></li>
+<li><strong>ISRN</strong>: Improved Selective Refinement Network for Face Detection <a href="https://arxiv.org/abs/1901.06651" title="arXiv2019">[paper]</a></li>
+<li><strong>DSFD</strong>: Dual Shot Face Detector <a href="https://arxiv.org/abs/1810.10220" title="CVPR2019">[paper]</a> <a href="https://github.com/TencentYoutuResearch/FaceDetection-DSFD" title="PyTorch">[code]</a></li>
+<li><strong>PyramidBox++</strong>: High Performance Detector for Finding Tiny Face <a href="https://arxiv.org/abs/1904.00386" title="arXiv2019">[paper]</a></li>
+<li><strong>VIM-FD</strong>: Robust and High Performance Face Detector <a href="https://arxiv.org/abs/1901.02350" title="arXiv2019">[paper]</a></li>
+<li><strong>SHF</strong>: Robust Face Detection via Learning Small Faces on Hard Images <a href="https://arxiv.org/abs/1811.11662" title="arXiv2018">[paper]</a> <a href="https://github.com/bairdzhang/smallhardface" title="Caffe">[code]</a></li>
+<li><strong>SRN</strong>: Selective Refinement Network for High Performance Face Detection <a href="https://arxiv.org/abs/1809.02693" title="AAAI2019">[paper]</a></li>
+<li><strong>SFDet</strong>: Single-Shot Scale-Aware Network for Real-Time Face Detection <a href="https://link.springer.com/epdf/10.1007/s11263-019-01159-3?author_access_token=Jjgl-u1CAXPmSKWDljfSBfe4RwlQNchNByi7wbcMAY7Vwo_nrkuFMElF6YSQ0We34tUs42D0dyurcBAD0sJP66n6GBanVgA9qsuvh4Y_Bjf3E_n9_croQ4esS882srfHyUz-L96pU3gu_M30Kk6_XQ%3D%3D" title="IJCV2019">[paper]</a></li>
+<li><strong>HyperFace</strong>: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition <a href="https://arxiv.org/abs/1603.01249" title="TPAMI2019">[paper]</a> <a href="https://github.com/maharshi95/HyperFace" title="TensorFlow">[code]</a></li>
+<li><strong>PyramidBox</strong>: A Context-assisted Single Shot Face Detector <a href="https://arxiv.org/pdf/1803.07737.pdf" title="arXiv2018">[paper]</a> <a href="https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction" title="PaddlePaddle">[code]</a></li>
+<li><strong>PCN</strong>: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks <a href="https://arxiv.org/pdf/1804.06039.pdf" title="CVPR2018">[paper]</a> <a href="https://github.com/Jack-CV/PCN" title="C++">[code]</a> </li>
+<li><strong>S³FD</strong>: Single Shot Scale-invariant Face Detector <a href="https://arxiv.org/pdf/1708.05237.pdf" title="arXiv2017">[paper]</a> <a href="https://github.com/sfzhang15/SFD" title="Caffe">[code]</a></li>
+<li><strong>SSH</strong>: Single Stage Headless Face Detector <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf" title="ICCV2017">[paper]</a> <a href="https://github.com/mahyarnajibi/SSH" title="Caffe">[code]</a></li>
+<li><strong>FaceBoxes</strong>: A CPU Real-time Face Detector with High Accuracy <a href="https://arxiv.org/pdf/1708.05234.pdf" title="IJCB2017">[paper]</a><a href="https://github.com/zeusees/FaceBoxes" title="Caffe">[code1]</a> <a href="https://github.com/lxg2015/faceboxes" title="PyTorch">[code2]</a></li>
+<li><strong>TinyFace</strong>: Finding Tiny Faces <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf" title="CVPR2017">[paper]</a> <a href="https://www.cs.cmu.edu/~peiyunh/tiny/">[project]</a> <a href="https://github.com/peiyunh/tiny" title="MatConvNet">[code1]</a> <a href="https://github.com/chinakook/hr101_mxnet" title="MXNet">[code2]</a> <a href="https://github.com/cydonia999/Tiny_Faces_in_Tensorflow" title="TensorFlow">[code3]</a></li>
+<li><strong>MTCNN</strong>: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks <a href="https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf" title="SPL2016">[paper]</a> <a href="https://kpzhang93.github.io/MTCNN_face_detection_alignment/">[project]</a> <a href="https://github.com/kpzhang93/MTCNN_face_detection_alignment" title="Caffe">[code1]</a> <a href="https://github.com/CongWeilin/mtcnn-caffe" title="Caffe">[code2]</a> <a href="https://github.com/foreverYoungGitHub/MTCNN" title="Caffe">[code3]</a> <a href="https://github.com/Seanlinx/mtcnn" title="MXNet">[code4]</a> <a href="https://github.com/pangyupo/mxnet_mtcnn_face_detection" title="MXNet">[code5]</a> <a href="https://github.com/TropComplique/mtcnn-pytorch" title="PyTorch">[code6]</a> <a href="https://github.com/AITTSMD/MTCNN-Tensorflow" title="TensorFlow">[code7]</a></li>
+<li><strong>NPD</strong>: A Fast and Accurate Unconstrained Face Detector <a href="http://www.cbsr.ia.ac.cn/users/scliao/papers/Liao-PAMI15-NPD.pdf" title="TPAMI2015">[paper]</a> <a href="https://github.com/wincle/NPD" title="C++">[code]</a> <a href="http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html">[project]</a></li>
+<li><strong>PICO</strong>: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees <a href="https://arxiv.org/pdf/1305.4537.pdf" title="arXiv2014">[paper]</a> <a href="https://github.com/nenadmarkus/pico" title="C">[code]</a></li>
+<li><strong>libfacedetection</strong>: A fast binary library for face detection and face landmark detection in images. <a href="https://github.com/ShiqiYu/libfacedetection" title="C++">[code]</a></li>
+<li><strong>SeetaFaceEngine</strong>: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification <a href="https://github.com/seetaface/SeetaFaceEngine" title="C++">[code]</a></li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../js/extra.js" defer></script>
+        <script src="../js/baidu-tongji.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

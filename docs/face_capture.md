@@ -1,0 +1,4 @@
+## 🔖Face Capture
+- High-Quality Face Capture Using Anatomical Muscles [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Bao_High-Quality_Face_Capture_Using_Anatomical_Muscles_CVPR_2019_paper.pdf "CVPR2019")
+- Monocular Total Capture: Posing Face, Body, and Hands in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xiang_Monocular_Total_Capture_Posing_Face_Body_and_Hands_in_the_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/CMU-Perceptual-Computing-Lab/MonocularTotalCapture) [[project]](http://domedb.perception.cs.cmu.edu/mtc.html)
+- Expressive Body Capture: 3D Hands, Face, and Body From a Single Image [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavlakos_Expressive_Body_Capture_3D_Hands_Face_and_Body_From_a_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/vchoutas/smplify-x "PyTorch") [[project]](https://smpl-x.is.tue.mpg.de/)

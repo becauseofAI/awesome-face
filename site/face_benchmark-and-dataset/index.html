@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="becauseofAI">
+        <link rel="canonical" href="https://hello-face.readthedocs.io/face_benchmark-and-dataset/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Face Benchmark&Dataset - Hello Face</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-27795084-5', 'mkdocs.org');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hello Face</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">HelloFace</a>
+                            </li>
+                            <li >
+                                <a href="../face_recognition/">Face Recognition</a>
+                            </li>
+                            <li >
+                                <a href="../face_detection/">Face Detection</a>
+                            </li>
+                            <li >
+                                <a href="../face_landmark/">Face Landmark</a>
+                            </li>
+                            <li >
+                                <a href="../face_clustering/">Face Clustering</a>
+                            </li>
+                            <li >
+                                <a href="../face_expression/">Face Expression</a>
+                            </li>
+                            <li >
+                                <a href="../face_action/">Face Action</a>
+                            </li>
+                            <li >
+                                <a href="../face_3d/">Face 3D</a>
+                            </li>
+                            <li >
+                                <a href="../face_gan/">Face GAN</a>
+                            </li>
+                            <li >
+                                <a href="../face_manipulation/">Face Manipulation</a>
+                            </li>
+                            <li >
+                                <a href="../face_anti-spoofing/">Face Anti-Spoofing</a>
+                            </li>
+                            <li >
+                                <a href="../face_adversarial-attack/">Face Adversarial Attack</a>
+                            </li>
+                            <li >
+                                <a href="../face_cross-modal/">Face Cross-Modal</a>
+                            </li>
+                            <li >
+                                <a href="../face_capture/">Face Capture</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Face Benchmark&Dataset</a>
+                            </li>
+                            <li >
+                                <a href="../face_lib-and-tool/">Face Lib&Tool</a>
+                            </li>
+                            <li >
+                                <a href="../about/">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../face_capture/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../face_lib-and-tool/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/becauseofAI/hello-face/">HelloFace</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#face-benchmark-and-dataset">🔖Face Benchmark and Dataset</a></li>
+            <li><a href="#face-recognition">Face Recognition</a></li>
+            <li><a href="#face-detection">Face Detection</a></li>
+            <li><a href="#face-landmark">Face Landmark</a></li>
+            <li><a href="#face-attribute">Face Attribute</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="face-benchmark-and-dataset">🔖Face Benchmark and Dataset<a class="headerlink" href="#face-benchmark-and-dataset" title="Permanent link"></a></h2>
+<h3 id="face-recognition">Face Recognition<a class="headerlink" href="#face-recognition" title="Permanent link"></a></h3>
+<ul>
+<li><strong>DiF</strong>: Diversity in Faces <a href="https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/">[project]</a> <a href="https://www.ibm.com/blogs/research/2019/01/diversity-in-faces/">[blog]</a></li>
+<li><strong>FRVT</strong>: Face Recognition Vendor Test <a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt">[project]</a> <a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing">[leaderboard]</a></li>
+<li><strong>IMDb-Face</strong>: The Devil of Face Recognition is in the Noise(<strong>59k people in 1.7M images</strong>) <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Liren_Chen_The_Devil_of_ECCV_2018_paper.pdf" title="ECCV2018">[paper]</a> <a href="https://github.com/fwang91/IMDb-Face">[dataset]</a></li>
+<li><strong>Trillion Pairs</strong>: Challenge 3: Face Feature Test/Trillion Pairs(<strong>MS-Celeb-1M-v1c with 86,876 ids/3,923,399 aligned images  + Asian-Celeb 93,979 ids/2,830,146 aligned images</strong>) <a href="http://trillionpairs.deepglint.com/overview" title="DeepGlint">[benckmark]</a> <a href="http://trillionpairs.deepglint.com/data">[dataset]</a> <a href="http://trillionpairs.deepglint.com/results">[result]</a></li>
+<li><strong>MF2</strong>: Level Playing Field for Million Scale Face Recognition(<strong>672K people in 4.7M images</strong>) <a href="https://homes.cs.washington.edu/~kemelmi/ms.pdf" title="CVPR2017">[paper]</a> <a href="http://megaface.cs.washington.edu/dataset/download_training.html">[dataset]</a> <a href="http://megaface.cs.washington.edu/results/facescrub_challenge2.html">[result]</a> <a href="http://megaface.cs.washington.edu/">[benckmark]</a></li>
+<li><strong>MegaFace</strong>: The MegaFace Benchmark: 1 Million Faces for Recognition at Scale(<strong>690k people in 1M images</strong>) <a href="http://megaface.cs.washington.edu/KemelmacherMegaFaceCVPR16.pdf" title="CVPR2016">[paper]</a> <a href="http://megaface.cs.washington.edu/participate/challenge.html">[dataset]</a> <a href="http://megaface.cs.washington.edu/results/facescrub.html">[result]</a> <a href="http://megaface.cs.washington.edu/">[benckmark]</a></li>
+<li><strong>UMDFaces</strong>: An Annotated Face Dataset for Training Deep Networks(<strong>8k people in 367k images with pose, 21 key-points and gender</strong>) <a href="https://arxiv.org/pdf/1611.01484.pdf" title="arXiv2016">[paper]</a> <a href="http://www.umdfaces.io/">[dataset]</a></li>
+<li><strong>MS-Celeb-1M</strong>: A Dataset and Benchmark for Large Scale Face Recognition(<strong>100K people in 10M images</strong>) <a href="https://arxiv.org/pdf/1607.08221.pdf" title="ECCV2016">[paper]</a> <a href="http://www.msceleb.org/download/sampleset">[dataset]</a> <a href="http://www.msceleb.org/leaderboard/iccvworkshop-c1">[result]</a> <a href="http://www.msceleb.org/">[benchmark]</a> <a href="https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/">[project]</a></li>
+<li><strong>VGGFace2</strong>: A dataset for recognising faces across pose and age(<strong>9k people in 3.3M images</strong>) <a href="https://arxiv.org/pdf/1710.08092.pdf" title="arXiv2017">[paper]</a> <a href="http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/">[dataset]</a></li>
+<li><strong>VGGFace</strong>: Deep Face Recognition(<strong>2.6k people in 2.6M images</strong>) <a href="http://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf" title="BMVC2015">[paper]</a> <a href="http://www.robots.ox.ac.uk/~vgg/data/vgg_face/">[dataset]</a></li>
+<li><strong>CASIA-WebFace</strong>: Learning Face Representation from Scratch(<strong>10k people in 500k images</strong>) <a href="https://arxiv.org/pdf/1411.7923.pdf" title="arXiv2014">[paper]</a> <a href="http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html">[dataset]</a></li>
+<li><strong>LFW</strong>: Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments(<strong>5.7k people in 13k images</strong>) <a href="http://vis-www.cs.umass.edu/lfw/lfw.pdf" title="UMASS2007">[report]</a> <a href="http://vis-www.cs.umass.edu/lfw/#download">[dataset]</a> <a href="http://vis-www.cs.umass.edu/lfw/results.html">[result]</a> <a href="http://vis-www.cs.umass.edu/lfw/">[benchmark]</a></li>
+</ul>
+<h3 id="face-detection">Face Detection<a class="headerlink" href="#face-detection" title="Permanent link"></a></h3>
+<ul>
+<li><strong>WiderFace</strong>: WIDER FACE: A Face Detection Benchmark(<strong>400k people in 32k images with a high degree of variability in scale, pose and occlusion</strong>) <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf" title="CVPR2016">[paper]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/">[dataset]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html">[result]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/">[benchmark]</a></li>
+<li><strong>FDDB</strong>: A Benchmark for Face Detection in Unconstrained Settings(<strong>5k faces in 2.8k images</strong>) <a href="https://people.cs.umass.edu/~elm/papers/fddb.pdf" title="UMASS2010">[report]</a> <a href="http://vis-www.cs.umass.edu/fddb/index.html#download">[dataset]</a> <a href="http://vis-www.cs.umass.edu/fddb/results.html">[result]</a> <a href="http://vis-www.cs.umass.edu/fddb/">[benchmark]</a> </li>
+</ul>
+<h3 id="face-landmark">Face Landmark<a class="headerlink" href="#face-landmark" title="Permanent link"></a></h3>
+<ul>
+<li><strong>LS3D-W</strong>: A large-scale 3D face alignment dataset constructed by annotating the images from AFLW, 300VW, 300W and FDDB in a consistent manner with 68 points using the automatic method <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf" title="ICCV2017">[paper]</a> <a href="https://adrianbulat.com/face-alignment">[dataset]</a></li>
+<li><strong>AFLW</strong>: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization(<strong>25k faces with 21 landmarks</strong>) <a href="https://files.icg.tugraz.at/seafhttp/files/460c7623-c919-4d35-b24e-6abaeacb6f31/koestinger_befit_11.pdf" title="BeFIT2011">[paper]</a> <a href="https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/">[benchmark]</a></li>
+</ul>
+<h3 id="face-attribute">Face Attribute<a class="headerlink" href="#face-attribute" title="Permanent link"></a></h3>
+<ul>
+<li><strong>CelebA</strong>: Deep Learning Face Attributes in the Wild(<strong>10k people in 202k images with 5 landmarks and 40 binary attributes per image</strong>) <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf" title="ICCV2015">[paper]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">[dataset]</a></li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../js/extra.js" defer></script>
+        <script src="../js/baidu-tongji.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

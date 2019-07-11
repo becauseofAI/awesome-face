@@ -1,0 +1,4 @@
+## 🔖Face Adversarial Attack
+- Decorrelated Adversarial Learning for Age-Invariant Face Recognition [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Decorrelated_Adversarial_Learning_for_Age-Invariant_Face_Recognition_CVPR_2019_paper.pdf "CVPR2019") 
+- Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf "CVPR2019") 
+- Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Efficient_Decision-Based_Black-Box_Adversarial_Attacks_on_Face_Recognition_CVPR_2019_paper.pdf "CVPR2019")

@@ -1,0 +1,3 @@
+## 🔖Face Anti-Spoofing
+- **Dataset and Benchmark**: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Dataset_and_Benchmark_for_Large-Scale_Multi-Modal_Face_Anti-Spoofing_CVPR_2019_paper.pdf "CVPR2019") [[poster]](http://www.cbsr.ia.ac.cn/users/sfzhang/Shifeng%20Zhang's%20Homepage_files/CVPR2019_CASIA-SURF_Poster.pdf) [[dataset]](https://sites.google.com/qq.com/chalearnfacespoofingattackdete/)
+- Deep Tree Learning for Zero-Shot Face Anti-Spoofing [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf "CVPR2019 Oral") 

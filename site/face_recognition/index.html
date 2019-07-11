@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="becauseofAI">
+        <link rel="canonical" href="https://hello-face.readthedocs.io/face_recognition/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Face Recognition - Hello Face</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/django.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-27795084-5', 'mkdocs.org');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Hello Face</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">HelloFace</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Face Recognition</a>
+                            </li>
+                            <li >
+                                <a href="../face_detection/">Face Detection</a>
+                            </li>
+                            <li >
+                                <a href="../face_landmark/">Face Landmark</a>
+                            </li>
+                            <li >
+                                <a href="../face_clustering/">Face Clustering</a>
+                            </li>
+                            <li >
+                                <a href="../face_expression/">Face Expression</a>
+                            </li>
+                            <li >
+                                <a href="../face_action/">Face Action</a>
+                            </li>
+                            <li >
+                                <a href="../face_3d/">Face 3D</a>
+                            </li>
+                            <li >
+                                <a href="../face_gan/">Face GAN</a>
+                            </li>
+                            <li >
+                                <a href="../face_manipulation/">Face Manipulation</a>
+                            </li>
+                            <li >
+                                <a href="../face_anti-spoofing/">Face Anti-Spoofing</a>
+                            </li>
+                            <li >
+                                <a href="../face_adversarial-attack/">Face Adversarial Attack</a>
+                            </li>
+                            <li >
+                                <a href="../face_cross-modal/">Face Cross-Modal</a>
+                            </li>
+                            <li >
+                                <a href="../face_capture/">Face Capture</a>
+                            </li>
+                            <li >
+                                <a href="../face_benchmark-and-dataset/">Face Benchmark&Dataset</a>
+                            </li>
+                            <li >
+                                <a href="../face_lib-and-tool/">Face Lib&Tool</a>
+                            </li>
+                            <li >
+                                <a href="../about/">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../face_detection/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/becauseofAI/hello-face/">HelloFace</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#face-recognition">🔖Face Recognition</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="face-recognition">🔖Face Recognition<a class="headerlink" href="#face-recognition" title="Permanent link"></a></h2>
+<ul>
+<li>Deep face recognition using imperfect facial data <a href="https://www.sciencedirect.com/science/article/pii/S0167739X18331133" title="FGCS2019">[paper]</a></li>
+<li>Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Unequal-Training_for_Deep_Face_Recognition_With_Long-Tailed_Noisy_Data_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/zhongyy/Unequal-Training-for-Deep-Face-Recognition-with-Long-Tailed-Noisy-Data" title="MXNet">[code]</a></li>
+<li><strong>RegularFace</strong>: Deep Face Recognition via Exclusive Regularization <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_RegularFace_Deep_Face_Recognition_via_Exclusive_Regularization_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>UniformFace</strong>: Learning Deep Equidistributed Representation for Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Duan_UniformFace_Learning_Deep_Equidistributed_Representation_for_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>P2SGrad</strong>: Refined Gradients for Optimizing Deep Face Models <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_P2SGrad_Refined_Gradients_for_Optimizing_Deep_Face_Models_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>AdaptiveFace</strong>: Adaptive Margin and Sampling for Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_AdaptiveFace_Adaptive_Margin_and_Sampling_for_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>AdaCos</strong>: Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_AdaCos_Adaptively_Scaling_Cosine_Logits_for_Effectively_Learning_Deep_Face_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/xialuxi/arcface-caffe" title="Caffe">[code1]</a> <a href="https://github.com/4uiiurz1/pytorch-adacos" title="PyTorch">[code2]</a></li>
+<li>Low-Rank Laplacian-Uniform Mixed Model for Robust Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Low-Rank_Laplacian-Uniform_Mixed_Model_for_Robust_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>NoiseFace</strong>: Noise-Tolerant Paradigm for Training Face Recognition CNNs <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Noise-Tolerant_Paradigm_for_Training_Face_Recognition_CNNs_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/huangyangyu/NoiseFace" title="Caffe">[code]</a></li>
+<li>Feature Transfer Learning for Face Recognition With Under-Represented Data <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yin_Feature_Transfer_Learning_for_Face_Recognition_With_Under-Represented_Data_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>Led3D</strong>: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Mu_Led3D_A_Lightweight_and_Efficient_Deep_Approach_to_Recognizing_Low-Quality_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/muyouhang/Led3D" title="NULL">[code]</a> <a href="http://irip.buaa.edu.cn/lock3dface/index.html">[dataset]</a></li>
+<li>R3 Adversarial Network for Cross Model Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_R3_Adversarial_Network_for_Cross_Model_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a>  </li>
+<li><strong>MLT</strong>: Face Recognition: A Novel Multi-Level Taxonomy based Survey <a href="https://arxiv.org/abs/1901.00713" title="arXiv2019">[paper]</a></li>
+<li><strong>GhostVLAD</strong>: GhostVLAD for set-based face recognition <a href="https://arxiv.org/abs/1810.09951" title="ACCV2018">[paper]</a></li>
+<li><strong>DocFace+</strong>: ID Document to Selfie Matching <a href="https://arxiv.org/abs/1809.05620" title="arXiv2018">[paper]</a> <a href="https://github.com/seasonSH/DocFace" title="TensorFlow">[code]</a></li>
+<li><strong>2018Survey</strong>: Face Recognition: From Traditional to Deep Learning Methods <a href="https://arxiv.org/abs/1811.00116" title="arXiv2018">[paper]</a></li>
+<li><strong>2018Survey</strong>: Deep Facial Expression Recognition: A Survey <a href="https://arxiv.org/abs/1804.08348" title="arXiv2018">[paper]</a></li>
+<li><strong>2018Survey</strong>: Deep Face Recognition: A Survey <a href="https://arxiv.org/abs/1804.06655" title="arXiv2018">[paper]</a></li>
+<li><strong>SphereFace+(MHE)</strong>: Learning towards Minimum Hyperspherical Energy <a href="https://arxiv.org/abs/1805.09298" title="arXiv2018">[paper]</a> <a href="https://github.com/wy1iu/sphereface-plus" title="Caffe/Matlab">[code]</a></li>
+<li><strong>MobileFace</strong>: A face recognition solution on mobile device <a href="https://github.com/becauseofAI/MobileFace">[code]</a></li>
+<li><strong>MobileFaceNets</strong>: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices <a href="https://arxiv.org/abs/1804.07573" title="arXiv2018">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/KaleidoZhouYN/mobilefacenet-caffe" title="Caffe">[code2]</a> <a href="https://github.com/xsr-ai/MobileFaceNet_TF" title="TensorFlow">[code3]</a> <a href="https://github.com/GRAYKEY/mobilefacenet_ncnn" title="NCNN">[code4]</a></li>
+<li><strong>FaceID</strong>: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. <a href="https://github.com/normandipalo/faceID_beta" title="Keras">[code]</a> <a href="https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d" title="Medium">[blog]</a> </li>
+<li><strong>InsightFace(ArcFace)</strong>: 2D and 3D Face Analysis Project <a href="https://arxiv.org/abs/1801.07698" title="ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/auroua/InsightFace_TF" title="TensorFlow">[code2]</a></li>
+<li><strong>AAM-Softmax(CCL)</strong>: Face Recognition via Centralized Coordinate Learning <a href="https://arxiv.org/abs/1801.05678" title="arXiv2018">[paper]</a></li>
+<li><strong>AM-Softmax</strong>: Additive Margin Softmax for Face Verification <a href="https://arxiv.org/abs/1801.05599" title="arXiv2018">[paper]</a> <a href="https://github.com/happynear/AMSoftmax" title="Caffe">[code1]</a> <a href="https://github.com/Joker316701882/Additive-Margin-Softmax" title="TensorFlow">[code2]</a></li>
+<li><strong>CosFace</strong>: Large Margin Cosine Loss for Deep Face Recognition <a href="https://arxiv.org/abs/1801.09414" title="CVPR2018">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/yule-li/CosFace" title="TensorFlow">[code2]</a></li>
+<li><strong>FeatureIncay</strong>: Feature Incay for Representation Regularization <a href="https://arxiv.org/abs/1705.10284" title="ICLR2018">[paper]</a></li>
+<li><strong>CocoLoss</strong>: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition <a href="http://cn.arxiv.org/abs/1710.00870" title="NIPS2017">[paper]</a> <a href="https://github.com/sciencefans/coco_loss" title="Caffe">[code]</a></li>
+<li><strong>NormFace</strong>: L2 hypersphere embedding for face Verification <a href="http://www.cs.jhu.edu/~alanlab/Pubs17/wang2017normface.pdf" title="ACM2017 Multimedia Conference">[paper]</a> <a href="https://github.com/happynear/NormFace" title="Caffe">[code]</a></li>
+<li><strong>SphereFace(A-Softmax)</strong>: Deep Hypersphere Embedding for Face Recognition <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf" title="CVPR2017">[paper]</a> <a href="https://github.com/wy1iu/sphereface" title="Caffe">[code]</a></li>
+<li><strong>L-Softmax</strong>: Large-Margin Softmax Loss for Convolutional Neural Networks <a href="http://proceedings.mlr.press/v48/liud16.pdf" title="ICML2016">[paper]</a> <a href="https://github.com/wy1iu/LargeMargin_Softmax_Loss" title="Caffe">[code1]</a> <a href="https://github.com/luoyetx/mx-lsoftmax" title="MXNet">[code2]</a> <a href="https://github.com/HiKapok/tf.extra_losses" title="TensorFlow">[code3]</a> <a href="https://github.com/auroua/L_Softmax_TensorFlow" title="TensorFlow">[code4]</a> <a href="https://github.com/tpys/face-recognition-caffe2" title="Caffe2">[code5]</a> <a href="https://github.com/amirhfarzaneh/lsoftmax-pytorch" title="PyTorch">[code6]</a> <a href="https://github.com/jihunchoi/lsoftmax-pytorch" title="PyTorch">[code7]</a></li>
+<li><strong>CenterLoss</strong>: A Discriminative Feature Learning Approach for Deep Face Recognition <a href="https://ydwen.github.io/papers/WenECCV16.pdf" title="ECCV2016">[paper]</a> <a href="https://github.com/ydwen/caffe-face" title="Caffe">[code1]</a> <a href="https://github.com/pangyupo/mxnet_center_loss" title="MXNet">[code2]</a> <a href="https://github.com/ShownX/mxnet-center-loss" title="MXNet-Gluon">[code3]</a> <a href="https://github.com/EncodeTS/TensorFlow_Center_Loss" title="TensorFlow">[code4]</a></li>
+<li><strong>OpenFace</strong>: A general-purpose face recognition library with mobile applications <a href="http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf" title="CMU2016">[report]</a> <a href="http://cmusatyalab.github.io/openface/">[project]</a> <a href="https://github.com/cmusatyalab/openface" title="Torch">[code1]</a> <a href="https://github.com/thnkim/OpenFacePytorch" title="PyTorch">[code2]</a></li>
+<li><strong>FaceNet</strong>: A Unified Embedding for Face Recognition and Clustering <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf" title="CVPR2015">[paper]</a> <a href="https://github.com/davidsandberg/facenet" title="TensorFlow">[code]</a></li>
+<li><strong>DeepID3</strong>: DeepID3: Face Recognition with Very Deep Neural Networks <a href="https://arxiv.org/abs/1502.00873" title="arXiv2015">[paper]</a> </li>
+<li><strong>DeepID2+</strong>: Deeply learned face representations are sparse, selective, and robust <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Deeply_Learned_Face_2015_CVPR_paper.pdf" title="CVPR2015">[paper]</a></li>
+<li><strong>DeepID2</strong>: Deep Learning Face Representation by Joint Identification-Verification <a href="https://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf" title="NIPS2014">[paper]</a></li>
+<li><strong>DeepID</strong>: Deep Learning Face Representation from Predicting 10,000 Classes <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf" title="CVPR2014">[paper]</a></li>
+<li><strong>DeepFace</strong>: Closing the gap to human-level performance in face verification <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf" title="CVPR2014">[paper]</a></li>
+<li><strong>LBP+Joint Bayes</strong>: Bayesian Face Revisited: A Joint Formulation <a href="https://s3.amazonaws.com/academia.edu.documents/31414608/JointBayesian.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&amp;Expires=1543656042&amp;Signature=k6LefuQnIC2x8gep7yQTxqKgzus%3D&amp;response-content-disposition=inline%3B%20filename%3DBayesian_Face_Revisited_A_Joint_Formulat.pdf" title="ECCV2012">[paper]</a> <a href="https://github.com/cyh24/Joint-Bayesian" title="Python">[code1]</a> <a href="https://github.com/MaoXu/Joint_Bayesian" title="Matlab">[code2]</a> <a href="https://github.com/Glasssix/joint_bayesian" title="C++/C#">[code3]</a></li>
+<li><strong>LBPFace</strong>: Face recognition with local binary patterns <a href="https://pdfs.semanticscholar.org/3242/0c65f8ef0c5bd83b14c8ae662cbce73e6781.pdf" title="ECCV2004">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+<li><strong>FisherFace(LDA)</strong>: Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection <a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/1015508.pdf" title="TPAMI1997">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+<li><strong>EigenFace(PCA)</strong>: Face recognition using eigenfaces <a href="http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf" title="CVPR1991">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+</ul></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../js/extra.js" defer></script>
+        <script src="../js/baidu-tongji.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,3 @@
+## 🔖Face Expression 
+- **FECNet**: A Compact Embedding for Facial Expression Similarity [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Vemulapalli_A_Compact_Embedding_for_Facial_Expression_Similarity_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/GerardLiu96/FECNet "Keras")
+- **LBVCNN**: Local Binary Volume Convolutional Neural Network for Facial Expression Recognition from Image Sequences [[paper]](https://arxiv.org/abs/1904.07647 "arXiv2019")

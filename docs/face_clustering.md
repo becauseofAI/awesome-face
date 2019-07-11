@@ -1,0 +1,3 @@
+## 🔖Face Clustering
+- **LinkageFace**: Linkage Based Face Clustering via Graph Convolution Network [[paper]](https://arxiv.org/abs/1903.11306 "CVPR2019")
+- **LTC**: Learning to Cluster Faces on an Affinity Graph [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Learning_to_Cluster_Faces_on_an_Affinity_Graph_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yl-1993/learn-to-cluster "PyTorch") 

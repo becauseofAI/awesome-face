@@ -1,0 +1,61 @@
+site_name: PyTorch Tutorial
+site_url: https://pytorch-tutorial.readthedocs.io
+site_description: PyTorch Tutorial for Deep Learning Research and Product.
+site_author: becauseofAI
+
+repo_url: https://github.com/becauseofAI/pytorch-tutorial/
+edit_uri: ""
+repo_name: 'pytorch-tutorial'
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    # - mdx_gh_links:
+    #     user: mkdocs
+    #     repo: mkdocs
+
+extra_javascript:
+  - './js/extra.js'
+  - './js/baidu-tongji.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+    - './css/extra.css'
+
+copyright: Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
+
+# nav:
+#     - Introduction: index.md
+#     - Tutorials:
+#         - Ghapter01 Getting Started: chapter01_getting-started/README.md
+#         - Ghapter02 Basics: chapter02_basics/README.md
+#     - About: about.md
+#         # - Release Notes: about/release-notes.md
+#         # - Contributing: about/contributing.md
+#         # - License: about/license.md
+
+nav:
+    - Introduction: index.md
+    - Tutorials:
+        - Ghapter01 Getting Started: 
+          - 1.1 PyTorch Tntroduction: chapter01_getting-started/1_1_pytorch-introduction.md
+          - 1.3 PyTorch 60 Minute Blitz: chapter01_getting-started/1_3_deep-learning-with-pytorch-60-minute-blitz.md
+        - Ghapter02 Basics: 
+          - 2.1 Tensor: chapter02_basics/2_1_pytorch-basics-tensor.md
+    - About: about.md
+        # - Release Notes: about/release-notes.md
+        # - Contributing: about/contributing.md
+        # - License: about/license.md

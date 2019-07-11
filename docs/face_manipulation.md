@@ -1,0 +1,3 @@
+## 🔖Face Manipulation
+- 3D Guided Fine-Grained Face Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Geng_3D_Guided_Fine-Grained_Face_Manipulation_CVPR_2019_paper.pdf "CVPR2019")
+- **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Semantic_Component_Decomposition_for_Face_Attribute_Manipulation_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yingcong/SemanticComponent) [[demo]](http://appsrv.cse.cuhk.edu.hk/~ycchen/demos/semantic_component.mp4)

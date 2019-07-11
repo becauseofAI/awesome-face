@@ -1,0 +1,70 @@
+site_name: Hello Face
+site_url: https://hello-face.readthedocs.io
+site_description: Face Technology Repository.
+site_author: becauseofAI
+
+repo_url: https://github.com/becauseofAI/hello-face/
+edit_uri: ""
+repo_name: 'HelloFace'
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    # - mdx_gh_links:
+    #     user: mkdocs
+    #     repo: mkdocs
+
+extra_javascript:
+  - './js/extra.js'
+  - './js/baidu-tongji.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+    - './css/extra.css'
+
+copyright: Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
+
+# nav:
+#     - Introduction: index.md
+#     - Tutorials:
+#         - Ghapter01 Getting Started: chapter01_getting-started/README.md
+#         - Ghapter02 Basics: chapter02_basics/README.md
+#     - About: about.md
+#         # - Release Notes: about/release-notes.md
+#         # - Contributing: about/contributing.md
+#         # - License: about/license.md
+
+nav:
+  - HelloFace: index.md
+  - Face Recognition: face_recognition.md
+  - Face Detection: face_detection.md
+  - Face Landmark: face_landmark.md
+  - Face Clustering: face_clustering.md
+  - Face Expression: face_expression.md
+  - Face Action: face_action.md
+  - Face 3D: face_3d.md
+  - Face GAN: face_gan.md
+  - Face Manipulation: face_manipulation.md
+  - Face Anti-Spoofing: face_anti-spoofing.md
+  - Face Adversarial Attack: face_adversarial-attack.md
+  - Face Cross-Modal: face_cross-modal.md
+  - Face Capture: face_capture.md
+  - Face Benchmark&Dataset: face_benchmark-and-dataset.md
+  - Face Lib&Tool: face_lib-and-tool.md
+  - About: about.md
+      # - Release Notes: about/release-notes.md
+      # - Contributing: about/contributing.md
+      # - License: about/license.md
