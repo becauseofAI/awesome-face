@@ -1,27 +1,61 @@
 site_name: Hello Face
-site_url: https://hello-face.readthedocs.io
+site_url: https://becauseofAI.github.io/HelloFace/
 site_description: Face Technology Repository.
 site_author: becauseofAI
 
-repo_url: https://github.com/becauseofAI/hello-face/
+repo_url: https://becauseofAI.github.io/HelloFace/
 edit_uri: ""
 repo_name: 'HelloFace'
 
 theme:
-    name: mkdocs
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - django
+  name: material
+  palette:
+    primary: 'Indigo'
+    accent: 'Pink'
+  feature:
+    tabs: false
+  #font:
+    #text: 'Ubuntu'
+    #code: 'Ubuntu Mono'
+  language: 'zh'
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/becauseofAI
+  search:
+    language: 'ja'
 
 markdown_extensions:
-    - toc:
-        permalink: 
-    - admonition
-    - def_list
-    # - mdx_gh_links:
-    #     user: mkdocs
-    #     repo: mkdocs
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+      #emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      #emoji_generator: !!python/name:pymdownx.emoji.to_png_sprite
+      #emoji_generator: !!python/name:pymdownx.emoji.to_svg_sprite
+      #emoji_generator: !!python/name:pymdownx.emoji.to_awesome
+      #emoji_generator: !!python/name:pymdownx.emoji.to_alt
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
 
 extra_javascript:
   - './js/extra.js'
@@ -29,26 +63,19 @@ extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
 extra_css:
-    - './css/extra.css'
+  - './css/extra.css'
 
 copyright: Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.
 google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
 plugins:
-    - search
-
-# nav:
-#     - Introduction: index.md
-#     - Tutorials:
-#         - Ghapter01 Getting Started: chapter01_getting-started/README.md
-#         - Ghapter02 Basics: chapter02_basics/README.md
-#     - About: about.md
-#         # - Release Notes: about/release-notes.md
-#         # - Contributing: about/contributing.md
-#         # - License: about/license.md
+  - search
+  # - mknotebooks:
+  #     execute: false
+  #     preamble: "pandas_to_markdown.py"
 
 nav:
-  - HelloFace: index.md
+  - AllInOne: index.md
   - Face Recognition: face_recognition.md
   - Face Detection: face_detection.md
   - Face Landmark: face_landmark.md

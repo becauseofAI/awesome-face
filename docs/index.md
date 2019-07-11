@@ -56,7 +56,7 @@ Face Technology Repository(**Updating**)
 - **FUNIT**: Few-Shot Unsupervised Image-to-Image Translation
 - Automatic Face Aging in Videos via Deep Reinforcement Learning
 - Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
-- **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing
+- **SAGAN**: Generative Adversarial Network with Spatial Attention for Face Attribute Editing
 - **APDrawingGAN**: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs
 - **StyleGAN**: A Style-Based Generator Architecture for Generative Adversarial Networks
 

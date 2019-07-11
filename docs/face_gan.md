@@ -2,7 +2,7 @@
 #### Face Aging  
 - Automatic Face Aging in Videos via Deep Reinforcement Learning [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Duong_Automatic_Face_Aging_in_Videos_via_Deep_Reinforcement_Learning_CVPR_2019_paper.pdf "CVPR2019") [[blog]](https://www.fastcompany.com/90314606/this-new-ai-tool-makes-creepily-realistic-videos-of-faces-in-the-future)
 - Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Attribute-Aware_Face_Aging_With_Wavelet-Based_Generative_Adversarial_Networks_CVPR_2019_paper.pdf "CVPR2019")
-- **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/elvisyjlin/SpatialAttentionGAN "PyTorch")
+- **SAGAN**: Generative Adversarial Network with Spatial Attention for Face Attribute Editing [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/elvisyjlin/SpatialAttentionGAN "PyTorch")
 
 ---
 #### Face Drawing 

@@ -1,11 +1,11 @@
-site_name: PyTorch Tutorial
-site_url: https://pytorch-tutorial.readthedocs.io
-site_description: PyTorch Tutorial for Deep Learning Research and Product.
+site_name: Hello Face
+site_url: https://hello-face.readthedocs.io
+site_description: Face Technology Repository.
 site_author: becauseofAI
 
-repo_url: https://github.com/becauseofAI/pytorch-tutorial/
+repo_url: https://github.com/becauseofAI/hello-face/
 edit_uri: ""
-repo_name: 'pytorch-tutorial'
+repo_name: 'HelloFace'
 
 theme:
     name: mkdocs
@@ -48,14 +48,23 @@ plugins:
 #         # - License: about/license.md
 
 nav:
-    - Introduction: index.md
-    - Tutorials:
-        - Ghapter01 Getting Started: 
-          - 1.1 PyTorch Tntroduction: chapter01_getting-started/1_1_pytorch-introduction.md
-          - 1.3 PyTorch 60 Minute Blitz: chapter01_getting-started/1_3_deep-learning-with-pytorch-60-minute-blitz.md
-        - Ghapter02 Basics: 
-          - 2.1 Tensor: chapter02_basics/2_1_pytorch-basics-tensor.md
-    - About: about.md
-        # - Release Notes: about/release-notes.md
-        # - Contributing: about/contributing.md
-        # - License: about/license.md
+  - HelloFace: index.md
+  - Face Recognition: face_recognition.md
+  - Face Detection: face_detection.md
+  - Face Landmark: face_landmark.md
+  - Face Clustering: face_clustering.md
+  - Face Expression: face_expression.md
+  - Face Action: face_action.md
+  - Face 3D: face_3d.md
+  - Face GAN: face_gan.md
+  - Face Manipulation: face_manipulation.md
+  - Face Anti-Spoofing: face_anti-spoofing.md
+  - Face Adversarial Attack: face_adversarial-attack.md
+  - Face Cross-Modal: face_cross-modal.md
+  - Face Capture: face_capture.md
+  - Face Benchmark&Dataset: face_benchmark-and-dataset.md
+  - Face Lib&Tool: face_lib-and-tool.md
+  - About: about.md
+      # - Release Notes: about/release-notes.md
+      # - Contributing: about/contributing.md
+      # - License: about/license.md
