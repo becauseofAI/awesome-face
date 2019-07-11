@@ -50,6 +50,7 @@ Face Technology Repository(**Updating**)
 - Automatic Face Aging in Videos via Deep Reinforcement Learning
 - Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks
 - **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing
+- **APDrawingGAN**: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs
 
 - 3D Guided Fine-Grained Face Manipulation
 - **SemanticComponent**: Semantic Component Decomposition for Face Attribute Manipulation
@@ -60,6 +61,10 @@ Face Technology Repository(**Updating**)
 - Decorrelated Adversarial Learning for Age-Invariant Face Recognition
 - Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection
 - Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition 
+
+- High-Quality Face Capture Using Anatomical Muscles
+- Monocular Total Capture: Posing Face, Body, and Hands in the Wild
+- Expressive Body Capture: 3D Hands, Face, and Body From a Single Image
 
 ###### 2019/04/06
 - **ISRN**: Improved Selective Refinement Network for Face Detection
@@ -254,6 +259,9 @@ Face Technology Repository(**Updating**)
 - Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Attribute-Aware_Face_Aging_With_Wavelet-Based_Generative_Adversarial_Networks_CVPR_2019_paper.pdf "CVPR2019")
 - **SAGAN**:Generative Adversarial Network with Spatial Attention for Face Attribute Editing [[paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf "ECCV2018") [[code]](https://github.com/elvisyjlin/SpatialAttentionGAN "PyTorch")
 ---
+#### Face Drawing 
+- **APDrawingGAN**: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/yiranran/APDrawingGAN "PyTorch")
+---
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qian_Unsupervised_Face_Normalization_With_Extreme_Pose_and_Expression_in_the_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/mx54039q/fnm "TensorFlow")
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://github.com/barisgecer/GANFit)
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
@@ -281,6 +289,11 @@ Face Technology Repository(**Updating**)
 ## 🔖Face Cross-Modal
 - **Speech2Face**: Learning the Face Behind a Voice [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Oh_Speech2Face_Learning_the_Face_Behind_a_Voice_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://speech2face.github.io/)
 - **JFDFMR**: Joint Face Detection and Facial Motion Retargeting for Multiple Faces [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chaudhuri_Joint_Face_Detection_and_Facial_Motion_Retargeting_for_Multiple_Faces_CVPR_2019_paper.pdf "CVPR2019")
+
+## 🔖Face Capture
+- High-Quality Face Capture Using Anatomical Muscles [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Bao_High-Quality_Face_Capture_Using_Anatomical_Muscles_CVPR_2019_paper.pdf "CVPR2019")
+- Monocular Total Capture: Posing Face, Body, and Hands in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xiang_Monocular_Total_Capture_Posing_Face_Body_and_Hands_in_the_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/CMU-Perceptual-Computing-Lab/MonocularTotalCapture) [[project]](http://domedb.perception.cs.cmu.edu/mtc.html)
+- Expressive Body Capture: 3D Hands, Face, and Body From a Single Image [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavlakos_Expressive_Body_Capture_3D_Hands_Face_and_Body_From_a_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/vchoutas/smplify-x "PyTorch") [[project]](https://smpl-x.is.tue.mpg.de/)
 
 ## Face Lib&Tool
 - **Dlib** [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
