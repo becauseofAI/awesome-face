@@ -1,0 +1,1508 @@
+
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Face Technology Repository.">
+      
+      
+        <link rel="canonical" href="https://becauseofAI.github.io/hello-face/">
+      
+      
+        <meta name="author" content="becauseofAI">
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="ja">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Hello Face</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-27795084-5", "mkdocs.org")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="pink">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#helloface" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://becauseofAI.github.io/hello-face/" title="Hello Face" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Hello Face
+            </span>
+            <span class="md-header-nav__topic">
+              
+                AllInOne
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/becauseofAI/hello-face/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    HelloFace
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://becauseofAI.github.io/hello-face/" title="Hello Face" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Hello Face
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/becauseofAI/hello-face/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    HelloFace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        AllInOne
+      </label>
+    
+    <a href="." title="AllInOne" class="md-nav__link md-nav__link--active">
+      AllInOne
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#recent-update" title="👋Recent Update" class="md-nav__link">
+    👋Recent Update
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20190711" title="2019/07/11" class="md-nav__link">
+    2019/07/11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20190406" title="2019/04/06" class="md-nav__link">
+    2019/04/06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20190112" title="2019/01/12" class="md-nav__link">
+    2019/01/12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20181201" title="2018/12/01" class="md-nav__link">
+    2018/12/01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180721" title="2018/07/21" class="md-nav__link">
+    2018/07/21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180420" title="2018/04/20" class="md-nav__link">
+    2018/04/20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180328" title="2018/03/28" class="md-nav__link">
+    2018/03/28
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-benchmark-and-dataset" title="🔖Face Benchmark and Dataset" class="md-nav__link">
+    🔖Face Benchmark and Dataset
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#face-recognition" title="Face Recognition" class="md-nav__link">
+    Face Recognition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-detection" title="Face Detection" class="md-nav__link">
+    Face Detection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-landmark" title="Face Landmark" class="md-nav__link">
+    Face Landmark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-attribute" title="Face Attribute" class="md-nav__link">
+    Face Attribute
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-recognition_1" title="🔖Face Recognition" class="md-nav__link">
+    🔖Face Recognition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-detection_1" title="🔖Face Detection" class="md-nav__link">
+    🔖Face Detection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-landmark_1" title="🔖Face Landmark" class="md-nav__link">
+    🔖Face Landmark
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-clustering" title="🔖Face Clustering" class="md-nav__link">
+    🔖Face Clustering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-expression" title="🔖Face Expression" class="md-nav__link">
+    🔖Face Expression
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-action" title="🔖Face Action" class="md-nav__link">
+    🔖Face Action
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-3d" title="🔖Face 3D" class="md-nav__link">
+    🔖Face 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-gan" title="🔖Face GAN" class="md-nav__link">
+    🔖Face GAN
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#face-aging" title="Face Aging" class="md-nav__link">
+    Face Aging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-drawing" title="Face Drawing" class="md-nav__link">
+    Face Drawing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-generation" title="Face Generation" class="md-nav__link">
+    Face Generation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-makeup" title="Face Makeup" class="md-nav__link">
+    Face Makeup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-swap" title="Face Swap" class="md-nav__link">
+    Face Swap
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-manipulation" title="🔖Face Manipulation" class="md-nav__link">
+    🔖Face Manipulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-anti-spoofing" title="🔖Face Anti-Spoofing" class="md-nav__link">
+    🔖Face Anti-Spoofing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-adversarial-attack" title="🔖Face Adversarial Attack" class="md-nav__link">
+    🔖Face Adversarial Attack
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-cross-modal" title="🔖Face Cross-Modal" class="md-nav__link">
+    🔖Face Cross-Modal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-capture" title="🔖Face Capture" class="md-nav__link">
+    🔖Face Capture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-libtool" title="🔖Face Lib&amp;Tool" class="md-nav__link">
+    🔖Face Lib&amp;Tool
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_recognition/" title="Face Recognition" class="md-nav__link">
+      Face Recognition
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_detection/" title="Face Detection" class="md-nav__link">
+      Face Detection
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_landmark/" title="Face Landmark" class="md-nav__link">
+      Face Landmark
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_clustering/" title="Face Clustering" class="md-nav__link">
+      Face Clustering
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_expression/" title="Face Expression" class="md-nav__link">
+      Face Expression
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_action/" title="Face Action" class="md-nav__link">
+      Face Action
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_3d/" title="Face 3D" class="md-nav__link">
+      Face 3D
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_gan/" title="Face GAN" class="md-nav__link">
+      Face GAN
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_manipulation/" title="Face Manipulation" class="md-nav__link">
+      Face Manipulation
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_anti-spoofing/" title="Face Anti-Spoofing" class="md-nav__link">
+      Face Anti-Spoofing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_adversarial-attack/" title="Face Adversarial Attack" class="md-nav__link">
+      Face Adversarial Attack
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_cross-modal/" title="Face Cross-Modal" class="md-nav__link">
+      Face Cross-Modal
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_capture/" title="Face Capture" class="md-nav__link">
+      Face Capture
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_benchmark-and-dataset/" title="Face Benchmark&Dataset" class="md-nav__link">
+      Face Benchmark&Dataset
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="face_lib-and-tool/" title="Face Lib&Tool" class="md-nav__link">
+      Face Lib&Tool
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#recent-update" title="👋Recent Update" class="md-nav__link">
+    👋Recent Update
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#20190711" title="2019/07/11" class="md-nav__link">
+    2019/07/11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20190406" title="2019/04/06" class="md-nav__link">
+    2019/04/06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20190112" title="2019/01/12" class="md-nav__link">
+    2019/01/12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20181201" title="2018/12/01" class="md-nav__link">
+    2018/12/01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180721" title="2018/07/21" class="md-nav__link">
+    2018/07/21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180420" title="2018/04/20" class="md-nav__link">
+    2018/04/20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20180328" title="2018/03/28" class="md-nav__link">
+    2018/03/28
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-benchmark-and-dataset" title="🔖Face Benchmark and Dataset" class="md-nav__link">
+    🔖Face Benchmark and Dataset
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#face-recognition" title="Face Recognition" class="md-nav__link">
+    Face Recognition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-detection" title="Face Detection" class="md-nav__link">
+    Face Detection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-landmark" title="Face Landmark" class="md-nav__link">
+    Face Landmark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-attribute" title="Face Attribute" class="md-nav__link">
+    Face Attribute
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-recognition_1" title="🔖Face Recognition" class="md-nav__link">
+    🔖Face Recognition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-detection_1" title="🔖Face Detection" class="md-nav__link">
+    🔖Face Detection
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-landmark_1" title="🔖Face Landmark" class="md-nav__link">
+    🔖Face Landmark
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-clustering" title="🔖Face Clustering" class="md-nav__link">
+    🔖Face Clustering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-expression" title="🔖Face Expression" class="md-nav__link">
+    🔖Face Expression
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-action" title="🔖Face Action" class="md-nav__link">
+    🔖Face Action
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-3d" title="🔖Face 3D" class="md-nav__link">
+    🔖Face 3D
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-gan" title="🔖Face GAN" class="md-nav__link">
+    🔖Face GAN
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#face-aging" title="Face Aging" class="md-nav__link">
+    Face Aging
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-drawing" title="Face Drawing" class="md-nav__link">
+    Face Drawing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-generation" title="Face Generation" class="md-nav__link">
+    Face Generation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-makeup" title="Face Makeup" class="md-nav__link">
+    Face Makeup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#face-swap" title="Face Swap" class="md-nav__link">
+    Face Swap
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-manipulation" title="🔖Face Manipulation" class="md-nav__link">
+    🔖Face Manipulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-anti-spoofing" title="🔖Face Anti-Spoofing" class="md-nav__link">
+    🔖Face Anti-Spoofing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-adversarial-attack" title="🔖Face Adversarial Attack" class="md-nav__link">
+    🔖Face Adversarial Attack
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-cross-modal" title="🔖Face Cross-Modal" class="md-nav__link">
+    🔖Face Cross-Modal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-capture" title="🔖Face Capture" class="md-nav__link">
+    🔖Face Capture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#face-libtool" title="🔖Face Lib&amp;Tool" class="md-nav__link">
+    🔖Face Lib&amp;Tool
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="helloface">HelloFace <a href="https://github.com/becauseofAI/HelloFace"><img alt="Mentioned in Awesome HelloFace" src="https://awesome.re/mentioned-badge.svg" /></a><a class="headerlink" href="#helloface" title="Permanent link">&para;</a></h1>
+<p>Face Technology Repository(<strong>Updating</strong>)</p>
+<h2 id="recent-update">👋Recent Update<a class="headerlink" href="#recent-update" title="Permanent link">&para;</a></h2>
+<h6 id="20190711">2019/07/11<a class="headerlink" href="#20190711" title="Permanent link">&para;</a></h6>
+<ul>
+<li>Deep face recognition using imperfect facial data</li>
+<li>Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data</li>
+<li><strong>RegularFace</strong>: Deep Face Recognition via Exclusive Regularization</li>
+<li><strong>UniformFace</strong>: Learning Deep Equidistributed Representation for Face Recognition</li>
+<li><strong>P2SGrad</strong>: Refined Gradients for Optimizing Deep Face Models</li>
+<li><strong>AdaptiveFace</strong>: Adaptive Margin and Sampling for Face Recognition</li>
+<li><strong>AdaCos</strong>: Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations</li>
+<li>Low-Rank Laplacian-Uniform Mixed Model for Robust Face Recognition</li>
+<li><strong>NoiseFace</strong>: Noise-Tolerant Paradigm for Training Face Recognition CNNs</li>
+<li>Feature Transfer Learning for Face Recognition With Under-Represented Data</li>
+<li><strong>Led3D</strong>: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces</li>
+<li>
+<p>R3 Adversarial Network for Cross Model Face Recognition</p>
+</li>
+<li>
+<p><strong>RetinaFace</strong>: Single-stage Dense Face Localisation in the Wild</p>
+</li>
+<li>Group Sampling for Scale Invariant Face Detection</li>
+<li>
+<p><strong>FA-RPN</strong>: Floating Region Proposals for Face Detection</p>
+</li>
+<li>
+<p><strong>Semantic Alignment</strong>: Finding Semantically Consistent Ground-Truth for Facial Landmark Detection</p>
+</li>
+<li>
+<p>Robust Facial Landmark Detection via Occlusion-Adaptive Deep Networks</p>
+</li>
+<li>
+<p><strong>LTC</strong>: Learning to Cluster Faces on an Affinity Graph</p>
+</li>
+<li>
+<p><strong>FECNet</strong>: A Compact Embedding for Facial Expression Similarity</p>
+</li>
+<li>
+<p><strong>LBVCNN</strong>: Local Binary Volume Convolutional Neural Network for Facial Expression Recognition from Image Sequences</p>
+</li>
+<li>
+<p>Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation</p>
+</li>
+<li>Local Relationship Learning With Person-Specific Shape Regularization for Facial Action Unit Detection</li>
+<li><strong>TCAE</strong>: Self-Supervised Representation Learning From Videos for Facial Action Unit Detection</li>
+<li>
+<p><strong>JAANet</strong>: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment</p>
+</li>
+<li>
+<p><strong>2DASL</strong>: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning</p>
+</li>
+<li><strong>MVF-Net</strong>: Multi-View 3D Face Morphable Model Regression</li>
+<li>Dense 3D Face Decoding Over 2500FPS: Joint Texture &amp; Shape Convolutional Mesh Decoders</li>
+<li>Towards High-Fidelity Nonlinear 3D Face Morphable Model</li>
+<li>Combining 3D Morphable Models: A Large Scale Face-And-Head Model</li>
+<li>Disentangled Representation Learning for 3D Face Shap</li>
+<li>Self-Supervised Adaptation of High-Fidelity Face Models for Monocular Performance Tracking</li>
+<li><strong>MMFace</strong>: A Multi-Metric Regression Network for Unconstrained Face Reconstruction</li>
+<li>Learning to Regress 3D Face Shape and Expression From an Image Without 3D Supervision</li>
+<li>Boosting Local Shape Matching for Dense 3D Face Correspondence</li>
+<li><strong>FML</strong>: Face Model Learning From Videos</li>
+<li>
+<p><strong>2DASL</strong>: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning</p>
+</li>
+<li>
+<p><strong>ATVGnet</strong>: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss</p>
+</li>
+<li>
+<p><strong>Speech2Face</strong>: Learning the Face Behind a Voice</p>
+</li>
+<li>
+<p>Unsupervised Face Normalization With Extreme Pose and Expression in the Wild</p>
+</li>
+<li>
+<p><strong>GANFIT</strong>: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction</p>
+</li>
+<li>
+<p><strong>BeautyGAN</strong>: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network</p>
+</li>
+<li><strong>FUNIT</strong>: Few-Shot Unsupervised Image-to-Image Translation</li>
+<li>Automatic Face Aging in Videos via Deep Reinforcement Learning</li>
+<li>Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks</li>
+<li><strong>SAGAN</strong>: Generative Adversarial Network with Spatial Attention for Face Attribute Editing</li>
+<li><strong>APDrawingGAN</strong>: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs</li>
+<li>
+<p><strong>StyleGAN</strong>: A Style-Based Generator Architecture for Generative Adversarial Networks</p>
+</li>
+<li>
+<p>3D Guided Fine-Grained Face Manipulation</p>
+</li>
+<li>
+<p><strong>SemanticComponent</strong>: Semantic Component Decomposition for Face Attribute Manipulation</p>
+</li>
+<li>
+<p><strong>Dataset and Benchmark</strong>: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing</p>
+</li>
+<li>
+<p>Deep Tree Learning for Zero-Shot Face Anti-Spoofing</p>
+</li>
+<li>
+<p>Decorrelated Adversarial Learning for Age-Invariant Face Recognition</p>
+</li>
+<li>Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection</li>
+<li>
+<p>Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition </p>
+</li>
+<li>
+<p><strong>Speech2Face</strong>: Learning the Face Behind a Voice</p>
+</li>
+<li><strong>JFDFMR</strong>: Joint Face Detection and Facial Motion Retargeting for Multiple Faces</li>
+<li>
+<p><strong>ATVGnet</strong>: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss</p>
+</li>
+<li>
+<p>High-Quality Face Capture Using Anatomical Muscles</p>
+</li>
+<li>Monocular Total Capture: Posing Face, Body, and Hands in the Wild</li>
+<li>Expressive Body Capture: 3D Hands, Face, and Body From a Single Image</li>
+</ul>
+<h6 id="20190406">2019/04/06<a class="headerlink" href="#20190406" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>ISRN</strong>: Improved Selective Refinement Network for Face Detection</li>
+<li><strong>DSFD</strong>: Dual Shot Face Detector</li>
+<li><strong>PyramidBox++</strong>: High Performance Detector for Finding Tiny Face</li>
+<li><strong>VIM-FD</strong>: Robust and High Performance Face Detector</li>
+<li><strong>SHF</strong>: Robust Face Detection via Learning Small Faces on Hard Images</li>
+<li><strong>SRN</strong>: Selective Refinement Network for High Performance Face Detection</li>
+<li><strong>SFDet</strong>: Single-Shot Scale-Aware Network for Real-Time Face Detection</li>
+<li><strong>JFDFMR</strong>: Joint Face Detection and Facial Motion Retargeting for Multiple Faces</li>
+<li><strong>PFLD</strong>: A Practical Facial Landmark Detector</li>
+<li><strong>LinkageFace</strong>: Linkage Based Face Clustering via Graph Convolution Network</li>
+<li><strong>MLT</strong>: Face Recognition: A Novel Multi-Level Taxonomy based Survey</li>
+<li><strong>GhostVLAD</strong>: GhostVLAD for set-based face recognition</li>
+<li><strong>DocFace+</strong>: ID Document to Selfie Matching</li>
+<li><strong>DiF</strong>: Diversity in Faces</li>
+<li><strong>2018Survey</strong>: Face Recognition: From Traditional to Deep Learning Methods</li>
+</ul>
+<h6 id="20190112">2019/01/12<a class="headerlink" href="#20190112" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>2018Survey</strong>: Deep Facial Expression Recognition: A Survey</li>
+<li><strong>2018Survey</strong>: Deep Face Recognition: A Survey</li>
+<li><strong>SphereFace+(MHE)</strong>: Learning towards Minimum Hyperspherical Energy</li>
+<li><strong>HyperFace</strong>: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition</li>
+</ul>
+<h6 id="20181201">2018/12/01<a class="headerlink" href="#20181201" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>FRVT</strong>: Face Recognition Vendor Test</li>
+<li><strong>GANimation</strong>: Anatomically-aware Facial Animation from a Single Image</li>
+<li><strong>StarGAN</strong>: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation</li>
+<li><strong>Faceswap</strong>: A tool that utilizes deep learning to recognize and swap faces in pictures and videos</li>
+<li><strong>HF-PIM</strong>: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization</li>
+<li><strong>PRNet</strong>: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network</li>
+<li><strong>LAB</strong>: Look at Boundary: A Boundary-Aware Face Alignment Algorithm</li>
+<li><strong>Super-FAN</strong>: Integrated facial landmark localization and super-resolution of real-world low resolution faces in arbitrary poses with GANs</li>
+<li><strong>Face-Alignment</strong>: How far are we from solving the 2D &amp; 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)</li>
+<li><strong>Face3D</strong>: Python tools for processing 3D face</li>
+<li><strong>IMDb-Face</strong>: The Devil of Face Recognition is in the Noise</li>
+<li><strong>AAM-Softmax(CCL)</strong>: Face Recognition via Centralized Coordinate Learning</li>
+<li><strong>AM-Softmax</strong>: Additive Margin Softmax for Face Verification</li>
+<li><strong>FeatureIncay</strong>: Feature Incay for Representation Regularization</li>
+<li><strong>NormFace</strong>: L2 hypersphere embedding for face Verification</li>
+<li><strong>CocoLoss</strong>: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition</li>
+<li><strong>L-Softmax</strong>: Large-Margin Softmax Loss for Convolutional Neural Networks</li>
+</ul>
+<h6 id="20180721">2018/07/21<a class="headerlink" href="#20180721" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>MobileFace</strong>: A face recognition solution on mobile device</li>
+<li><strong>Trillion Pairs</strong>: Challenge 3: Face Feature Test/Trillion Pairs</li>
+<li><strong>MobileFaceNets</strong>: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices</li>
+</ul>
+<h6 id="20180420">2018/04/20<a class="headerlink" href="#20180420" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>PyramidBox</strong>: A Context-assisted Single Shot Face Detector</li>
+<li><strong>PCN</strong>: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks</li>
+<li><strong>S³FD</strong>: Single Shot Scale-invariant Face Detector</li>
+<li><strong>SSH</strong>: Single Stage Headless Face Detector</li>
+<li><strong>NPD</strong>: A Fast and Accurate Unconstrained Face Detector</li>
+<li><strong>PICO</strong>: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees</li>
+<li><strong>libfacedetection</strong>: A fast binary library for face detection and face landmark detection in images.</li>
+<li><strong>SeetaFaceEngine</strong>: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification.</li>
+<li><strong>FaceID</strong>: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images.</li>
+</ul>
+<h6 id="20180328">2018/03/28<a class="headerlink" href="#20180328" title="Permanent link">&para;</a></h6>
+<ul>
+<li><strong>InsightFace(ArcFace)</strong>: 2D and 3D Face Analysis Project</li>
+<li><strong>CosFace</strong>: Large Margin Cosine Loss for Deep Face Recognition</li>
+</ul>
+<h2 id="face-benchmark-and-dataset">🔖Face Benchmark and Dataset<a class="headerlink" href="#face-benchmark-and-dataset" title="Permanent link">&para;</a></h2>
+<h4 id="face-recognition">Face Recognition<a class="headerlink" href="#face-recognition" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>DiF</strong>: Diversity in Faces <a href="https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/">[project]</a> <a href="https://www.ibm.com/blogs/research/2019/01/diversity-in-faces/">[blog]</a></li>
+<li><strong>FRVT</strong>: Face Recognition Vendor Test <a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt">[project]</a> <a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt-ongoing">[leaderboard]</a></li>
+<li><strong>IMDb-Face</strong>: The Devil of Face Recognition is in the Noise(<strong>59k people in 1.7M images</strong>) <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Liren_Chen_The_Devil_of_ECCV_2018_paper.pdf" title="ECCV2018">[paper]</a> <a href="https://github.com/fwang91/IMDb-Face">[dataset]</a></li>
+<li><strong>Trillion Pairs</strong>: Challenge 3: Face Feature Test/Trillion Pairs(<strong>MS-Celeb-1M-v1c with 86,876 ids/3,923,399 aligned images  + Asian-Celeb 93,979 ids/2,830,146 aligned images</strong>) <a href="http://trillionpairs.deepglint.com/overview" title="DeepGlint">[benckmark]</a> <a href="http://trillionpairs.deepglint.com/data">[dataset]</a> <a href="http://trillionpairs.deepglint.com/results">[result]</a></li>
+<li><strong>MF2</strong>: Level Playing Field for Million Scale Face Recognition(<strong>672K people in 4.7M images</strong>) <a href="https://homes.cs.washington.edu/~kemelmi/ms.pdf" title="CVPR2017">[paper]</a> <a href="http://megaface.cs.washington.edu/dataset/download_training.html">[dataset]</a> <a href="http://megaface.cs.washington.edu/results/facescrub_challenge2.html">[result]</a> <a href="http://megaface.cs.washington.edu/">[benckmark]</a></li>
+<li><strong>MegaFace</strong>: The MegaFace Benchmark: 1 Million Faces for Recognition at Scale(<strong>690k people in 1M images</strong>) <a href="http://megaface.cs.washington.edu/KemelmacherMegaFaceCVPR16.pdf" title="CVPR2016">[paper]</a> <a href="http://megaface.cs.washington.edu/participate/challenge.html">[dataset]</a> <a href="http://megaface.cs.washington.edu/results/facescrub.html">[result]</a> <a href="http://megaface.cs.washington.edu/">[benckmark]</a></li>
+<li><strong>UMDFaces</strong>: An Annotated Face Dataset for Training Deep Networks(<strong>8k people in 367k images with pose, 21 key-points and gender</strong>) <a href="https://arxiv.org/pdf/1611.01484.pdf" title="arXiv2016">[paper]</a> <a href="http://www.umdfaces.io/">[dataset]</a></li>
+<li><strong>MS-Celeb-1M</strong>: A Dataset and Benchmark for Large Scale Face Recognition(<strong>100K people in 10M images</strong>) <a href="https://arxiv.org/pdf/1607.08221.pdf" title="ECCV2016">[paper]</a> <a href="http://www.msceleb.org/download/sampleset">[dataset]</a> <a href="http://www.msceleb.org/leaderboard/iccvworkshop-c1">[result]</a> <a href="http://www.msceleb.org/">[benchmark]</a> <a href="https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/">[project]</a></li>
+<li><strong>VGGFace2</strong>: A dataset for recognising faces across pose and age(<strong>9k people in 3.3M images</strong>) <a href="https://arxiv.org/pdf/1710.08092.pdf" title="arXiv2017">[paper]</a> <a href="http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/">[dataset]</a></li>
+<li><strong>VGGFace</strong>: Deep Face Recognition(<strong>2.6k people in 2.6M images</strong>) <a href="http://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf" title="BMVC2015">[paper]</a> <a href="http://www.robots.ox.ac.uk/~vgg/data/vgg_face/">[dataset]</a></li>
+<li><strong>CASIA-WebFace</strong>: Learning Face Representation from Scratch(<strong>10k people in 500k images</strong>) <a href="https://arxiv.org/pdf/1411.7923.pdf" title="arXiv2014">[paper]</a> <a href="http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html">[dataset]</a></li>
+<li><strong>LFW</strong>: Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments(<strong>5.7k people in 13k images</strong>) <a href="http://vis-www.cs.umass.edu/lfw/lfw.pdf" title="UMASS2007">[report]</a> <a href="http://vis-www.cs.umass.edu/lfw/#download">[dataset]</a> <a href="http://vis-www.cs.umass.edu/lfw/results.html">[result]</a> <a href="http://vis-www.cs.umass.edu/lfw/">[benchmark]</a></li>
+</ul>
+<h4 id="face-detection">Face Detection<a class="headerlink" href="#face-detection" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>WiderFace</strong>: WIDER FACE: A Face Detection Benchmark(<strong>400k people in 32k images with a high degree of variability in scale, pose and occlusion</strong>) <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf" title="CVPR2016">[paper]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/">[dataset]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html">[result]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/">[benchmark]</a></li>
+<li><strong>FDDB</strong>: A Benchmark for Face Detection in Unconstrained Settings(<strong>5k faces in 2.8k images</strong>) <a href="https://people.cs.umass.edu/~elm/papers/fddb.pdf" title="UMASS2010">[report]</a> <a href="http://vis-www.cs.umass.edu/fddb/index.html#download">[dataset]</a> <a href="http://vis-www.cs.umass.edu/fddb/results.html">[result]</a> <a href="http://vis-www.cs.umass.edu/fddb/">[benchmark]</a> </li>
+</ul>
+<h4 id="face-landmark">Face Landmark<a class="headerlink" href="#face-landmark" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>LS3D-W</strong>: A large-scale 3D face alignment dataset constructed by annotating the images from AFLW, 300VW, 300W and FDDB in a consistent manner with 68 points using the automatic method <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf" title="ICCV2017">[paper]</a> <a href="https://adrianbulat.com/face-alignment">[dataset]</a></li>
+<li><strong>AFLW</strong>: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization(<strong>25k faces with 21 landmarks</strong>) <a href="https://files.icg.tugraz.at/seafhttp/files/460c7623-c919-4d35-b24e-6abaeacb6f31/koestinger_befit_11.pdf" title="BeFIT2011">[paper]</a> <a href="https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/">[benchmark]</a></li>
+</ul>
+<h4 id="face-attribute">Face Attribute<a class="headerlink" href="#face-attribute" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>CelebA</strong>: Deep Learning Face Attributes in the Wild(<strong>10k people in 202k images with 5 landmarks and 40 binary attributes per image</strong>) <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf" title="ICCV2015">[paper]</a> <a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">[dataset]</a></li>
+</ul>
+<h2 id="face-recognition_1">🔖Face Recognition<a class="headerlink" href="#face-recognition_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Deep face recognition using imperfect facial data <a href="https://www.sciencedirect.com/science/article/pii/S0167739X18331133" title="FGCS2019">[paper]</a></li>
+<li>Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Unequal-Training_for_Deep_Face_Recognition_With_Long-Tailed_Noisy_Data_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/zhongyy/Unequal-Training-for-Deep-Face-Recognition-with-Long-Tailed-Noisy-Data" title="MXNet">[code]</a></li>
+<li><strong>RegularFace</strong>: Deep Face Recognition via Exclusive Regularization <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_RegularFace_Deep_Face_Recognition_via_Exclusive_Regularization_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>UniformFace</strong>: Learning Deep Equidistributed Representation for Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Duan_UniformFace_Learning_Deep_Equidistributed_Representation_for_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>P2SGrad</strong>: Refined Gradients for Optimizing Deep Face Models <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_P2SGrad_Refined_Gradients_for_Optimizing_Deep_Face_Models_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>AdaptiveFace</strong>: Adaptive Margin and Sampling for Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_AdaptiveFace_Adaptive_Margin_and_Sampling_for_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>AdaCos</strong>: Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_AdaCos_Adaptively_Scaling_Cosine_Logits_for_Effectively_Learning_Deep_Face_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/xialuxi/arcface-caffe" title="Caffe">[code1]</a> <a href="https://github.com/4uiiurz1/pytorch-adacos" title="PyTorch">[code2]</a></li>
+<li>Low-Rank Laplacian-Uniform Mixed Model for Robust Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Low-Rank_Laplacian-Uniform_Mixed_Model_for_Robust_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>NoiseFace</strong>: Noise-Tolerant Paradigm for Training Face Recognition CNNs <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Noise-Tolerant_Paradigm_for_Training_Face_Recognition_CNNs_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/huangyangyu/NoiseFace" title="Caffe">[code]</a></li>
+<li>Feature Transfer Learning for Face Recognition With Under-Represented Data <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yin_Feature_Transfer_Learning_for_Face_Recognition_With_Under-Represented_Data_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>Led3D</strong>: A Lightweight and Efficient Deep Approach to Recognizing Low-Quality 3D Faces <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Mu_Led3D_A_Lightweight_and_Efficient_Deep_Approach_to_Recognizing_Low-Quality_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/muyouhang/Led3D" title="NULL">[code]</a> <a href="http://irip.buaa.edu.cn/lock3dface/index.html">[dataset]</a></li>
+<li>R3 Adversarial Network for Cross Model Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_R3_Adversarial_Network_for_Cross_Model_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a>  </li>
+<li><strong>MLT</strong>: Face Recognition: A Novel Multi-Level Taxonomy based Survey <a href="https://arxiv.org/abs/1901.00713" title="arXiv2019">[paper]</a></li>
+<li><strong>GhostVLAD</strong>: GhostVLAD for set-based face recognition <a href="https://arxiv.org/abs/1810.09951" title="ACCV2018">[paper]</a></li>
+<li><strong>DocFace+</strong>: ID Document to Selfie Matching <a href="https://arxiv.org/abs/1809.05620" title="arXiv2018">[paper]</a> <a href="https://github.com/seasonSH/DocFace" title="TensorFlow">[code]</a></li>
+<li><strong>2018Survey</strong>: Face Recognition: From Traditional to Deep Learning Methods <a href="https://arxiv.org/abs/1811.00116" title="arXiv2018">[paper]</a></li>
+<li><strong>2018Survey</strong>: Deep Facial Expression Recognition: A Survey <a href="https://arxiv.org/abs/1804.08348" title="arXiv2018">[paper]</a></li>
+<li><strong>2018Survey</strong>: Deep Face Recognition: A Survey <a href="https://arxiv.org/abs/1804.06655" title="arXiv2018">[paper]</a></li>
+<li><strong>SphereFace+(MHE)</strong>: Learning towards Minimum Hyperspherical Energy <a href="https://arxiv.org/abs/1805.09298" title="arXiv2018">[paper]</a> <a href="https://github.com/wy1iu/sphereface-plus" title="Caffe/Matlab">[code]</a></li>
+<li><strong>MobileFace</strong>: A face recognition solution on mobile device <a href="https://github.com/becauseofAI/MobileFace">[code]</a></li>
+<li><strong>MobileFaceNets</strong>: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices <a href="https://arxiv.org/abs/1804.07573" title="arXiv2018">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/KaleidoZhouYN/mobilefacenet-caffe" title="Caffe">[code2]</a> <a href="https://github.com/xsr-ai/MobileFaceNet_TF" title="TensorFlow">[code3]</a> <a href="https://github.com/GRAYKEY/mobilefacenet_ncnn" title="NCNN">[code4]</a></li>
+<li><strong>FaceID</strong>: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images. <a href="https://github.com/normandipalo/faceID_beta" title="Keras">[code]</a> <a href="https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d" title="Medium">[blog]</a> </li>
+<li><strong>InsightFace(ArcFace)</strong>: 2D and 3D Face Analysis Project <a href="https://arxiv.org/abs/1801.07698" title="ArcFace: Additive Angular Margin Loss for Deep Face Recognition(arXiv)">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/auroua/InsightFace_TF" title="TensorFlow">[code2]</a></li>
+<li><strong>AAM-Softmax(CCL)</strong>: Face Recognition via Centralized Coordinate Learning <a href="https://arxiv.org/abs/1801.05678" title="arXiv2018">[paper]</a></li>
+<li><strong>AM-Softmax</strong>: Additive Margin Softmax for Face Verification <a href="https://arxiv.org/abs/1801.05599" title="arXiv2018">[paper]</a> <a href="https://github.com/happynear/AMSoftmax" title="Caffe">[code1]</a> <a href="https://github.com/Joker316701882/Additive-Margin-Softmax" title="TensorFlow">[code2]</a></li>
+<li><strong>CosFace</strong>: Large Margin Cosine Loss for Deep Face Recognition <a href="https://arxiv.org/abs/1801.09414" title="CVPR2018">[paper]</a> <a href="https://github.com/deepinsight/insightface" title="MXNet">[code1]</a> <a href="https://github.com/yule-li/CosFace" title="TensorFlow">[code2]</a></li>
+<li><strong>FeatureIncay</strong>: Feature Incay for Representation Regularization <a href="https://arxiv.org/abs/1705.10284" title="ICLR2018">[paper]</a></li>
+<li><strong>CocoLoss</strong>: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition <a href="http://cn.arxiv.org/abs/1710.00870" title="NIPS2017">[paper]</a> <a href="https://github.com/sciencefans/coco_loss" title="Caffe">[code]</a></li>
+<li><strong>NormFace</strong>: L2 hypersphere embedding for face Verification <a href="http://www.cs.jhu.edu/~alanlab/Pubs17/wang2017normface.pdf" title="ACM2017 Multimedia Conference">[paper]</a> <a href="https://github.com/happynear/NormFace" title="Caffe">[code]</a></li>
+<li><strong>SphereFace(A-Softmax)</strong>: Deep Hypersphere Embedding for Face Recognition <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf" title="CVPR2017">[paper]</a> <a href="https://github.com/wy1iu/sphereface" title="Caffe">[code]</a></li>
+<li><strong>L-Softmax</strong>: Large-Margin Softmax Loss for Convolutional Neural Networks <a href="http://proceedings.mlr.press/v48/liud16.pdf" title="ICML2016">[paper]</a> <a href="https://github.com/wy1iu/LargeMargin_Softmax_Loss" title="Caffe">[code1]</a> <a href="https://github.com/luoyetx/mx-lsoftmax" title="MXNet">[code2]</a> <a href="https://github.com/HiKapok/tf.extra_losses" title="TensorFlow">[code3]</a> <a href="https://github.com/auroua/L_Softmax_TensorFlow" title="TensorFlow">[code4]</a> <a href="https://github.com/tpys/face-recognition-caffe2" title="Caffe2">[code5]</a> <a href="https://github.com/amirhfarzaneh/lsoftmax-pytorch" title="PyTorch">[code6]</a> <a href="https://github.com/jihunchoi/lsoftmax-pytorch" title="PyTorch">[code7]</a></li>
+<li><strong>CenterLoss</strong>: A Discriminative Feature Learning Approach for Deep Face Recognition <a href="https://ydwen.github.io/papers/WenECCV16.pdf" title="ECCV2016">[paper]</a> <a href="https://github.com/ydwen/caffe-face" title="Caffe">[code1]</a> <a href="https://github.com/pangyupo/mxnet_center_loss" title="MXNet">[code2]</a> <a href="https://github.com/ShownX/mxnet-center-loss" title="MXNet-Gluon">[code3]</a> <a href="https://github.com/EncodeTS/TensorFlow_Center_Loss" title="TensorFlow">[code4]</a></li>
+<li><strong>OpenFace</strong>: A general-purpose face recognition library with mobile applications <a href="http://elijah.cs.cmu.edu/DOCS/CMU-CS-16-118.pdf" title="CMU2016">[report]</a> <a href="http://cmusatyalab.github.io/openface/">[project]</a> <a href="https://github.com/cmusatyalab/openface" title="Torch">[code1]</a> <a href="https://github.com/thnkim/OpenFacePytorch" title="PyTorch">[code2]</a></li>
+<li><strong>FaceNet</strong>: A Unified Embedding for Face Recognition and Clustering <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf" title="CVPR2015">[paper]</a> <a href="https://github.com/davidsandberg/facenet" title="TensorFlow">[code]</a></li>
+<li><strong>DeepID3</strong>: DeepID3: Face Recognition with Very Deep Neural Networks <a href="https://arxiv.org/abs/1502.00873" title="arXiv2015">[paper]</a> </li>
+<li><strong>DeepID2+</strong>: Deeply learned face representations are sparse, selective, and robust <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sun_Deeply_Learned_Face_2015_CVPR_paper.pdf" title="CVPR2015">[paper]</a></li>
+<li><strong>DeepID2</strong>: Deep Learning Face Representation by Joint Identification-Verification <a href="https://papers.nips.cc/paper/5416-deep-learning-face-representation-by-joint-identification-verification.pdf" title="NIPS2014">[paper]</a></li>
+<li><strong>DeepID</strong>: Deep Learning Face Representation from Predicting 10,000 Classes <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf" title="CVPR2014">[paper]</a></li>
+<li><strong>DeepFace</strong>: Closing the gap to human-level performance in face verification <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf" title="CVPR2014">[paper]</a></li>
+<li><strong>LBP+Joint Bayes</strong>: Bayesian Face Revisited: A Joint Formulation <a href="https://s3.amazonaws.com/academia.edu.documents/31414608/JointBayesian.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&amp;Expires=1543656042&amp;Signature=k6LefuQnIC2x8gep7yQTxqKgzus%3D&amp;response-content-disposition=inline%3B%20filename%3DBayesian_Face_Revisited_A_Joint_Formulat.pdf" title="ECCV2012">[paper]</a> <a href="https://github.com/cyh24/Joint-Bayesian" title="Python">[code1]</a> <a href="https://github.com/MaoXu/Joint_Bayesian" title="Matlab">[code2]</a> <a href="https://github.com/Glasssix/joint_bayesian" title="C++/C#">[code3]</a></li>
+<li><strong>LBPFace</strong>: Face recognition with local binary patterns <a href="https://pdfs.semanticscholar.org/3242/0c65f8ef0c5bd83b14c8ae662cbce73e6781.pdf" title="ECCV2004">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+<li><strong>FisherFace(LDA)</strong>: Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection <a href="https://apps.dtic.mil/dtic/tr/fulltext/u2/1015508.pdf" title="TPAMI1997">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+<li><strong>EigenFace(PCA)</strong>: Face recognition using eigenfaces <a href="http://www.cs.ucsb.edu/~mturk/Papers/mturk-CVPR91.pdf" title="CVPR1991">[paper]</a> <a href="https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html" title="OpenCV">[code]</a></li>
+</ul>
+<h2 id="face-detection_1">🔖Face Detection<a class="headerlink" href="#face-detection_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>RetinaFace</strong>: Single-stage Dense Face Localisation in the Wild <a href="https://arxiv.org/abs/1905.00641" title="arXiv2019">[paper]</a> <a href="https://github.com/deepinsight/insightface/tree/master/RetinaFace" title="MXNet">[code]</a></li>
+<li>Group Sampling for Scale Invariant Face Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Ming_Group_Sampling_for_Scale_Invariant_Face_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>FA-RPN</strong>: Floating Region Proposals for Face Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Najibi_FA-RPN_Floating_Region_Proposals_for_Face_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>SFA</strong>: Small Faces Attention Face Detector <a href="https://arxiv.org/abs/1812.08402" title="SPIC2019">[paper]</a> <a href="https://github.com/shiluo1990/SFA" title="Caffe">[code]</a></li>
+<li><strong>ISRN</strong>: Improved Selective Refinement Network for Face Detection <a href="https://arxiv.org/abs/1901.06651" title="arXiv2019">[paper]</a></li>
+<li><strong>DSFD</strong>: Dual Shot Face Detector <a href="https://arxiv.org/abs/1810.10220" title="CVPR2019">[paper]</a> <a href="https://github.com/TencentYoutuResearch/FaceDetection-DSFD" title="PyTorch">[code]</a></li>
+<li><strong>PyramidBox++</strong>: High Performance Detector for Finding Tiny Face <a href="https://arxiv.org/abs/1904.00386" title="arXiv2019">[paper]</a></li>
+<li><strong>VIM-FD</strong>: Robust and High Performance Face Detector <a href="https://arxiv.org/abs/1901.02350" title="arXiv2019">[paper]</a></li>
+<li><strong>SHF</strong>: Robust Face Detection via Learning Small Faces on Hard Images <a href="https://arxiv.org/abs/1811.11662" title="arXiv2018">[paper]</a> <a href="https://github.com/bairdzhang/smallhardface" title="Caffe">[code]</a></li>
+<li><strong>SRN</strong>: Selective Refinement Network for High Performance Face Detection <a href="https://arxiv.org/abs/1809.02693" title="AAAI2019">[paper]</a></li>
+<li><strong>SFDet</strong>: Single-Shot Scale-Aware Network for Real-Time Face Detection <a href="https://link.springer.com/epdf/10.1007/s11263-019-01159-3?author_access_token=Jjgl-u1CAXPmSKWDljfSBfe4RwlQNchNByi7wbcMAY7Vwo_nrkuFMElF6YSQ0We34tUs42D0dyurcBAD0sJP66n6GBanVgA9qsuvh4Y_Bjf3E_n9_croQ4esS882srfHyUz-L96pU3gu_M30Kk6_XQ%3D%3D" title="IJCV2019">[paper]</a></li>
+<li><strong>HyperFace</strong>: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition <a href="https://arxiv.org/abs/1603.01249" title="TPAMI2019">[paper]</a> <a href="https://github.com/maharshi95/HyperFace" title="TensorFlow">[code]</a></li>
+<li><strong>PyramidBox</strong>: A Context-assisted Single Shot Face Detector <a href="https://arxiv.org/pdf/1803.07737.pdf" title="arXiv2018">[paper]</a> <a href="https://github.com/PaddlePaddle/models/tree/2a6b7dc92f04815f0b298e59030cb779dd0e038c/fluid/face_detction" title="PaddlePaddle">[code]</a></li>
+<li><strong>PCN</strong>: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks <a href="https://arxiv.org/pdf/1804.06039.pdf" title="CVPR2018">[paper]</a> <a href="https://github.com/Jack-CV/PCN" title="C++">[code]</a> </li>
+<li><strong>S³FD</strong>: Single Shot Scale-invariant Face Detector <a href="https://arxiv.org/pdf/1708.05237.pdf" title="arXiv2017">[paper]</a> <a href="https://github.com/sfzhang15/SFD" title="Caffe">[code]</a></li>
+<li><strong>SSH</strong>: Single Stage Headless Face Detector <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf" title="ICCV2017">[paper]</a> <a href="https://github.com/mahyarnajibi/SSH" title="Caffe">[code]</a></li>
+<li><strong>FaceBoxes</strong>: A CPU Real-time Face Detector with High Accuracy <a href="https://arxiv.org/pdf/1708.05234.pdf" title="IJCB2017">[paper]</a><a href="https://github.com/zeusees/FaceBoxes" title="Caffe">[code1]</a> <a href="https://github.com/lxg2015/faceboxes" title="PyTorch">[code2]</a></li>
+<li><strong>TinyFace</strong>: Finding Tiny Faces <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Hu_Finding_Tiny_Faces_CVPR_2017_paper.pdf" title="CVPR2017">[paper]</a> <a href="https://www.cs.cmu.edu/~peiyunh/tiny/">[project]</a> <a href="https://github.com/peiyunh/tiny" title="MatConvNet">[code1]</a> <a href="https://github.com/chinakook/hr101_mxnet" title="MXNet">[code2]</a> <a href="https://github.com/cydonia999/Tiny_Faces_in_Tensorflow" title="TensorFlow">[code3]</a></li>
+<li><strong>MTCNN</strong>: Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks <a href="https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf" title="SPL2016">[paper]</a> <a href="https://kpzhang93.github.io/MTCNN_face_detection_alignment/">[project]</a> <a href="https://github.com/kpzhang93/MTCNN_face_detection_alignment" title="Caffe">[code1]</a> <a href="https://github.com/CongWeilin/mtcnn-caffe" title="Caffe">[code2]</a> <a href="https://github.com/foreverYoungGitHub/MTCNN" title="Caffe">[code3]</a> <a href="https://github.com/Seanlinx/mtcnn" title="MXNet">[code4]</a> <a href="https://github.com/pangyupo/mxnet_mtcnn_face_detection" title="MXNet">[code5]</a> <a href="https://github.com/TropComplique/mtcnn-pytorch" title="PyTorch">[code6]</a> <a href="https://github.com/AITTSMD/MTCNN-Tensorflow" title="TensorFlow">[code7]</a></li>
+<li><strong>NPD</strong>: A Fast and Accurate Unconstrained Face Detector <a href="http://www.cbsr.ia.ac.cn/users/scliao/papers/Liao-PAMI15-NPD.pdf" title="TPAMI2015">[paper]</a> <a href="https://github.com/wincle/NPD" title="C++">[code]</a> <a href="http://www.cbsr.ia.ac.cn/users/scliao/projects/npdface/index.html">[project]</a></li>
+<li><strong>PICO</strong>: Object Detection with Pixel Intensity Comparisons Organized in Decision Trees <a href="https://arxiv.org/pdf/1305.4537.pdf" title="arXiv2014">[paper]</a> <a href="https://github.com/nenadmarkus/pico" title="C">[code]</a></li>
+<li><strong>libfacedetection</strong>: A fast binary library for face detection and face landmark detection in images. <a href="https://github.com/ShiqiYu/libfacedetection" title="C++">[code]</a></li>
+<li><strong>SeetaFaceEngine</strong>: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification <a href="https://github.com/seetaface/SeetaFaceEngine" title="C++">[code]</a></li>
+</ul>
+<h2 id="face-landmark_1">🔖Face Landmark<a class="headerlink" href="#face-landmark_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Semantic Alignment</strong>: Finding Semantically Consistent Ground-Truth for Facial Landmark Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Semantic_Alignment_Finding_Semantically_Consistent_Ground-Truth_for_Facial_Landmark_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li>Robust Facial Landmark Detection via Occlusion-Adaptive Deep Networks <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Robust_Facial_Landmark_Detection_via_Occlusion-Adaptive_Deep_Networks_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>PFLD</strong>: A Practical Facial Landmark Detector <a href="https://arxiv.org/abs/1902.10859" title="arXiv2019">[paper]</a> <a href="https://sites.google.com/view/xjguo/fld">[project]</a> <a href="https://drive.google.com/file/d/1n1uZPbM9Wz052aVnlc_3L4gjQHiwfj4B/view" title="APK">[code]</a></li>
+<li><strong>PRNet</strong>: Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf" title="ECCV2018">[paper]</a> <a href="https://github.com/YadiraF/PRNet" title="TensorFlow">[code]</a></li>
+<li><strong>LAB</strong>: Look at Boundary: A Boundary-Aware Face Alignment Algorithm <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Look_at_Boundary_CVPR_2018_paper.pdf" title="CVPR2018">[paper]</a> <a href="https://wywu.github.io/projects/LAB/LAB.html">[project]</a> <a href="https://github.com/wywu/LAB" title="Caffe">[code]</a></li>
+<li><strong>Face-Alignment</strong>: How far are we from solving the 2D &amp; 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)  <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_How_Far_Are_ICCV_2017_paper.pdf" title="ICCV2017">[paper]</a> <a href="https://adrianbulat.com/face-alignment">[project]</a> <a href="https://github.com/1adrianb/face-alignment" title="PyTorch">[code1]</a> <a href="https://github.com/1adrianb/2D-and-3D-face-alignment" title="Torch7">[code2]</a></li>
+<li><strong>ERT</strong>: One Millisecond Face Alignment with an Ensemble of Regression Trees <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kazemi_One_Millisecond_Face_2014_CVPR_paper.pdf" title="CVPR2014">[paper]</a> <a href="http://dlib.net/imaging.html" title="Dlib">[code]</a></li>
+</ul>
+<h2 id="face-clustering">🔖Face Clustering<a class="headerlink" href="#face-clustering" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>LinkageFace</strong>: Linkage Based Face Clustering via Graph Convolution Network <a href="https://arxiv.org/abs/1903.11306" title="CVPR2019">[paper]</a></li>
+<li><strong>LTC</strong>: Learning to Cluster Faces on an Affinity Graph <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Learning_to_Cluster_Faces_on_an_Affinity_Graph_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/yl-1993/learn-to-cluster" title="PyTorch">[code]</a> </li>
+</ul>
+<h2 id="face-expression">🔖Face Expression<a class="headerlink" href="#face-expression" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>FECNet</strong>: A Compact Embedding for Facial Expression Similarity <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Vemulapalli_A_Compact_Embedding_for_Facial_Expression_Similarity_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/GerardLiu96/FECNet" title="Keras">[code]</a></li>
+<li><strong>LBVCNN</strong>: Local Binary Volume Convolutional Neural Network for Facial Expression Recognition from Image Sequences <a href="https://arxiv.org/abs/1904.07647" title="arXiv2019">[paper]</a></li>
+</ul>
+<h2 id="face-action">🔖Face Action<a class="headerlink" href="#face-action" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Joint Representation and Estimator Learning for Facial Action Unit Intensity Estimation <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Joint_Representation_and_Estimator_Learning_for_Facial_Action_Unit_Intensity_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li>Local Relationship Learning With Person-Specific Shape Regularization for Facial Action Unit Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Niu_Local_Relationship_Learning_With_Person-Specific_Shape_Regularization_for_Facial_Action_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>TCAE</strong>: Self-Supervised Representation Learning From Videos for Facial Action Unit Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Self-Supervised_Representation_Learning_From_Videos_for_Facial_Action_Unit_Detection_CVPR_2019_paper.pdf" title="CVPR2019 Oral">[paper]</a> <a href="https://github.com/mysee1989/TCAE" title="PyTorch">[code]</a></li>
+<li><strong>JAANet</strong>: Deep Adaptive Attention for Joint Facial Action Unit Detection and Face Alignment <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhiwen_Shao_Deep_Adaptive_Attention_ECCV_2018_paper.pdf" title="ECCV2018">[paper]</a> <a href="https://github.com/ZhiwenShao/JAANet" title="Caffe">[code]</a></li>
+</ul>
+<h2 id="face-3d">🔖Face 3D<a class="headerlink" href="#face-3d" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>2DASL</strong>: Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning <a href="https://arxiv.org/abs/1903.09359" title="arXiv2019">[paper]</a> <a href="https://github.com/XgTu/2DASL" title="PyTorch &amp; Matlab">[code]</a></li>
+<li><strong>MVF-Net</strong>: Multi-View 3D Face Morphable Model Regression <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_MVF-Net_Multi-View_3D_Face_Morphable_Model_Regression_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/Fanziapril/mvfnet" title="PyTorch">[code]</a></li>
+<li>Dense 3D Face Decoding Over 2500FPS: Joint Texture &amp; Shape Convolutional Mesh Decoders <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Dense_3D_Face_Decoding_Over_2500FPS_Joint_Texture__Shape_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li>Towards High-Fidelity Nonlinear 3D Face Morphable Model <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Tran_Towards_High-Fidelity_Nonlinear_3D_Face_Morphable_Model_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="http://cvlab.cse.msu.edu/project-nonlinear-3dmm.html">[project]</a></li>
+<li>Combining 3D Morphable Models: A Large Scale Face-And-Head Model <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Ploumpis_Combining_3D_Morphable_Models_A_Large_Scale_Face-And-Head_Model_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> </li>
+<li>Disentangled Representation Learning for 3D Face Shape <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Jiang_Disentangled_Representation_Learning_for_3D_Face_Shape_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/zihangJiang/DR-Learning-for-3D-Face" title="Keras">[code]</a></li>
+<li>Self-Supervised Adaptation of High-Fidelity Face Models for Monocular Performance Tracking <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yoon_Self-Supervised_Adaptation_of_High-Fidelity_Face_Models_for_Monocular_Performance_Tracking_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>MMFace</strong>: A Multi-Metric Regression Network for Unconstrained Face Reconstruction <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yi_MMFace_A_Multi-Metric_Regression_Network_for_Unconstrained_Face_Reconstruction_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>RingNet</strong>: Learning to Regress 3D Face Shape and Expression From an Image Without 3D Supervision <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Sanyal_Learning_to_Regress_3D_Face_Shape_and_Expression_From_an_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a>  <a href="https://github.com/soubhiksanyal/RingNet" title="TensorFlow">[code]</a> <a href="https://ringnet.is.tue.mpg.de/">[project]</a></li>
+<li>Boosting Local Shape Matching for Dense 3D Face Correspondence <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Boosting_Local_Shape_Matching_for_Dense_3D_Face_Correspondence_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>FML</strong>: Face Model Learning From Videos <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Tewari_FML_Face_Model_Learning_From_Videos_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+</ul>
+<h2 id="face-gan">🔖Face GAN<a class="headerlink" href="#face-gan" title="Permanent link">&para;</a></h2>
+<h4 id="face-aging">Face Aging<a class="headerlink" href="#face-aging" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Automatic Face Aging in Videos via Deep Reinforcement Learning <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Duong_Automatic_Face_Aging_in_Videos_via_Deep_Reinforcement_Learning_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://www.fastcompany.com/90314606/this-new-ai-tool-makes-creepily-realistic-videos-of-faces-in-the-future">[blog]</a></li>
+<li>Attribute-Aware Face Aging With Wavelet-Based Generative Adversarial Networks <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Attribute-Aware_Face_Aging_With_Wavelet-Based_Generative_Adversarial_Networks_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>SAGAN</strong>:Generative Adversarial Network with Spatial Attention for Face Attribute Editing <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Gang_Zhang_Generative_Adversarial_Network_ECCV_2018_paper.pdf" title="ECCV2018">[paper]</a> <a href="https://github.com/elvisyjlin/SpatialAttentionGAN" title="PyTorch">[code]</a></li>
+</ul>
+<hr />
+<h4 id="face-drawing">Face Drawing<a class="headerlink" href="#face-drawing" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>APDrawingGAN</strong>: Generating Artistic Portrait Drawings From Face Photos With Hierarchical GANs <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Yi_APDrawingGAN_Generating_Artistic_Portrait_Drawings_From_Face_Photos_With_Hierarchical_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/yiranran/APDrawingGAN" title="PyTorch">[code]</a></li>
+</ul>
+<hr />
+<h4 id="face-generation">Face Generation<a class="headerlink" href="#face-generation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>StyleGAN</strong>: A Style-Based Generator Architecture for Generative Adversarial Networks <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Karras_A_Style-Based_Generator_Architecture_for_Generative_Adversarial_Networks_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/NVlabs/stylegan" title="TensorFlow">[code]</a> <a href="https://github.com/NVlabs/ffhq-dataset" title="FFHQ">[dataset]</a></li>
+</ul>
+<hr />
+<h4 id="face-makeup">Face Makeup<a class="headerlink" href="#face-makeup" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>BeautyGAN</strong>: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network <a href="http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf" title="Multimedia Conference, ACM2018">[paper]</a> <a href="https://github.com/Honlan/BeautyGAN" title="TensorFlow">[code]</a> <a href="http://liusi-group.com/projects/BeautyGAN">[project]</a> <a href="http://liusi-group.com/pdf/BeautyGAN-camera-ready_2_poster.pdf">[poster]</a></li>
+</ul>
+<hr />
+<h4 id="face-swap">Face Swap<a class="headerlink" href="#face-swap" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Faceswap</strong>: A tool that utilizes deep learning to recognize and swap faces in pictures and videos <a href="https://github.com/deepfakes/faceswap" title="TensorFlow">[code1]</a> <a href="https://github.com/iperov/DeepFaceLab" title="TensorFlow/Keras">[code2]</a></li>
+<li><strong>FUNIT</strong>: Few-Shot Unsupervised Image-to-Image Translation  <a href="https://arxiv.org/abs/1905.01723" title="arXiv2019">[paper]</a> <a href="https://github.com/NVlabs/FUNIT" title="PyTorch">[code]</a> <a href="https://nvlabs.github.io/FUNIT/">[project]</a></li>
+</ul>
+<hr />
+<ul>
+<li>Unsupervised Face Normalization With Extreme Pose and Expression in the Wild <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Qian_Unsupervised_Face_Normalization_With_Extreme_Pose_and_Expression_in_the_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/mx54039q/fnm" title="TensorFlow">[code]</a></li>
+<li><strong>GANFIT</strong>: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/barisgecer/GANFit">[project]</a></li>
+<li><strong>HF-PIM</strong>: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization <a href="http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf" title="NIPS2018">[paper]</a></li>
+<li><strong>Super-FAN</strong>: Integrated facial landmark localization and super-resolution of real-world low resolution faces in arbitrary poses with GANs <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Bulat_Super-FAN_Integrated_Facial_CVPR_2018_paper.pdf" title="CVPR2018 Spotlight">[paper]</a></li>
+<li><strong>GANimation</strong>: Anatomically-aware Facial Animation from a Single Image <a href="https://www.albertpumarola.com/publications/files/pumarola2018ganimation.pdf" title="ECCV2018 Oral,Best Paper Award Honorable Mention">[paper]</a> <a href="https://www.albertpumarola.com/research/GANimation/index.html">[project]</a> <a href="https://github.com/albertpumarola/GANimation" title="PyTorch">[code]</a></li>
+<li><strong>StarGAN</strong>: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_StarGAN_Unified_Generative_CVPR_2018_paper.pdf" title="CVPR2018">[paper]</a>
+<a href="https://github.com/yunjey/StarGAN" title="PyTorch">[code]</a></li>
+<li><strong>PGAN</strong>: Progressive Growing of GANs for Improved Quality, Stability, and Variation <a href="https://arxiv.org/abs/1710.10196" title="ICLR2018">[paper]</a>
+<a href="https://github.com/tkarras/progressive_growing_of_gans" title="TensorFlow">[code1]</a> <a href="https://github.com/github-pengge/PyTorch-progressive_growing_of_gans" title="PyTorch">[code2]</a></li>
+</ul>
+<h2 id="face-manipulation">🔖Face Manipulation<a class="headerlink" href="#face-manipulation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>3D Guided Fine-Grained Face Manipulation <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Geng_3D_Guided_Fine-Grained_Face_Manipulation_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>SemanticComponent</strong>: Semantic Component Decomposition for Face Attribute Manipulation <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Semantic_Component_Decomposition_for_Face_Attribute_Manipulation_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/yingcong/SemanticComponent">[code]</a> <a href="http://appsrv.cse.cuhk.edu.hk/~ycchen/demos/semantic_component.mp4">[demo]</a></li>
+</ul>
+<h2 id="face-anti-spoofing">🔖Face Anti-Spoofing<a class="headerlink" href="#face-anti-spoofing" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Dataset and Benchmark</strong>: A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Dataset_and_Benchmark_for_Large-Scale_Multi-Modal_Face_Anti-Spoofing_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="http://www.cbsr.ia.ac.cn/users/sfzhang/Shifeng%20Zhang's%20Homepage_files/CVPR2019_CASIA-SURF_Poster.pdf">[poster]</a> <a href="https://sites.google.com/qq.com/chalearnfacespoofingattackdete/">[dataset]</a></li>
+<li>Deep Tree Learning for Zero-Shot Face Anti-Spoofing <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Tree_Learning_for_Zero-Shot_Face_Anti-Spoofing_CVPR_2019_paper.pdf" title="CVPR2019 Oral">[paper]</a> </li>
+</ul>
+<h2 id="face-adversarial-attack">🔖Face Adversarial Attack<a class="headerlink" href="#face-adversarial-attack" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Decorrelated Adversarial Learning for Age-Invariant Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Decorrelated_Adversarial_Learning_for_Age-Invariant_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> </li>
+<li>Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> </li>
+<li>Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Efficient_Decision-Based_Black-Box_Adversarial_Attacks_on_Face_Recognition_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> </li>
+</ul>
+<h2 id="face-cross-modal">🔖Face Cross-Modal<a class="headerlink" href="#face-cross-modal" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Speech2Face</strong>: Learning the Face Behind a Voice <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Oh_Speech2Face_Learning_the_Face_Behind_a_Voice_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://speech2face.github.io/">[project]</a></li>
+<li><strong>JFDFMR</strong>: Joint Face Detection and Facial Motion Retargeting for Multiple Faces <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chaudhuri_Joint_Face_Detection_and_Facial_Motion_Retargeting_for_Multiple_Faces_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li><strong>ATVGnet</strong>: Hierarchical Cross-Modal Talking Face Generation With Dynamic Pixel-Wise Loss <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hierarchical_Cross-Modal_Talking_Face_Generation_With_Dynamic_Pixel-Wise_Loss_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a>  <a href="https://github.com/lelechen63/ATVGnet" title="PyTorch">[code]</a></li>
+</ul>
+<h2 id="face-capture">🔖Face Capture<a class="headerlink" href="#face-capture" title="Permanent link">&para;</a></h2>
+<ul>
+<li>High-Quality Face Capture Using Anatomical Muscles <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Bao_High-Quality_Face_Capture_Using_Anatomical_Muscles_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a></li>
+<li>Monocular Total Capture: Posing Face, Body, and Hands in the Wild <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Xiang_Monocular_Total_Capture_Posing_Face_Body_and_Hands_in_the_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a>  <a href="https://github.com/CMU-Perceptual-Computing-Lab/MonocularTotalCapture">[code]</a> <a href="http://domedb.perception.cs.cmu.edu/mtc.html">[project]</a></li>
+<li>Expressive Body Capture: 3D Hands, Face, and Body From a Single Image <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavlakos_Expressive_Body_Capture_3D_Hands_Face_and_Body_From_a_CVPR_2019_paper.pdf" title="CVPR2019">[paper]</a> <a href="https://github.com/vchoutas/smplify-x" title="PyTorch">[code]</a> <a href="https://smpl-x.is.tue.mpg.de/">[project]</a></li>
+</ul>
+<h2 id="face-libtool">🔖Face Lib&amp;Tool<a class="headerlink" href="#face-libtool" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Dlib</strong> <a href="http://dlib.net/imaging.html" title="Image Processing">[url]</a> <a href="https://github.com/davisking/dlib" title="master">[github]</a></li>
+<li><strong>OpenCV</strong> <a href="https://docs.opencv.org" title="All Versions">[docs]</a> <a href="https://github.com/opencv/opencv/" title="master">[github]</a></li>
+<li><strong>Face3D</strong> <a href="https://github.com/YadiraF/face3d" title="master">[github]</a></li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="face_recognition/" title="Face Recognition" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                Face Recognition
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 <a href="https://github.com/becauseofAI">becauseofAI</a>, Maintained by the <a href="https://github.com/becauseofAI">becauseofAI</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/becauseofAI" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="assets/javascripts/lunr/lunr.ja.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+        <script src="js/extra.js"></script>
+      
+        <script src="js/baidu-tongji.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
