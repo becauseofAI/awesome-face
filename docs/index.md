@@ -1,5 +1,7 @@
 # <p align="center">:boom:**Big Bang**:boom:</p>
-<p align="center">**Receptive Field Is All You Need**</p>
+
+#### <p align="center">**Receptive Field Is Natural Anchor**</p>
+#### <p align="center">**Receptive Field Is All You Need**</p>
 <p align="center">2K real-time detection is so easy!</p>
 
 <div align="center"><img width="1280" height="auto" src="./data/lffd_v2_gpu_result.gif"/></div>  
