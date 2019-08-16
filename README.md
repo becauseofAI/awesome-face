@@ -6,7 +6,7 @@
 
 <div align="center"><img width="1280" height="auto" src="./docs/data/lffd_v2_gpu_result.gif"/></div>  
 
-#### <p align="center">[[code]](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices) [[paper]](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices)</p>
+#### <p align="center">[[code]](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices) [[paper]](https://arxiv.org/abs/1904.10633)</p>
 
 ---
 
