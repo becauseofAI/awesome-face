@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_recognition/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_detection/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_landmark/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_clustering/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_expression/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_action/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_3d/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_gan/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_manipulation/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_anti-spoofing/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_adversarial-attack/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_cross-modal/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_capture/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_benchmark-and-dataset/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/face_lib-and-tool/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://becauseofAI.github.io/HelloFace/about/</loc>
-     <lastmod>2019-08-13</lastmod>
+     <lastmod>2019-08-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
