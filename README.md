@@ -15,42 +15,35 @@ Face Technology Repository(**Updating**)
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 ## 👋Recent Update
-###### 2019/01/26
-iccv2019
+###### 2020/01/26
 - Face-to-Parameter Translation for Game Character Auto-Creation [[paper]](https://arxiv.org/abs/1909.01064 "ICCV2019")
-- Uncertainty Modeling of Contextual-Connections Between Tracklets for Unconstrained Video-Based Face Recognition
-- Occlusion Robust Face Recognition Based on Mask Learning With Pairwise Differential Siamese Network
-- **SC-FEGAN**: Face Editing Generative Adversarial Network With User's Sketch and Color
-- **DF2Net**: A Dense-Fine-Finer Network for Detailed 3D Face Reconstruction
-- Video Face Clustering With Unknown Number of Clusters
-- Attentional Feature-Pair Relation Networks for Accurate Face Recognition
-- **DeCaFA**: Deep Convolutional Cascade for Face Alignment in the Wild
-- Probabilistic Face Embeddings
-- Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression
-- Face Alignment With Kernel Density Deep Neural Network
-- **FSGAN**: Subject Agnostic Face Swapping and Reenactment
-- Towards Interpretable Face Recognition
-- **Co-Mining**: Deep Face Recognition With Noisy Labels
-- Live Face De-Identification in Video
-- Face Video Deblurring Using 3D Facial Priors
-- Semi-Supervised Monocular 3D Face Reconstruction With End-to-End Shape-Preserved Domain Transfer
-- 3D Face Modeling From Diverse Raw Scan Data
-- **Make a Face**: Towards Arbitrary High Fidelity Face Manipulation
-- **Fair Loss**: Margin-Aware Reinforcement Learning for Deep Face Recognition
-- Face De-Occlusion Using 3D Morphable Model and Generative Adversarial Network
-- Discriminatively Learned Convex Models for Set Based Face Recognition
-nips2019
+- **UGG**: Uncertainty Modeling of Contextual-Connections Between Tracklets for Unconstrained Video-Based Face Recognition [[paper]](https://arxiv.org/abs/1905.02756 "ICCV2019")
+- **PDSN**: Occlusion Robust Face Recognition Based on Mask Learning With Pairwise Differential Siamese Network [[paper]](https://arxiv.org/abs/1908.06290 "ICCV2019") [[code]](https://github.com/linserSnow/PDSN "PyTorch")
+- **SC-FEGAN**: Face Editing Generative Adversarial Network With User's Sketch and Color [[paper]](https://arxiv.org/abs/1902.06838 "ICCV2019") [[code]](https://github.com/run-youngjoo/SC-FEGAN "TensorFlow")
+- **DF2Net**: A Dense-Fine-Finer Network for Detailed 3D Face Reconstruction [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zeng_DF2Net_A_Dense-Fine-Finer_Network_for_Detailed_3D_Face_Reconstruction_ICCV_2019_paper.pdf "ICCV2019") [[code]](https://github.com/xiaoxingzeng/DF2Net "PyTorch")
+- **BCL**: Video Face Clustering With Unknown Number of Clusters [[paper]](https://arxiv.org/abs/1908.03381 "ICCV2019") [[code]](https://github.com/makarandtapaswi/BallClustering_ICCV2019 "PyTorch")
+- Attentional Feature-Pair Relation Networks for Accurate Face Recognition [[paper]](https://arxiv.org/abs/1908.06255 "ICCV2019")
+- **DeCaFA**: Deep Convolutional Cascade for Face Alignment in the Wild [[paper]](https://arxiv.org/abs/1904.02549)
+- Probabilistic Face Embeddings [[paper]](https://arxiv.org/abs/1904.09658 "ICCV2019") [[code]](https://github.com/seasonSH/Probabilistic-Face-Embeddings "TensorFlow")
+- **AWing**: Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression [[paper]](https://arxiv.org/abs/1904.07399 "ICCV2019") [[code]](https://github.com/protossw512/AdaptiveWingLoss "PyTorch")
+- **KDN**: Face Alignment With Kernel Density Deep Neural Network [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Face_Alignment_With_Kernel_Density_Deep_Neural_Network_ICCV_2019_paper.pdf "ICCV2019")
+- **FSGAN**: Subject Agnostic Face Swapping and Reenactment [[paper]](https://arxiv.org/abs/1908.05932 "ICCV2019") [[code]](https://github.com/YuvalNirkin) [[project]](https://nirkin.com/fsgan/)
+- Towards Interpretable Face Recognition [[paper]](https://arxiv.org/abs/1805.00611 "ICCV2019") [[code]](https://github.com/yubangji123/Interpret_FR "TensorFlow") [[project]](http://cvlab.cse.msu.edu/project-interpret-FR)
+- **Co-Mining**: Deep Face Recognition With Noisy Labels [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Co-Mining_Deep_Face_Recognition_With_Noisy_Labels_ICCV_2019_paper.pdf "ICCV2019")
+- Live Face De-Identification in Video [[paper]](https://arxiv.org/abs/1911.08348 "ICCV2019")
+- Face Video Deblurring Using 3D Facial Priors [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Ren_Face_Video_Deblurring_Using_3D_Facial_Priors_ICCV_2019_paper.pdf "ICCV2019") [[code]](https://github.com/rwenqi/3Dfacedeblurring "TensorFlow")
+- Semi-Supervised Monocular 3D Face Reconstruction With End-to-End Shape-Preserved Domain Transfer [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Piao_Semi-Supervised_Monocular_3D_Face_Reconstruction_With_End-to-End_Shape-Preserved_Domain_Transfer_ICCV_2019_paper.pdf "ICCV2019")
+- **3DFC**: 3D Face Modeling From Diverse Raw Scan Data [[paper]](https://arxiv.org/abs/1902.04943 "ICCV2019") [[code]](https://github.com/liuf1990/3DFC "PyTorch")
+- **Make a Face**: Towards Arbitrary High Fidelity Face Manipulation [[paper]](https://arxiv.org/abs/1908.07191 "ICCV2019")
+- **Fair Loss**: Margin-Aware Reinforcement Learning for Deep Face Recognition [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Fair_Loss_Margin-Aware_Reinforcement_Learning_for_Deep_Face_Recognition_ICCV_2019_paper.pdf "ICCV2019")
+- Face De-Occlusion Using 3D Morphable Model and Generative Adversarial Network [[paper]](https://arxiv.org/abs/1904.06109 "ICCV2019") [[code]](https://github.com/xweiyuan/Face-de-occlusion-using-3D-morphable-model-and-generative-adversarial-network)
+- Discriminatively Learned Convex Models for Set Based Face Recognition [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cevikalp_Discriminatively_Learned_Convex_Models_for_Set_Based_Face_Recognition_ICCV_2019_paper.pdf "ICCV2019")
 - **DVG**: Dual Variational Generation for Low Shot Heterogeneous Face Recognition [[paper]](https://arxiv.org/abs/1903.10203 "NeurIPS2019") [[code]](https://github.com/BradyFU/DVG "PyTorch")
-- **FRV**: Face Reconstruction from Voice using Generative Adversarial Networks [[paper]](https://papers.nips.cc/paper/8768-face-reconstruction-from-voice-using-generative-adversarial-networks.pdf "NeurIPS2019") [[code]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices "PyTorch")
-iclr2020
+- **FRV**: Face Reconstruction from Voice using Generative Adversarial Networks [[paper]](https://papers.nips.cc/paper/8768-face-reconstruction-from-voice-using-generative-adversarial-networks.pdf "NeurIPS2019") [[code]](https://github.com/cmu-mlsp/reconstructing_faces_from_voices "PyTorch") [[poster]](https://ydwen.github.io/papers/WenNeurIPS19-poster.pdf)
 - **From Inference to Generation**: End-to-end Fully Self-supervised Generation of Human Face from Speech [[paper]](https://openreview.net/pdf?id=H1guaREYPr "ICLR2020")
-bmvc2019
 - **PFSR**: Progressive Face Super-Resolution via Attention to Facial Landmark [[paper]](https://arxiv.org/abs/1908.08239 "BMVC2019") [[code]](https://github.com/DeokyunKim/Progressive-Face-Super-Resolution "PyTorch")
-cvpr2019
 - **Speech2Face**: Learning the Face Behind a Voice [[paper]](https://arxiv.org/abs/1905.09773 "CVPR2019") [[project]](https://speech2face.github.io/)
-eccv2018
-- **CDP**: Consensus-Driven Propagation in Massive Unlabeled Data for Face Recognition [[paper]](https://arxiv.org/abs/1809.01407 "ECCV2018") [[project]](http://mmlab.ie.cuhk.edu.hk/projects/CDP/) [[code]](https://github.com/XiaohangZhan/face_recognition_framework "PyTorch")
-
+- **CDP**: Consensus-Driven Propagation in Massive Unlabeled Data for Face Recognition [[paper]](https://arxiv.org/abs/1809.01407 "ECCV2018") [[code]](https://github.com/XiaohangZhan/face_recognition_framework "PyTorch")  [[project]](http://mmlab.ie.cuhk.edu.hk/projects/CDP/)
 
 ###### 2019/07/11
 - Deep face recognition using imperfect facial data
