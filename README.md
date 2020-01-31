@@ -52,7 +52,7 @@ Face Technology Repository(**Updating**)
 - [Face Adversarial Attack](#face-adversarial-attack)
 - [Face Cross-Modal](#face-cross-modal)
 - [Face Capture](#face-capture)
-- [Face Lib&Tool](#face-lib&Tool)
+- [Face Lib&Tool](#face-lib-tool)
 
 ## 👋Recent Update
 ###### 2020/01/26
