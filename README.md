@@ -52,7 +52,7 @@ Face Technology Repository(**Updating**)
 - [Face Adversarial Attack](#face-adversarial-attack)
 - [Face Cross-Modal](#face-cross-modal)
 - [Face Capture](#face-capture)
-- [Face Lib&Tool](#face-lib-tool)
+- [Face Lib and Tool](#face-lib-and-tool)
 
 ## 👋Recent Update
 ###### 2020/01/26
@@ -448,7 +448,7 @@ Face Technology Repository(**Updating**)
 - Monocular Total Capture: Posing Face, Body, and Hands in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xiang_Monocular_Total_Capture_Posing_Face_Body_and_Hands_in_the_CVPR_2019_paper.pdf "CVPR2019")  [[code]](https://github.com/CMU-Perceptual-Computing-Lab/MonocularTotalCapture) [[project]](http://domedb.perception.cs.cmu.edu/mtc.html)
 - Expressive Body Capture: 3D Hands, Face, and Body From a Single Image [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pavlakos_Expressive_Body_Capture_3D_Hands_Face_and_Body_From_a_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/vchoutas/smplify-x "PyTorch") [[project]](https://smpl-x.is.tue.mpg.de/)
 
-## Face Lib&Tool
+## Face Lib and Tool
 - **Dlib** [[url]](http://dlib.net/imaging.html "Image Processing") [[github]](https://github.com/davisking/dlib "master")
 - **OpenCV** [[docs]](https://docs.opencv.org "All Versions") [[github]](https://github.com/opencv/opencv/ "master")
 - **Face3D** [[github]](https://github.com/YadiraF/face3d "master")
