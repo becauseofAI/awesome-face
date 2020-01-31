@@ -14,9 +14,9 @@
 Face Technology Repository(**Updating**)  
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
-- [Recent Update](#👋Recent Update)
-- [Face Benchmark and Dataset](#🔖Face Benchmark and Dataset)
-  - [Face Recognition](#Face Recognition)
+- [Recent Update](#recent-update)
+- [Face Benchmark and Dataset](#face-benchmark-and-dataset)
+  - [Face Recognition](#face-recognition)
 
 ## 👋Recent Update
 ###### 2020/01/26
