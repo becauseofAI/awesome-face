@@ -14,6 +14,10 @@
 Face Technology Repository(**Updating**)  
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
+- [Recent Update](#👋Recent Update)
+- [Face Benchmark and Dataset](#🔖Face Benchmark and Dataset)
+  - [Face Recognition](#Face Recognition)
+
 ## 👋Recent Update
 ###### 2020/01/26
 - **UGG**: Uncertainty Modeling of Contextual-Connections Between Tracklets for Unconstrained Video-Based Face Recognition
