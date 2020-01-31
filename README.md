@@ -15,8 +15,44 @@ Face Technology Repository(**Updating**)
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 - [Recent Update](#recent-update)
+  - [2020/01/26](#2020/01/26)
+  - [2019/07/11](#2019/07/11)
+  - [2019/04/06](#2019/04/06)
+  - [2019/01/12](#2019/01/12)
+  - [2018/12/01](#2018/12/01)
+  - [2018/07/21](#2018/07/21)
+  - [2018/04/20](#2018/04/20)
+  - [2018/03/28](#2018/03/28)
 - [Face Benchmark and Dataset](#face-benchmark-and-dataset)
   - [Face Recognition](#face-recognition)
+  - [Face Detection](#face-detection)
+  - [Face Landmark](#face-landmark)
+  - [Face Attribute](#face-attribute)
+- [Face Recognition](#face-recognition)
+- [Face Detection](#face-detection)
+- [Face Landmark](#face-landmark)
+- [Face Clustering](#face-clustering)
+- [Face Expression](#face-expression)
+- [Face Action](#face-action)
+- [Face 3D](#face-3d)
+- [Face GAN](#face-gan)
+  - [Face Character](#face-character)
+  - [Face Editing](#face-editing)
+  - [Face De-Occlusion](#face-de-occlusion)
+  - [Face Aging](#face-aging)
+  - [Face Drawing](#face-drawing)
+  - [Face Generation](#face-generation)
+  - [Face Makeup](#face-makeup)
+  - [Face Swap](#face-swap)
+  - [Face Other](#face-other)
+- [Face Deblurring](#face-deblurring)
+- [Face Super-Resolution](#face-super-resolution)
+- [Face Manipulation](#face-manipulation)
+- [Face Anti-Spoofing](#face-anti-spoofing)
+- [Face Adversarial Attack](#face-adversarial-attack)
+- [Face Cross-Modal](#face-cross-modal)
+- [Face Capture](#face-capture)
+- [Face Lib&Tool](#face-lib&tool)
 
 ## 👋Recent Update
 ###### 2020/01/26
@@ -144,11 +180,13 @@ Face Technology Repository(**Updating**)
 - **DocFace+**: ID Document to Selfie Matching
 - **DiF**: Diversity in Faces
 - **2018Survey**: Face Recognition: From Traditional to Deep Learning Methods
+
 ###### 2019/01/12
 - **2018Survey**: Deep Facial Expression Recognition: A Survey
 - **2018Survey**: Deep Face Recognition: A Survey
 - **SphereFace+(MHE)**: Learning towards Minimum Hyperspherical Energy
 - **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
+
 ###### 2018/12/01
 - **FRVT**: Face Recognition Vendor Test
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image
@@ -167,10 +205,12 @@ Face Technology Repository(**Updating**)
 - **NormFace**: L2 hypersphere embedding for face Verification
 - **CocoLoss**: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition
 - **L-Softmax**: Large-Margin Softmax Loss for Convolutional Neural Networks
+
 ###### 2018/07/21
 - **MobileFace**: A face recognition solution on mobile device
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices
+
 ###### 2018/04/20
 - **PyramidBox**: A Context-assisted Single Shot Face Detector
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks
@@ -181,6 +221,7 @@ Face Technology Repository(**Updating**)
 - **libfacedetection**: A fast binary library for face detection and face landmark detection in images.
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification.
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images.
+
 ###### 2018/03/28
 - **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
@@ -364,6 +405,7 @@ Face Technology Repository(**Updating**)
 - **Faceswap**: A tool that utilizes deep learning to recognize and swap faces in pictures and videos [[code1]](https://github.com/deepfakes/faceswap "TensorFlow") [[code2]](https://github.com/iperov/DeepFaceLab "TensorFlow/Keras")
 - **FUNIT**: Few-Shot Unsupervised Image-to-Image Translation  [[paper]](https://arxiv.org/abs/1905.01723 "arXiv2019") [[code]](https://github.com/NVlabs/FUNIT "PyTorch") [[project]](https://nvlabs.github.io/FUNIT/)
 ---
+#### Face Other
 - Unsupervised Face Normalization With Extreme Pose and Expression in the Wild [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qian_Unsupervised_Face_Normalization_With_Extreme_Pose_and_Expression_in_the_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/mx54039q/fnm "TensorFlow")
 - **GANFIT**: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gecer_GANFIT_Generative_Adversarial_Network_Fitting_for_High_Fidelity_3D_Face_CVPR_2019_paper.pdf "CVPR2019") [[project]](https://github.com/barisgecer/GANFit)
 - **HF-PIM**: Learning a High Fidelity Pose Invariant Model for High-resolution Face Frontalization [[paper]](http://papers.nips.cc/paper/7551-learning-a-high-fidelity-pose-invariant-model-for-high-resolution-face-frontalization.pdf "NIPS2018")
