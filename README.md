@@ -6,7 +6,7 @@
 
 <div align="center"><img width="1280" height="auto" src="./docs/data/lffd_v2_gpu_result.gif"/></div>  
 
-#### <p align="center">[[Paper]](https://arxiv.org/abs/1904.10633) [[MXNet]](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices) [[PyTorch]](https://github.com/becauseofAI/lffd-pytorch)</p>
+#### <p align="center">[[Paper]](https://arxiv.org/abs/1904.10633) [[MXNet]](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices) [[PyTorch]](https://github.com/becauseofAI/lffd-pytorch) [![GitHub stars](https://img.shields.io/github/stars/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices.svg?logo=github&label=Stars)](https://github.com/YonghaoHe/A-Light-and-Fast-Face-Detector-for-Edge-Devices)</p>
 
 ---
 
