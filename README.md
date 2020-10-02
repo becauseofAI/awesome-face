@@ -17,13 +17,13 @@ Face Technology Repository(**Updating**)
 - [Recent Update](#recent-update)
   - [2020-10-02](#2020-10-02)
   - [2020-01-26](#2020-01-26)
-  - [2019/07/11](#2019/07/11)
-  - [2019/04/06](#2019/04/06)
-  - [2019/01/12](#2019/01/12)
-  - [2018/12/01](#2018/12/01)
-  - [2018/07/21](#2018/07/21)
-  - [2018/04/20](#2018/04/20)
-  - [2018/03/28](#2018/03/28)
+  - [2019-07-11](#2019-07-11)
+  - [2019-04-06](#2019-04-06)
+  - [2019-01-12](#2019-01-12)
+  - [2018-12-01](#2018-12-01)
+  - [2018-07-21](#2018-07-21)
+  - [2018-04-20](#2018-04-20)
+  - [2018-03-28](#2018-03-28)
 - [Face Benchmark and Dataset](#face-benchmark-and-dataset)
   - [Face Recognition Data](#face-recognition-data)
   - [Face Detection Data](#face-detection-data)
@@ -229,7 +229,7 @@ Face Technology Repository(**Updating**)
 - **From Inference to Generation**: End-to-end Fully Self-supervised Generation of Human Face from Speech
 - **PFSR**: Progressive Face Super-Resolution via Attention to Facial Landmark
 
-###### 2019/07/11
+###### 2019-07-11
 - Deep face recognition using imperfect facial data
 - Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data
 - **RegularFace**: Deep Face Recognition via Exclusive Regularization
@@ -305,7 +305,7 @@ Face Technology Repository(**Updating**)
 - Monocular Total Capture: Posing Face, Body, and Hands in the Wild
 - Expressive Body Capture: 3D Hands, Face, and Body From a Single Image
 
-###### 2019/04/06
+###### 2019-04-06
 - **ISRN**: Improved Selective Refinement Network for Face Detection
 - **DSFD**: Dual Shot Face Detector
 - **PyramidBox++**: High Performance Detector for Finding Tiny Face
@@ -322,13 +322,13 @@ Face Technology Repository(**Updating**)
 - **DiF**: Diversity in Faces
 - **2018Survey**: Face Recognition: From Traditional to Deep Learning Methods
 
-###### 2019/01/12
+###### 2019-01-12
 - **2018Survey**: Deep Facial Expression Recognition: A Survey
 - **2018Survey**: Deep Face Recognition: A Survey
 - **SphereFace+(MHE)**: Learning towards Minimum Hyperspherical Energy
 - **HyperFace**: A Deep Multi-task Learning Framework for Face Detection, Landmark Localization, Pose Estimation, and Gender Recognition
 
-###### 2018/12/01
+###### 2018-12-01
 - **FRVT**: Face Recognition Vendor Test
 - **GANimation**: Anatomically-aware Facial Animation from a Single Image
 - **StarGAN**: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
@@ -347,12 +347,12 @@ Face Technology Repository(**Updating**)
 - **CocoLoss**: Rethinking Feature Discrimination and Polymerization for Large-scale Recognition
 - **L-Softmax**: Large-Margin Softmax Loss for Convolutional Neural Networks
 
-###### 2018/07/21
+###### 2018-07-21
 - **MobileFace**: A face recognition solution on mobile device
 - **Trillion Pairs**: Challenge 3: Face Feature Test/Trillion Pairs
 - **MobileFaceNets**: Efficient CNNs for Accurate Real-Time Face Verification on Mobile Devices
 
-###### 2018/04/20
+###### 2018-04-20
 - **PyramidBox**: A Context-assisted Single Shot Face Detector
 - **PCN**: Real-Time Rotation-Invariant Face Detection with Progressive Calibration Networks
 - **S³FD**: Single Shot Scale-invariant Face Detector
@@ -363,7 +363,7 @@ Face Technology Repository(**Updating**)
 - **SeetaFaceEngine**: SeetaFace Detection, SeetaFace Alignment and SeetaFace Identification.
 - **FaceID**: An implementation of iPhone X's FaceID using face embeddings and siamese networks on RGBD images.
 
-###### 2018/03/28
+###### 2018-03-28
 - **InsightFace(ArcFace)**: 2D and 3D Face Analysis Project
 - **CosFace**: Large Margin Cosine Loss for Deep Face Recognition
 
