@@ -57,6 +57,77 @@ Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
 ###### 2020-10-02
+**ICIP2020**  
+- 3D SPARSE DEFORMATION SIGNATURE FOR DYNAMIC FACE RECOGNITION
+- A Stacking Ensemble for Anomaly Based Client-Specific Face Spoofing Detection
+- ADAPTIVE AGGREGATED TRACKLET LINKING FOR MULTI-FACE TRACKING
+- ATTENTION SELECTIVE NETWORK FOR FACE SYNTHESIS AND POSE-INVARIANT FACE RECOGNITION
+- **EDGE-GAN**: EDGE CONDITIONED MULTI-VIEW FACE IMAGE GENERATION
+- EXTRACTING DEEP LOCAL FEATURES TO DETECT MANIPULATED IMAGES OF HUMAN FACES
+- FACE AUTHENTICATION FROM GRAYSCALE CODED LIGHT FIELD
+- FACE RECOGNITION UNDER LOW ILLUMINATION VIA DEEP FEATURE RECONSTRUCTION NETWORK
+- IMPROVING DETECTION AND RECOGNITION OF DEGRADED FACES BY DISCRIMINATIVE FEATURE RESTORATION USING GAN
+- **QAMFACE**: QUADRATIC ADDITIVE ANGULAR MARGIN LOSS FOR FACE RECOGNITION
+- REALISTIC TALKING FACE SYNTHESIS WITH GEOMETRY-AWARE FEATURE TRANSFORMATION
+- TRIPLET DISTILLATION FOR DEEP FACE RECOGNITION  
+
+**ECCV2020**
+- **“Look Ma, no landmarks!”** – Unsupervised, Model-based Dense Face Alignment
+- Hierarchical Face Aging through Disentangled Latent Characteristics
+- Semi-Siamese Training for Shallow Face Learning
+- Face Super-Resolution Guided by 3D Facial Priors
+- Personalized Face Modeling for Improved Face Reconstruction and Motion Retargeting
+- **ProgressFace**: Scale-Aware Progressive Learning for Face Detection
+- Face Anti-Spoofing with Human Material Perception
+- **Beyond 3DMM Space**: Towards Fine-grained 3D Face Reconstruction
+- Blind Face Restoration via Deep Multi-scale Component Dictionaries
+- Inequality-Constrained and Robust 3D Face Model Fitting
+- **BroadFace**: Looking at Tens of Thousands of People at Once for Face Recognition
+- Explainable Face Recognition
+- **CONFIG**: Controllable Neural Face Image Generation
+- **Sub-center ArcFace**: Boosting Face Recognition by Large-scale Noisy Web Faces
+- **CelebA-Spoof**: Large-Scale Face Anti-Spoofing Dataset with Rich Annotations
+- **Thinking in Frequency**: Face Forgery Detection by Mining Frequency-aware Clues
+- Edge-aware Graph Representation Learning and Reasoning for Face Parsing
+- Learning Flow-based Feature Warping for Face Frontalization with Illumination Inconsistent Supervision
+- **CAFE-GAN**: Arbitrary Face Attribute Editing with Complementary Attention Feature
+- Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency
+- **Generate to Adapt**: Resolution Adaption Network for Surveillance Face Recognition
+- **Caption-Supervised Face Recognition**: Training a State-of-the-Art Face Model without Manual Annotation
+- Design and Interpretation of Universal Adversarial Patches in Face Detection
+- **JNR**: Joint-based Neural Rig Representation for Compact 3D Face Modeling
+- On Disentangling Spoof Trace for Generic Face Anti-Spoofing
+- Towards causal benchmarking of bias in face analysis algorithms
+- Towards Fast, Accurate and Stable 3D Dense Face Alignment
+- Face Anti-Spoofing via Disentangled Representation Learning
+- Learning to Predict Salient Faces: A Novel Visual-Audio Saliency Model
+- **MEAD**: A Large-scale Audio-visual Dataset for Emotional Talking-face Generation
+- **Margin-Mix**: Semi–Supervised Learning for Face Expression Recognition
+- Password-conditioned Anonymization and Deanonymization with Face Identity Transformers
+- Improving Face Recognition by Clustering Unlabeled Faces in the Wild
+- Exclusivity-Consistency Regularized Knowledge Distillation for Face Recognition
+- **BioMetricNet**: deep unconstrained face verification through learning of metrics regularized onto Gaussian distributions
+- Eyeglasses 3D shape reconstruction from a single face image
+- Deep Cross-species Feature Learning for Animal Face Recognition via Residual Interspecies Equivariant Network
+- High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images
+- **ByeGlassesGAN**: Identity Preserving Eyeglasses Removal for Face Images
+- Jointly De-biasing Face Recognition and Demographic Attribute Estimation
+- Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks
+- Improving Face Recognition from Hard Samples via Distribution Distillation Loss
+- Manifold Projection for Adversarial Defense on Face Recognition  
+
+**SIGGRAPH2020**
+- A System for Efficient 3D Printed Stop-Motion Face Animation
+- Accurate Face Rig Approximation With Deep Differential Subspace Reconstruction
+- **DeepFaceDrawing**: Deep Generation of Face Images from Sketches
+- **The Eyes Have It**: An Integrated Eye and Face Model for Photorealistic Facial Animation  
+
+**IJCAI2020**  
+- Biased Feature Learning for Occlusion Invariant Face Recognition
+- Reference Guided Face Component Editing
+- Arbitrary Talking Face Generation via Attentional Audio-Visual Coherence Learning
+- **FakeSpotter**: A Simple yet Robust Baseline for Spotting AI-Synthesized Fake Faces  
+
 **CVPR2020**  
 - Cross-Modal Deep Face Normals With Deactivable Skip Connections
 - One-Shot Domain Adaptation for Face Generation
