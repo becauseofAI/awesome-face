@@ -15,7 +15,7 @@ Face Technology Repository(**Updating**)
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 - [Recent Update](#recent-update)
-  - [2020/01/26](#2020/01/26)
+  - [2020-01-26](#2020-01-26)
   - [2019/07/11](#2019/07/11)
   - [2019/04/06](#2019/04/06)
   - [2019/01/12](#2019/01/12)
@@ -55,7 +55,7 @@ Face Technology Repository(**Updating**)
 - [Face Lib and Tool](#face-lib-and-tool)
 
 ## 👋Recent Update
-###### 2020/01/26
+###### 2020-01-26
 - **UGG**: Uncertainty Modeling of Contextual-Connections Between Tracklets for Unconstrained Video-Based Face Recognition
 - **PDSN**: Occlusion Robust Face Recognition Based on Mask Learning With Pairwise Differential Siamese Network
 - Attentional Feature-Pair Relation Networks for Accurate Face Recognition
