@@ -57,7 +57,59 @@ Face Technology Repository(**Updating**)
 
 ## 👋Recent Update
 ###### 2020-10-02
-**AAAI2020**  
+**CVPR2020**  
+- Cross-Modal Deep Face Normals With Deactivable Skip Connections
+- One-Shot Domain Adaptation for Face Generation
+- Towards Learning Structure via Consensus for Face Segmentation and Parsing
+- **BFBox**: Searching Face-Appropriate Backbone and Feature Pyramid Network for Face Detector
+- **Domain Balancing**: Face Recognition on Long-Tailed Domains
+- **FReeNet**: Multi-Identity Face Reenactment
+- Learning Identity-Invariant Motion Representations for Cross-ID Face Reenactment
+- **Global-Local GCN**: Large-Scale Label Noise Cleansing for Face Recognition
+- **3FabRec**: Fast Few-Shot Face Alignment by Reconstruction
+- Global Texture Enhancement for Fake Face Detection in the Wild
+- **CurricularFace**: Adaptive Curriculum Learning Loss for Deep Face Recognition
+- On the Detection of Digital Face Manipulation
+- Deep Spatial Gradient and Temporal Depth Learning for Face Anti-Spoofing
+- **ReDA**:Reinforced Differentiable Attribute for 3D Face Reconstruction
+- Cross-Domain Face Presentation Attack Detection via Multi-Domain Disentangled Representation Learning
+- **FaceScape**: A Large-Scale High Quality 3D Face Dataset and Detailed Riggable 3D Face Prediction
+- Interpreting the Latent Space of GANs for Semantic Face Editing
+- **Rotate-and-Render**: Unsupervised Photorealistic Face Rotation From Single-View Images
+- Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning
+- Density-Aware Feature Embedding for Face Clustering
+- Learning to Have an Ear for Face Super-Resolution
+- Learning Formation of Physically-Based Face Attributes
+- **LUVLi Face Alignment**: Estimating Landmarks' Location, Uncertainty, and Visibility Likelihood
+- Learning Meta Face Recognition in Unseen Domains
+- Cross-Spectral Face Hallucination via Disentangling Independent Factors
+- Deep Face Super-Resolution With Iterative Collaboration Between Attentive Recovery and Landmark Estimation
+- Data Uncertainty Learning in Face Recognition
+- Face X-Ray for More General Face Forgery Detection
+- **Vec2Face**: Unveil Human Faces From Their Blackbox Features in Face Recognition
+- **FM2u-Net**: Face Morphological Multi-Branch Network for Makeup-Invariant Face Verification
+- Uncertainty-Aware Mesh Decoder for High Fidelity 3D Face Reconstruction
+- Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion
+- **SER-FIQ**: Unsupervised Estimation of Face Image Quality Based on Stochastic Embedding Robustness
+- Towards High-Fidelity 3D Face Reconstruction From In-the-Wild Images Using Graph Convolutional Networks
+- **RDCFace**: Radial Distortion Correction for Face Recognition
+- Searching Central Difference Convolutional Networks for Face Anti-Spoofing
+- **RetinaFace**: Single-Shot Multi-Level Face Localisation in the Wild
+- Mitigating Bias in Face Recognition Using Skewness-Aware Reinforcement Learning
+- **DeeperForensics-1.0**: A Large-Scale Dataset for Real-World Face Forgery Detection
+- **GroupFace**: Learning Latent Groups and Constructing Group-Based Representations for Face Recognition
+- A Morphable Face Albedo Model
+- Learning Oracle Attention for High-Fidelity Face Completion
+- Learning Physics-Guided Face Relighting Under Directional Light
+- Towards Universal Representation Learning for Deep Face Recognition
+- Rotation Consistent Margin Loss for Efficient Low-Bit Face Recognition
+- **HAMBox**: Delving Into Mining High-Quality Anchors on Face Detection
+- Hierarchical Pyramid Diverse Attention Networks for Face Recognition
+- Dynamic Face Video Segmentation via Reinforcement Learning
+- Copy and Paste GAN: Face Hallucination From Shaded Thumbnails
+- Single-Side Domain Generalization for Face Anti-Spoofing  
+
+**AAAI2020** 
 - Fast and Robust Face-to-Parameter Translation for Game Character Auto-Creation
 - Mis-classified Vector Guided Softmax Loss for Face Recognition
 - Learning Meta Model for Zero- and Few-shot Face Anti-spoofing
