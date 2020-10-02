@@ -15,6 +15,7 @@ Face Technology Repository(**Updating**)
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 - [Recent Update](#recent-update)
+  - [2020-10-02](#2020-10-02)
   - [2020-01-26](#2020-01-26)
   - [2019/07/11](#2019/07/11)
   - [2019/04/06](#2019/04/06)
@@ -55,6 +56,23 @@ Face Technology Repository(**Updating**)
 - [Face Lib and Tool](#face-lib-and-tool)
 
 ## 👋Recent Update
+###### 2020-10-02
+**AAAI2020**  
+- Fast and Robust Face-to-Parameter Translation for Game Character Auto-Creation
+- Mis-classified Vector Guided Softmax Loss for Face Recognition
+- Learning Meta Model for Zero- and Few-shot Face Anti-spoofing
+- Learning to Deblur Face Images via Sketch Synthesis
+- **FAN-Face**: a simple orthogonal improvement to deep face recognition
+- **KPNet**: Towards Minimal Face Detector
+- Towards Omni-Supervised Face Alignment for Large Scale Unlabeled Videos
+- Regularized Fine-grained Meta Face Anti-spoofing
+- **GDFace**: Gated Deformation for Multi-view Face Image Synthesis
+- Realistic Face Reenactment via Self-Supervised Disentangling of Identity and Pose
+- **MarioNETte**: Few-shot Face Reenactment Preserving Identity of Unseen Targets
+- A New Dataset and Boundary-Attention Semantic Segmentation for Face Parsing
+- Video Face Super-Resolution with Motion-Adaptive Feedback Cell
+- Facial Attribute Capsules for Noise Face Super Resolution
+- Joint Super-Resolution and Alignment of Tiny Faces
 ###### 2020-01-26
 - **UGG**: Uncertainty Modeling of Contextual-Connections Between Tracklets for Unconstrained Video-Based Face Recognition
 - **PDSN**: Occlusion Robust Face Recognition Based on Mask Learning With Pairwise Differential Siamese Network
