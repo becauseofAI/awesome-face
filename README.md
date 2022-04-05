@@ -1,7 +1,7 @@
 
 
 # HelloFace [![Mentioned in Awesome HelloFace](https://awesome.re/mentioned-badge.svg)](https://github.com/becauseofAI/HelloFace)   
-Face Technology Repository(**Updating**)  
+An Awesome Face Technology Repository. (**Updating**)  
 
 ## :dart: Highlight
 <div align="center"><img width="1280" height="auto" src="./docs/data/highlight_face_detection.jpg"/></div>
