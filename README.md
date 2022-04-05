@@ -4,7 +4,14 @@
 Face Technology Repository(**Updating**)  
 
 ## :dart: Highlight
+<div align="center"><img width="1280" height="auto" src="./docs/data/highlight_face_detection.jpg"/></div>
+<p align="center">face detection</p>  
 
+<div align="center"><img width="1280" height="auto" src="./docs/data/highlight_face_alignment.jpg"/></div>
+<p align="center">face alignment</p>  
+
+<div align="center"><img width="1280" height="auto" src="./docs/data/highlight_face_recognation.jpg"/></div>
+<p align="center">face recognition</p>  
 
 ## :computer: Website
 https://becauseofAI.github.io/HelloFace (Welcome to maintain the website as a contributor through pulling request.)
