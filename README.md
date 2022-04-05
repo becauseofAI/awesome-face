@@ -15,6 +15,7 @@ Face Technology Repository(**Updating**)
 🔥🔥🔥**Website**: https://becauseofAI.github.io/HelloFace 👍👍👍
 
 - [Recent Update](#recent-update)
+  - [2022-04-05](#2022-04-05)
   - [2020-10-02](#2020-10-02)
   - [2020-01-26](#2020-01-26)
   - [2019-07-11](#2019-07-11)
@@ -56,6 +57,42 @@ Face Technology Repository(**Updating**)
 - [Face Lib and Tool](#face-lib-and-tool)
 
 ## 👋Recent Update
+###### 2022-04-05
+**CVPR2021**  
+- **VirFace**: Enhancing Face Recognition via Unlabeled Shallow Data [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_VirFace_Enhancing_Face_Recognition_via_Unlabeled_Shallow_Data_CVPR_2021_paper.pdf)  
+- **MagFace**: A Universal Representation for Face Recognition and Quality Assessment [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_MagFace_A_Universal_Representation_for_Face_Recognition_and_Quality_Assessment_CVPR_2021_paper.pdf)
+- Variational Prototype Learning for Deep Face Recognition [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Deng_Variational_Prototype_Learning_for_Deep_Face_Recognition_CVPR_2021_paper.pdf)
+- Cross-Domain Similarity Learning for Face Recognition in Unseen Domains [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Faraki_Cross-Domain_Similarity_Learning_for_Face_Recognition_in_Unseen_Domains_CVPR_2021_paper.pdf)
+- Virtual Fully-Connected Layer: Training a Large-Scale Face Recognition Dataset With Limited Computational Resources [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Virtual_Fully-Connected_Layer_Training_a_Large-Scale_Face_Recognition_Dataset_With_CVPR_2021_paper.pdf)
+- Mitigating Face Recognition Bias via Group Adaptive Classifier [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Gong_Mitigating_Face_Recognition_Bias_via_Group_Adaptive_Classifier_CVPR_2021_paper.pdf)
+- Pseudo Facial Generation With Extreme Poses for Face Recognition [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Pseudo_Facial_Generation_With_Extreme_Poses_for_Face_Recognition_CVPR_2021_paper.pdf)  
+- Dynamic Class Queue for Large Scale Face Recognition in the Wild [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Dynamic_Class_Queue_for_Large_Scale_Face_Recognition_in_the_CVPR_2021_paper.pdf)
+- Improving Transferability of Adversarial Patches on Face Recognition With Generative Models [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xiao_Improving_Transferability_of_Adversarial_Patches_on_Face_Recognition_With_Generative_CVPR_2021_paper.pdf)
+- **CRFace**: Confidence Ranker for Model-Agnostic Face Detection Refinement [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Vesdapunt_CRFace_Confidence_Ranker_for_Model-Agnostic_Face_Detection_Refinement_CVPR_2021_paper.pdf)
+- **HLA-Face**: Joint High-Low Adaptation for Low Light Face Detection [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_HLA-Face_Joint_High-Low_Adaptation_for_Low_Light_Face_Detection_CVPR_2021_paper.pdf)
+- Structure-Aware Face Clustering on a Large-Scale Graph With 107 Nodes [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Shen_Structure-Aware_Face_Clustering_on_a_Large-Scale_Graph_With_107_Nodes_CVPR_2021_paper.pdf)
+- **img2pose**: Face Alignment and Detection via 6DoF, Face Pose Estimation [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Albiero_img2pose_Face_Alignment_and_Detection_via_6DoF_Face_Pose_Estimation_CVPR_2021_paper.pdf)
+- **Clusformer**: A Transformer Based Clustering Approach to Unsupervised Large-Scale Face and Visual Landmark Recognition [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Nguyen_Clusformer_A_Transformer_Based_Clustering_Approach_to_Unsupervised_Large-Scale_Face_CVPR_2021_paper.pdf)
+- Continuous Face Aging via Self-Estimated Residual Age Embedding [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Continuous_Face_Aging_via_Self-Estimated_Residual_Age_Embedding_CVPR_2021_paper.pdf)
+- When Age-Invariant Face Recognition Meets Face Age Synthesis: A Multi-Task Learning Framework [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_When_Age-Invariant_Face_Recognition_Meets_Face_Age_Synthesis_A_Multi-Task_CVPR_2021_paper.pdf)
+- **SDD-FIQA**: Unsupervised Face Image Quality Assessment With Similarity Distribution Distance [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Ou_SDD-FIQA_Unsupervised_Face_Image_Quality_Assessment_With_Similarity_Distribution_Distance_CVPR_2021_paper.pdf)
+- **TediGAN**: Text-Guided Diverse Face Image Generation and Manipulation [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Xia_TediGAN_Text-Guided_Diverse_Face_Image_Generation_and_Manipulation_CVPR_2021_paper.pdf)
+- GAN Prior Embedded Network for Blind Face Restoration in the Wild [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_GAN_Prior_Embedded_Network_for_Blind_Face_Restoration_in_the_CVPR_2021_paper.pdf)
+- Inverting Generative Adversarial Renderer for Face Reconstruction [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Piao_Inverting_Generative_Adversarial_Renderer_for_Face_Reconstruction_CVPR_2021_paper.pdf)
+- Progressive Semantic-Aware Style Transformation for Blind Face Restoration [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Progressive_Semantic-Aware_Style_Transformation_for_Blind_Face_Restoration_CVPR_2021_paper.pdf)
+- One Shot Face Swapping on Megapixels [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhu_One_Shot_Face_Swapping_on_Megapixels_CVPR_2021_paper.pdf)
+- Seeking the Shape of Sound: An Adaptive Framework for Learning Voice-Face Association [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wen_Seeking_the_Shape_of_Sound_An_Adaptive_Framework_for_Learning_CVPR_2021_paper.pdf)
+- Monocular Reconstruction of Neural Face Reflectance Fields [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/R_Monocular_Reconstruction_of_Neural_Face_Reflectance_Fields_CVPR_2021_paper.pdf)
+- Learning Complete 3D Morphable Face Models From Images and Videos [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/R_Learning_Complete_3D_Morphable_Face_Models_From_Images_and_Videos_CVPR_2021_paper.pdf)
+- Lips Don't Lie: A Generalisable and Robust Approach To Face Forgery Detection [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Haliassos_Lips_Dont_Lie_A_Generalisable_and_Robust_Approach_To_Face_CVPR_2021_paper.pdf)
+- Exploring Adversarial Fake Images on Face Manifold [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Exploring_Adversarial_Fake_Images_on_Face_Manifold_CVPR_2021_paper.pdf)
+- Representative Forgery Mining for Fake Face Detection [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Representative_Forgery_Mining_for_Fake_Face_Detection_CVPR_2021_paper.pdf)
+- Cross Modal Focal Loss for RGBD Face Anti-Spoofing [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/George_Cross_Modal_Focal_Loss_for_RGBD_Face_Anti-Spoofing_CVPR_2021_paper.pdf)
+- High-Fidelity Face Tracking for AR/VR via Deep Lighting Adaptation [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_High-Fidelity_Face_Tracking_for_ARVR_via_Deep_Lighting_Adaptation_CVPR_2021_paper.pdf)
+- Towards High Fidelity Face Relighting With Realistic Shadows [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hou_Towards_High_Fidelity_Face_Relighting_With_Realistic_Shadows_CVPR_2021_paper.pdf)
+- **IronMask**: Modular Architecture for Protecting Deep Face Template [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_IronMask_Modular_Architecture_for_Protecting_Deep_Face_Template_CVPR_2021_paper.pdf)
+- Face Forensics in the Wild [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Face_Forensics_in_the_Wild_CVPR_2021_paper.pdf)
+
 ###### 2020-10-02
 **ICIP2020**  
 - 3D SPARSE DEFORMATION SIGNATURE FOR DYNAMIC FACE RECOGNITION
