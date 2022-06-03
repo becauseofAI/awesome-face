@@ -1,7 +1,10 @@
-
-
 # HelloFace [![Mentioned in Awesome HelloFace](https://awesome.re/mentioned-badge.svg)](https://github.com/becauseofAI/HelloFace)   
 An Awesome Face Technology Repository. (**Updating**)  
+
+## :trophy: SOTA
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tinaface-strong-but-simple-baseline-for-face/face-detection-on-wider-face-hard)](https://paperswithcode.com/sota/face-detection-on-wider-face-hard?p=tinaface-strong-but-simple-baseline-for-face)  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/subpixel-heatmap-regression-for-facial/face-alignment-on-wflw)](https://paperswithcode.com/sota/face-alignment-on-wflw?p=subpixel-heatmap-regression-for-facial)  
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-polynomial-neural-networks/face-verification-on-megaface)](https://paperswithcode.com/sota/face-verification-on-megaface?p=deep-polynomial-neural-networks)
 
 ## :dart: Highlight
 <div align="center"><img width="1280" height="auto" src="./docs/data/highlight_face_detection.jpg"/></div>
