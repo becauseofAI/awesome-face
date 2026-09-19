@@ -21,6 +21,7 @@ https://becauseofAI.github.io/HelloFace (Welcome to maintain the website as a co
 
 ## :bookmark_tabs: Content
 - [Recent Update](#recent-update)
+  - [2022-2024 Updates](#-2022-2024-updates-diffusion-era-restoration--talking-head)
   - [2022-04-05](#2022-04-05)
   - [2020-10-02](#2020-10-02)
   - [2020-01-26](#2020-01-26)
@@ -63,6 +64,15 @@ https://becauseofAI.github.io/HelloFace (Welcome to maintain the website as a co
 - [Face Lib and Tool](#face-lib-and-tool)
 
 ## 👋 Recent Update
+### 🌟 2022-2024 Updates: Diffusion Era, Restoration & Talking Head
+- **LivePortrait**: Efficient Portrait Animation with Stitching and Retargeting Control [[paper]](https://arxiv.org/abs/2407.03168 "arXiv2024") [[code]](https://github.com/KwaiVGI/LivePortrait "PyTorch")
+- **InstantID**: Zero-shot Identity-Preserving Generation in Seconds [[paper]](https://arxiv.org/abs/2401.07519 "arXiv2024") [[code]](https://github.com/InstantID/InstantID "PyTorch")
+- **PhotoMaker**: Customizing Realistic Human Photos via Stacked ID Embedding [[paper]](https://arxiv.org/abs/2312.04461 "CVPR2024") [[code]](https://github.com/TencentARC/PhotoMaker "PyTorch")
+- **EdgeFace**: Efficient Face Recognition Model on Edge Devices [[paper]](https://arxiv.org/abs/2307.03153 "ICCV2023") [[code]](https://github.com/otropos/edgeface "PyTorch")
+- **SadTalker**: Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation [[paper]](https://arxiv.org/abs/2211.12194 "CVPR2023") [[code]](https://github.com/OpenTalker/SadTalker "PyTorch")
+- **CodeFormer**: Towards Robust Blind Face Restoration with Codebook Lookup Transformer [[paper]](https://arxiv.org/abs/2206.11253 "NeurIPS2022") [[code]](https://github.com/sczhou/CodeFormer "PyTorch")
+- **AdaFace**: Quality Adaptive Margin for Face Recognition [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_AdaFace_Quality_Adaptive_Margin_for_Face_Recognition_CVPR_2022_paper.pdf "CVPR2022") [[code]](https://github.com/mk-minchul/AdaFace "PyTorch")
+
 ###### 2022-04-05
 **CVPR2021**  
 - **VirFace**: Enhancing Face Recognition via Unlabeled Shallow Data [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_VirFace_Enhancing_Face_Recognition_via_Unlabeled_Shallow_Data_CVPR_2021_paper.pdf)  

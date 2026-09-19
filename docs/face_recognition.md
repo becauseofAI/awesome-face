@@ -1,4 +1,11 @@
 ## 🔖Face Recognition
+
+### State-of-the-Art (2022 - Present)
+- **AdaFace**: Quality Adaptive Margin for Face Recognition [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_AdaFace_Quality_Adaptive_Margin_for_Face_Recognition_CVPR_2022_paper.pdf "CVPR2022") [[code]](https://github.com/mk-minchul/AdaFace "PyTorch")
+  * *Highlight*: Introduces Quality Adaptive Margin loss function based on image quality estimation, dynamically adapting margins to emphasize hard-yet-informative samples while preventing gradient degradation from low-quality, unrecognizable faces.
+- **EdgeFace**: Efficient Face Recognition Model on Edge Devices [[paper]](https://arxiv.org/abs/2307.03153 "ICCV2023") [[code]](https://github.com/otropos/edgeface "PyTorch")
+  * *Highlight*: Low-latency, ultra-lightweight hybrid neural architecture tailored for edge deployment and real-time on-device facial recognition without compromising recognition accuracy.
+
 - Deep face recognition using imperfect facial data [[paper]](https://www.sciencedirect.com/science/article/pii/S0167739X18331133 "FGCS2019")
 - Unequal-Training for Deep Face Recognition With Long-Tailed Noisy Data [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhong_Unequal-Training_for_Deep_Face_Recognition_With_Long-Tailed_Noisy_Data_CVPR_2019_paper.pdf "CVPR2019") [[code]](https://github.com/zhongyy/Unequal-Training-for-Deep-Face-Recognition-with-Long-Tailed-Noisy-Data "MXNet")
 - **RegularFace**: Deep Face Recognition via Exclusive Regularization [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_RegularFace_Deep_Face_Recognition_via_Exclusive_Regularization_CVPR_2019_paper.pdf "CVPR2019")
