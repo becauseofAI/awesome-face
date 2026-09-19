@@ -31,3 +31,13 @@
 [[code]](https://github.com/yunjey/StarGAN "PyTorch")
 - **PGAN**: Progressive Growing of GANs for Improved Quality, Stability, and Variation [[paper]](https://arxiv.org/abs/1710.10196 "ICLR2018")
 [[code1]](https://github.com/tkarras/progressive_growing_of_gans "TensorFlow") [[code2]](https://github.com/github-pengge/PyTorch-progressive_growing_of_gans "PyTorch")
+
+---
+## Face Restoration
+- **CodeFormer**: Towards Robust Blind Face Restoration with Codebook Lookup Transformer [[paper]](https://arxiv.org/abs/2206.11253 "NeurIPS2022") [[code]](https://github.com/sczhou/CodeFormer "PyTorch")
+- **GFPGAN**: Towards Real-World Blind Face Restoration with Generative Facial Prior [[paper]](https://arxiv.org/abs/2101.04061 "CVPR2021") [[code]](https://github.com/TencentARC/GFPGAN "PyTorch")
+
+---
+## Diffusion-based Face Generation
+- **InstantID**: Zero-shot Identity-Preserving Generation in Seconds [[paper]](https://arxiv.org/abs/2401.07519 "arXiv2024") [[code]](https://github.com/InstantID/InstantID "PyTorch")
+- **PhotoMaker**: Customizing Realistic Human Photos via Stacked ID Embedding [[paper]](https://arxiv.org/abs/2312.04461 "CVPR2024") [[code]](https://github.com/TencentARC/PhotoMaker "PyTorch")
